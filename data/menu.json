@@ -1,0 +1,140 @@
+[
+  {
+    "id": "flavor-stick-gola",
+    "name": "Flavor Stick Gola",
+    "category": "Ice Gola",
+    "price": 50
+  },
+  {
+    "id": "rabdi-stick-gola",
+    "name": "Rabdi Stick Gola",
+    "category": "Ice Gola",
+    "price": 70
+  },
+  {
+    "id": "rainbow-stick-gola",
+    "name": "Rainbow Stick Gola",
+    "category": "Ice Gola",
+    "price": 60
+  },
+  {
+    "id": "dry-fruit-rabdi-stick-gola",
+    "name": "Dry Fruit Rabdi Stick Gola",
+    "category": "Ice Gola",
+    "price": 80
+  },
+  {
+    "id": "flavor-ice-dish",
+    "name": "Flavor Ice Dish",
+    "category": "Ice Dish",
+    "price": 60
+  },
+  {
+    "id": "rabdi-ice-dish",
+    "name": "Rabdi Ice Dish",
+    "category": "Ice Dish",
+    "price": 100
+  },
+  {
+    "id": "dry-fruit-rabdi-ice-dish",
+    "name": "Dry Fruit Rabdi Ice Dish",
+    "category": "Ice Dish",
+    "price": 150
+  },
+  {
+    "id": "dry-fruit-rabdi-ice-cream-dish",
+    "name": "Dry Fruit Rabdi Ice Cream Dish",
+    "category": "Ice Dish",
+    "price": 180
+  },
+  {
+    "id": "punjabi-lassi",
+    "name": "Punjabi Lassi",
+    "category": "Lassi",
+    "price": 50
+  },
+  {
+    "id": "flavor-cream-lassi",
+    "name": "Flavor Cream Lassi",
+    "category": "Lassi",
+    "price": 60
+  },
+  {
+    "id": "dry-fruit-flavor-cream-lassi",
+    "name": "Dry Fruit Flavor Cream Lassi",
+    "category": "Lassi",
+    "price": 80
+  },
+  {
+    "id": "dry-fruit-ice-cream-lassi",
+    "name": "Dry Fruit Ice Cream Lassi",
+    "category": "Lassi",
+    "price": 100
+  },
+  {
+    "id": "flavor-sharbat",
+    "name": "Flavor Sharbat",
+    "category": "Sharbat",
+    "price": 50
+  },
+  {
+    "id": "rabdi-flavor-sharbat",
+    "name": "Rabdi Flavor Sharbat",
+    "category": "Sharbat",
+    "price": 70
+  },
+  {
+    "id": "dry-fruit-rabdi-sharbat",
+    "name": "Dry Fruit Rabdi Sharbat",
+    "category": "Sharbat",
+    "price": 80
+  },
+  {
+    "id": "dry-fruit-rabdi-ice-cream-sharbat",
+    "name": "Dry Fruit Rabdi Ice Cream Sharbat",
+    "category": "Sharbat",
+    "price": 100
+  },
+  {
+    "id": "mix-fruit-juice-small",
+    "name": "Mix Fruit Juice Small",
+    "category": "Extras",
+    "price": 50
+  },
+  {
+    "id": "mix-fruit-juice-large",
+    "name": "Mix Fruit Juice Large",
+    "category": "Extras",
+    "price": 60
+  },
+  {
+    "id": "lemon-soda",
+    "name": "Lemon Soda",
+    "category": "Extras",
+    "price": 20
+  },
+  {
+    "id": "lemon-sharbat",
+    "name": "Lemon Sharbat",
+    "category": "Extras",
+    "price": 30
+  },
+  {
+    "id": "masala-chaas",
+    "name": "Masala Chaas",
+    "category": "Extras",
+    "price": 20
+  },
+  {
+    "id": "extra-colour",
+    "name": "Extra Colour",
+    "category": "Extras",
+    "price": 10
+  },
+  {
+    "id": "parcel-charge",
+    "name": "Parcel Charge",
+    "category": "Extras",
+    "price": 10
+  }
+]

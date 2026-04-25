@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Aaradhna Preparation Screen</title>
+    <link rel="stylesheet" href="prep.css">
+  </head>
+  <body>
+    <main class="prep">
+      <header class="prep-header">
+        <div class="prep-brand">
+          <img src="assets/aaradhna-logo.png" alt="Aaradhna Ice Dish & Gola logo">
+          <div>
+            <p>Aaradhna Ice Dish & Gola</p>
+            <h1>Preparation Screen</h1>
+          </div>
+        </div>
+        <div class="prep-clock" id="clock">--:--</div>
+      </header>
+
+      <div class="server-warning" id="serverWarning" hidden>
+        You opened the old file version. Use http://192.168.1.5:3000/prep.html on phone/tablet.
+      </div>
+
+      <section class="status-help" aria-label="Status guide">
+        <span class="dot pending"></span> Pending
+        <span class="dot preparing"></span> Preparing
+        <span class="dot ready"></span> Ready
+      </section>
+
+      <section class="prep-grid" id="prepGrid" aria-label="Preparation orders"></section>
+    </main>
+
+    <script src="prep.js"></script>
+  </body>
+</html>

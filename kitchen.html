@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Aaradhna Kitchen Display</title>
+    <link rel="stylesheet" href="kitchen.css">
+  </head>
+  <body>
+    <main class="kitchen">
+      <header class="kitchen-header">
+        <div class="kitchen-brand">
+          <img src="assets/aaradhna-logo.png" alt="Aaradhna Ice Dish & Gola logo">
+          <div>
+            <p>Aaradhna Ice Dish & Gola</p>
+            <h1>Kitchen Display</h1>
+          </div>
+        </div>
+        <div class="clock" id="clock">--:--</div>
+      </header>
+
+      <div class="server-warning" id="serverWarning" hidden>
+        You opened the old file version. Use http://192.168.1.5:3000/kitchen.html on TV/phone/tablet.
+      </div>
+
+      <section class="queue">
+        <div class="column preparing">
+          <h2>Preparing</h2>
+          <div id="preparingList" class="orders"></div>
+        </div>
+        <div class="column ready">
+          <h2>Ready</h2>
+          <div id="readyList" class="orders"></div>
+        </div>
+      </section>
+    </main>
+
+    <script src="kitchen.js"></script>
+  </body>
+</html>

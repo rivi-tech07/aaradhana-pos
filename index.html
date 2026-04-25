@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Aaradhna Ice Dish & Gola Billing</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <main class="app-shell">
+      <header class="topbar">
+        <div class="brand-block">
+          <img class="brand-logo" src="assets/aaradhna-logo.png" alt="Aaradhna Ice Dish & Gola logo">
+          <div>
+            <p class="eyebrow">Aaradhna Ice Dish & Gola</p>
+            <h1>Token Billing</h1>
+          </div>
+        </div>
+        <div class="topbar-actions">
+          <div class="metric date-time">
+            <span id="screenDate">--</span>
+            <strong id="screenTime">--:--</strong>
+          </div>
+          <a class="ghost-button link-button" href="prep.html" target="_blank">Prep Screen</a>
+          <a class="ghost-button link-button" href="kitchen.html" target="_blank">Kitchen Display</a>
+          <a class="ghost-button link-button" href="owner.html" target="_blank">Owner Report</a>
+          <a class="ghost-button link-button" href="menu.html" target="_blank">Menu Edit</a>
+        </div>
+      </header>
+
+      <div class="server-warning" id="serverWarning" hidden>
+        You opened the old Mac-only file version. For phone/tablet sharing, use http://localhost:3000 on MacBook.
+      </div>
+
+      <nav class="view-tabs" aria-label="App views">
+        <button class="view-tab active" type="button" data-view="billing">Billing</button>
+        <button class="view-tab" type="button" data-view="report">Daily Report</button>
+      </nav>
+
+      <section class="workspace app-view active" data-view-panel="billing" aria-label="Billing workspace">
+        <aside class="menu-panel">
+          <div class="panel-title">
+            <h2>Menu</h2>
+            <input id="searchInput" type="search" placeholder="Search item">
+          </div>
+          <div class="category-tabs" id="categoryTabs" aria-label="Menu categories"></div>
+          <div class="item-grid" id="itemGrid" aria-label="Menu items"></div>
+        </aside>
+
+        <section class="order-panel" aria-label="Current order">
+          <div class="panel-title order-heading">
+            <div>
+              <h2>Current Order</h2>
+              <p id="billPreview">Bill will be created after payment</p>
+            </div>
+            <div class="order-actions">
+              <button class="ghost-button compact" id="saveEditBtn" type="button" hidden>Save Edit</button>
+              <button class="clear-button" id="clearOrderBtn" type="button">Clear</button>
+            </div>
+          </div>
+
+          <div class="cart-list" id="cartList"></div>
+
+          <datalist id="flavourOptions">
+            <option value="Kaju Mava">
+            <option value="Watermelon">
+            <option value="Kesar Mava">
+            <option value="Vanilla Mava">
+            <option value="Choco Chocolate">
+            <option value="Guava">
+            <option value="Rajbhog">
+            <option value="Shahi Gulab">
+            <option value="Coconut">
+            <option value="Chikoo">
+            <option value="Orange">
+            <option value="Kala Khatta">
+            <option value="Kolthu">
+            <option value="Jamun">
+            <option value="Rimzim">
+            <option value="Blueberry">
+            <option value="Pineapple">
+            <option value="Mazza Mango">
+            <option value="Kacchi Keri">
+            <option value="Falsa">
+            <option value="Kala Khatta + Mazza Mango">
+            <option value="Orange + Kala Khatta">
+            <option value="Kacchi Keri + Mazza Mango">
+            <option value="Guava + Kala Khatta">
+            <option value="Rajbhog + Kesar Mava">
+          </datalist>
+
+          <datalist id="instructionOptions">
+            <option value="Half-half mix">
+            <option value="Less ice">
+            <option value="Extra syrup">
+            <option value="Less syrup">
+            <option value="No malai">
+            <option value="Extra malai">
+            <option value="Parcel">
+          </datalist>
+
+          <div class="flavour-picker" aria-label="Quick flavour picker">
+            <div>
+              <strong>Sweet</strong>
+              <div id="sweetFlavourButtons"></div>
+            </div>
+            <div>
+              <strong>Khata Mitha</strong>
+              <div id="khataMithaFlavourButtons"></div>
+            </div>
+            <div class="custom-flavour-box">
+              <strong>Add Custom Flavour</strong>
+              <div class="custom-flavour-row">
+                <input id="customFlavourInput" type="text" placeholder="Type flavour name">
+                <button id="customFlavourBtn" type="button">Add</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="customer-panel">
+            <label>
+              <span>Customer Name</span>
+              <input id="customerNameInput" type="text" placeholder="Walk-in customer">
+            </label>
+            <label>
+              <span>Contact Number</span>
+              <input id="customerPhoneInput" type="tel" inputmode="tel" placeholder="WhatsApp number">
+            </label>
+          </div>
+
+          <div class="checkout">
+            <label class="discount-row">
+              <span>Discount</span>
+              <input id="discountInput" type="number" min="0" step="1" value="0">
+            </label>
+            <div class="totals">
+              <div>
+                <span>Subtotal</span>
+                <strong id="subtotalAmount">₹0</strong>
+              </div>
+              <div>
+                <span>Grand Total</span>
+                <strong id="grandTotal">₹0</strong>
+              </div>
+            </div>
+            <div class="payment-modes" id="paymentModes" aria-label="Payment mode">
+              <button class="pay-mode active" type="button" data-mode="Cash">Cash</button>
+              <button class="pay-mode" type="button" data-mode="UPI">UPI</button>
+              <button class="pay-mode" type="button" data-mode="Card">Card</button>
+            </div>
+            <button class="primary-button" id="completeBillBtn" type="button">Generate Paid Token</button>
+            <button class="print-button" id="printNewTokenBtn" type="button" hidden>Print Token</button>
+            <button class="whatsapp-button" id="whatsappLastBtn" type="button" hidden>WhatsApp Last Bill</button>
+          </div>
+        </section>
+
+        <aside class="tokens-panel" aria-label="Token queue">
+          <div class="panel-title">
+            <h2>Tokens</h2>
+            <button class="ghost-button compact" id="printLastBtn" type="button">Print Last</button>
+          </div>
+          <div class="token-columns">
+            <section>
+              <h3>Pending</h3>
+              <div id="pendingList" class="token-list"></div>
+            </section>
+            <section>
+              <h3>Preparing</h3>
+              <div id="preparingList" class="token-list"></div>
+            </section>
+            <section>
+              <h3>Ready</h3>
+              <div id="readyList" class="token-list"></div>
+            </section>
+          </div>
+        </aside>
+      </section>
+
+      <section class="report-panel app-view" data-view-panel="report" aria-label="Daily report">
+        <div>
+          <h2>Daily Report</h2>
+          <p id="reportDate"></p>
+        </div>
+        <div class="report-grid">
+          <div><span>Total Sales</span><strong id="todaySales">₹0</strong></div>
+          <div><span>Orders</span><strong id="todayOrders">0</strong></div>
+          <div><span>Cash</span><strong id="cashTotal">₹0</strong></div>
+          <div><span>UPI</span><strong id="upiTotal">₹0</strong></div>
+          <div><span>Card</span><strong id="cardTotal">₹0</strong></div>
+          <div><span>Top Item</span><strong id="topItem">-</strong></div>
+        </div>
+        <div class="report-actions">
+          <button class="ghost-button" id="exportBtn" type="button">Export CSV</button>
+          <button class="ghost-button" id="resetDayBtn" type="button">Close Day</button>
+        </div>
+      </section>
+    </main>
+
+    <template id="printTemplate">
+      <section class="receipt">
+        <img class="receipt-logo" src="assets/aaradhna-logo.png" alt="">
+        <h1>Aaradhna Ice Dish & Gola</h1>
+        <h2 id="printToken"></h2>
+        <p id="printBill"></p>
+        <p id="printDate"></p>
+        <div id="printItems"></div>
+        <strong id="printTotal"></strong>
+        <p id="printPayment"></p>
+        <p class="thanks">Please collect your order when token is called. Thank you!</p>
+      </section>
+    </template>
+
+    <script src="app.js"></script>
+  </body>
+</html>

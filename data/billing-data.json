@@ -1,0 +1,5893 @@
+{
+  "date": "2026-04-25",
+  "nextToken": 2,
+  "nextBill": 174,
+  "bills": [
+    {
+      "id": "eeae5d0b-7f5a-416d-875c-ae756183b0f4",
+      "billNo": "AID-2026-04-25-0173",
+      "token": "001",
+      "createdAt": "2026-04-24T21:00:27.512Z",
+      "customerName": "",
+      "customerPhone": "",
+      "items": [
+        {
+          "id": "rabdi-stick-gola-1777064424987-0581a39a0b3cb8",
+          "name": "Rabdi Stick Gola",
+          "category": "Ice Gola",
+          "price": 70,
+          "menuId": "rabdi-stick-gola",
+          "qty": 1,
+          "flavours": "",
+          "instructions": ""
+        }
+      ],
+      "subtotal": 70,
+      "discount": 0,
+      "total": 70,
+      "paymentMode": "Cash",
+      "status": "Cancelled",
+      "updatedAt": "2026-04-24T21:00:45.430Z",
+      "cancelReason": "No reason given",
+      "cancelledAt": "2026-04-24T21:00:45.420Z"
+    }
+  ],
+  "history": {
+    "2026-04-23": [
+      {
+        "id": "da4ac905-3bbf-4a0e-a0c8-3c342813e4ee",
+        "billNo": "AID-2026-04-23-0006",
+        "token": "001",
+        "createdAt": "2026-04-23T14:53:43.809Z",
+        "customerName": "",
+        "customerPhone": "",
+        "items": [
+          {
+            "id": "flavor-stick-gola-1776956005999-c0ad8fc2aca4b8",
+            "name": "Flavor Stick Gola",
+            "category": "Ice Gola",
+            "price": 50,
+            "menuId": "flavor-stick-gola",
+            "qty": 1,
+            "flavours": "Kaju Mava + Falsa",
+            "instructions": ""
+          },
+          {
+            "id": "flavor-stick-gola-1776956013300-5cb4dc8377f098",
+            "name": "Flavor Stick Gola",
+            "category": "Ice Gola",
+            "price": 50,
+            "menuId": "flavor-stick-gola",
+            "qty": 1,
+            "flavours": "Orange + Kaju Mava",
+            "instructions": ""
+          },
+          {
+            "id": "flavor-stick-gola-1776956018784-b49f7251af972",
+            "name": "Flavor Stick Gola",
+            "category": "Ice Gola",
+            "price": 50,
+            "menuId": "flavor-stick-gola",
+            "qty": 1,
+            "flavours": "Choco Chocolate + Kala Khatta",
+            "instructions": ""
+          }
+        ],
+        "subtotal": 150,
+        "discount": 0,
+        "total": 150,
+        "paymentMode": "Cash",
+        "status": "Ready",
+        "updatedAt": "2026-04-23T15:03:18.229Z"
+      },
+      {
+        "id": "e5a7e690-65bc-45b3-9180-99b1a83bfe6a",
+        "billNo": "AID-2026-04-23-0007",
+        "token": "002",
+        "createdAt": "2026-04-23T14:54:13.204Z",
+        "customerName": "",
+        "customerPhone": "",
+        "items": [
+          {
+            "id": "flavor-stick-gola-1776956048350-93cd0277b67168",
+            "name": "Flavor Stick Gola",
+            "category": "Ice Gola",
+            "price": 50,
+            "menuId": "flavor-stick-gola",
+            "qty": 1,
+            "flavours": "",
+            "instructions": ""
+          },
+          {
+            "id": "flavor-stick-gola-1776956048800-956fc57483ba98",
+            "name": "Flavor Stick Gola",
+            "category": "Ice Gola",
+            "price": 50,
+            "menuId": "flavor-stick-gola",
+            "qty": 1,
+            "flavours": "",
+            "instructions": ""
+          }
+        ],
+        "subtotal": 100,
+        "discount": 0,
+        "total": 100,
+        "paymentMode": "Cash",
+        "status": "Ready",
+        "updatedAt": "2026-04-23T15:03:18.859Z"
+      },
+      {
+        "id": "f26ea536-d0dc-4987-8fce-1d84db7da624",
+        "billNo": "AID-2026-04-23-0008",
+        "token": "003",
+        "createdAt": "2026-04-23T15:08:46.772Z",
+        "customerName": "",
+        "customerPhone": "",
+        "items": [
+          {
+            "id": "rabdi-ice-dish-1776956911734-a972f90ee90388",
+            "name": "Rabdi Ice Dish",
+            "category": "Ice Dish",
+            "price": 100,
+            "menuId": "rabdi-ice-dish",
+            "qty": 1,
+            "flavours": "",
+            "instructions": ""
+          }
+        ],
+        "subtotal": 100,
+        "discount": 0,
+        "total": 100,
+        "paymentMode": "Cash",
+        "status": "Ready",
+        "updatedAt": "2026-04-23T15:11:23.273Z"
+      },
+      {
+        "id": "f9956b53-2958-413e-9fcc-11c965e5a8ee",
+        "billNo": "AID-2026-04-23-0009",
+        "token": "004",
+        "createdAt": "2026-04-23T15:13:50.780Z",
+        "customerName": "",
+        "customerPhone": "",
+        "items": [
+          {
+            "id": "rabdi-ice-dish-1776957132033-acb5643edd71a8",
+            "name": "Rabdi Ice Dish",
+            "category": "Ice Dish",
+            "price": 100,
+            "menuId": "rabdi-ice-dish",
+            "qty": 1,
+            "flavours": "Kaju Mava",
+            "instructions": ""
+          },
+          {
+            "id": "flavor-cream-lassi-1776957158002-7870a0d9cb8ed8",
+            "name": "Flavor Cream Lassi",
+            "category": "Lassi",
+            "price": 60,
+            "menuId": "flavor-cream-lassi",
+            "qty": 1,
+            "flavours": "Mazza Mango",
+            "instructions": ""
+          }
+        ],
+        "subtotal": 160,
+        "discount": 0,
+        "total": 160,
+        "paymentMode": "Cash",
+        "status": "Ready",
+        "updatedAt": "2026-04-23T15:14:59.427Z"
+      },
+      {
+        "id": "a0545511-d30d-4357-a14d-78eb9c55745f",
+        "billNo": "AID-2026-04-23-0010",
+        "token": "005",
+        "createdAt": "2026-04-23T15:15:56.544Z",
+        "customerName": "",
+        "customerPhone": "",
+        "items": [
+          {
+            "id": "rabdi-ice-dish-1776957350955-53f5508c8b6168",
+            "name": "Rabdi Ice Dish",
+            "category": "Ice Dish",
+            "price": 100,
+            "menuId": "rabdi-ice-dish",
+            "qty": 1,
+            "flavours": "",
+            "instructions": "Parcel"
+          }
+        ],
+        "subtotal": 100,
+        "discount": 0,
+        "total": 100,
+        "paymentMode": "Cash",
+        "status": "Ready",
+        "updatedAt": "2026-04-23T15:19:13.226Z"
+      },
+      {
+        "id": "20dd2eb8-4bbf-4edb-a82c-8ba5aa8162b0",
+        "billNo": "AID-2026-04-23-0011",
+        "token": "006",
+        "createdAt": "2026-04-23T15:17:58.176Z",
+        "customerName": "",
+        "customerPhone": "",
+        "items": [
+          {
+            "id": "flavor-stick-gola-1776957453421-b46dfbbddc8cb",
+            "name": "Flavor Stick Gola",
+            "category": "Ice Gola",
+            "price": 50,
+            "menuId": "flavor-stick-gola",
+            "qty": 1,
+            "flavours": "Kaju Mava",
+            "instructions": ""
+          },
+          {
+            "id": "flavor-stick-gola-1776957459688-d0e92320df6368",
+            "name": "Flavor Stick Gola",
+            "category": "Ice Gola",
+            "price": 50,
+            "menuId": "flavor-stick-gola",
+            "qty": 1,
+            "flavours": "Choco Chocolate",
+            "instructions": ""
+          },
+          {
+            "id": "flavor-ice-dish-1776957469321-1b59a9fdbda1f",
+            "name": "Flavor Ice Dish",
+            "category": "Ice Dish",
+            "price": 60,
+            "menuId": "flavor-ice-dish",
+            "qty": 1,
+            "flavours": "Choco Chocolate",
+            "instructions": ""
+          }
+        ],
+        "subtotal": 160,
+        "discount": 0,
+        "total": 160,
+        "paymentMode": "Cash",
+        "status": "Ready",
+        "updatedAt": "2026-04-23T15:21:36.308Z"
+      },
+      {
+        "id": "3b70ae12-afb7-4e99-a7b3-b339ec879922",
+        "billNo": "AID-2026-04-23-0012",
+        "token": "007",
+        "createdAt": "2026-04-23T15:18:59.793Z",
+        "customerName": "",
+        "customerPhone": "",
+        "items": [
+          {
+            "id": "flavor-stick-gola-1776957529787-e5372c73582418",
+            "name": "Flavor Stick Gola",
+            "category": "Ice Gola",
+            "price": 50,
+            "menuId": "flavor-stick-gola",
+            "qty": 1,
+            "flavours": "Kaju Mava",
+            "instructions": ""
+          },
+          {
+            "id": "flavor-stick-gola-1776957533003-743fd69393edf8",
+            "name": "Flavor Stick Gola",
+            "category": "Ice Gola",
+            "price": 50,
+            "menuId": "flavor-stick-gola",
+            "qty": 1,
+            "flavours": "Orange + Kala Khatta",
+            "instructions": ""
+          }
+        ],
+        "subtotal": 100,
+        "discount": 0,
+        "total": 100,
+        "paymentMode": "Cash",
+        "status": "Ready",
+        "updatedAt": "2026-04-23T15:22:50.943Z"
+      },
+      {
+        "id": "dee6fc3c-56f3-42aa-a110-924ff92d8b81",
+        "billNo": "AID-2026-04-23-0013",
+        "token": "008",
+        "createdAt": "2026-04-23T15:21:49.592Z",
+        "customerName": "",
+        "customerPhone": "",
+        "items": [
+          {
+            "id": "flavor-sharbat-1776957703621-4780067911ba6",
+            "name": "Flavor Sharbat",
+            "category": "Sharbat",
+            "price": 50,
+            "menuId": "flavor-sharbat",
+            "qty": 1,
+            "flavours": "Kaju Mava",
+            "instructions": ""
+          },
+          {
+            "id": "flavor-sharbat-1776957706471-130758807173d8",
+            "name": "Flavor Sharbat",
+            "category": "Sharbat",
+            "price": 50,
+            "menuId": "flavor-sharbat",
+            "qty": 1,
+            "flavours": "Choco Chocolate",
+            "instructions": ""
+          }
+        ],
+        "subtotal": 100,
+        "discount": 0,
+        "total": 100,
+        "paymentMode": "Cash",
+        "status": "Ready",
+        "updatedAt": "2026-04-23T15:33:39.399Z"
+      },
+      {
+        "id": "8d9c4d3d-5515-4d5c-bace-1a7ec14b02db",
+        "billNo": "AID-2026-04-23-0014",
+        "token": "009",
+        "createdAt": "2026-04-23T15:35:24.495Z",
+        "customerName": "",
+        "customerPhone": "",
+        "items": [
+          {
+            "id": "flavor-stick-gola-1776958493654-b1fdcc46f6d7b8",
+            "name": "Flavor Stick Gola",
+            "category": "Ice Gola",
+            "price": 50,
+            "menuId": "flavor-stick-gola",
+            "qty": 1,
+            "flavours": "Choco Chocolate",
+            "instructions": ""
+          },
+          {
+            "id": "flavor-stick-gola-1776958496554-98eaf80418b288",
+            "name": "Flavor Stick Gola",
+            "category": "Ice Gola",
+            "price": 50,
+            "menuId": "flavor-stick-gola",
+            "qty": 1,
+            "flavours": "Blueberry",
+            "instructions": ""
+          },
+          {
+            "id": "flavor-stick-gola-1776958502254-32d7bd67f73ab8",
+            "name": "Flavor Stick Gola",
+            "category": "Ice Gola",
+            "price": 50,
+            "menuId": "flavor-stick-gola",
+            "qty": 1,
+            "flavours": "Shahi Gulab",
+            "instructions": ""
+          },
+          {
+            "id": "flavor-stick-gola-1776958521120-569bff7a2255c8",
+            "name": "Flavor Stick Gola",
+            "category": "Ice Gola",
+            "price": 50,
+            "menuId": "flavor-stick-gola",
+            "qty": 1,
+            "flavours": "Kala Khatta",
+            "instructions": ""
+          }
+        ],
+        "subtotal": 200,
+        "discount": 0,
+        "total": 200,
+        "paymentMode": "Cash",
+        "status": "Ready",
+        "updatedAt": "2026-04-23T15:38:21.533Z"
+      },
+      {
+        "id": "badf1c43-4315-44f4-90c6-6758b34f5f8d",
+        "billNo": "AID-2026-04-23-0015",
+        "token": "010",
+        "createdAt": "2026-04-23T15:42:14.876Z",
+        "customerName": "",
+        "customerPhone": "",
+        "items": [
+          {
+            "id": "flavor-sharbat-1776958882369-cf16870aefbaf",
+            "name": "Flavor Sharbat",
+            "category": "Sharbat",
+            "price": 50,
+            "menuId": "flavor-sharbat",
+            "qty": 1,
+            "flavours": "Kala Khatta",
+            "instructions": ""
+          },
+          {
+            "id": "flavor-stick-gola-1776958920521-d5ecdbe50eede8",
+            "name": "Flavor Stick Gola",
+            "category": "Ice Gola",
+            "price": 50,
+            "menuId": "flavor-stick-gola",
+            "qty": 1,
+            "flavours": "Kala Khatta + Orange",
+            "instructions": ""
+          },
+          {
+            "id": "flavor-stick-gola-1776958926720-43c34bcf3bf53",
+            "name": "Flavor Stick Gola",
+            "category": "Ice Gola",
+            "price": 50,
+            "menuId": "flavor-stick-gola",
+            "qty": 1,
+            "flavours": "Pineapple + Choco Chocolate",
+            "instructions": ""
+          }
+        ],
+        "subtotal": 150,
+        "discount": 0,
+        "total": 150,
+        "paymentMode": "Cash",
+        "status": "Ready",
+        "updatedAt": "2026-04-23T15:43:32.832Z"
+      },
+      {
+        "id": "63858cb8-9a0d-4799-b893-1b1c5aac2279",
+        "billNo": "AID-2026-04-23-0016",
+        "token": "011",
+        "createdAt": "2026-04-23T15:44:10.160Z",
+        "customerName": "",
+        "customerPhone": "",
+        "items": [
+          {
+            "id": "flavor-stick-gola-1776959081923-a97d8415ef5888",
+            "name": "Flavor Stick Gola",
+            "category": "Ice Gola",
+            "price": 50,
+            "menuId": "flavor-stick-gola",
+            "qty": 2,
+            "flavours": "Kala Khatta",
+            "instructions": ""
+          },
+          {
+            "id": "rabdi-ice-dish-1776959081923-4fc7a904790f78",
+            "name": "Rabdi Ice Dish",
+            "category": "Ice Dish",
+            "price": 100,
+            "menuId": "rabdi-ice-dish",
+            "qty": 1,
+            "flavours": "Rajbhog",
+            "instructions": ""
+          }
+        ],
+        "subtotal": 200,
+        "discount": 0,
+        "total": 200,
+        "paymentMode": "Cash",
+        "status": "Ready",
+        "updatedAt": "2026-04-23T15:46:23.515Z",
+        "editedAt": "2026-04-23T15:44:56.808Z"
+      },
+      {
+        "id": "916f06fa-571c-40b2-b9c6-54fa013afaef",
+        "billNo": "AID-2026-04-23-0017",
+        "token": "012",
+        "createdAt": "2026-04-23T15:44:27.893Z",
+        "customerName": "",
+        "customerPhone": "",
+        "items": [
+          {
+            "id": "flavor-sharbat-1776959057671-e3763be1d6922",
+            "name": "Flavor Sharbat",
+            "category": "Sharbat",
+            "price": 50,
+            "menuId": "flavor-sharbat",
+            "qty": 1,
+            "flavours": "Kaju Mava",
+            "instructions": ""
+          }
+        ],
+        "subtotal": 50,
+        "discount": 0,
+        "total": 50,
+        "paymentMode": "Cash",
+        "status": "Ready",
+        "updatedAt": "2026-04-23T15:46:22.364Z"
+      },
+      {
+        "id": "fcf1bdb9-5148-4463-bcf6-478cce642338",
+        "billNo": "AID-2026-04-23-0018",
+        "token": "013",
+        "createdAt": "2026-04-23T15:49:46.629Z",
+        "customerName": "",
+        "customerPhone": "",
+        "items": [
+          {
+            "id": "rabdi-ice-dish-1776959337207-bc98f2142370d8",
+            "name": "Rabdi Ice Dish",
+            "category": "Ice Dish",
+            "price": 100,
+            "menuId": "rabdi-ice-dish",
+            "qty": 1,
+            "flavours": "Kala Khatta + Choco Chocolate",
+            "instructions": ""
+          }
+        ],
+        "subtotal": 100,
+        "discount": 0,
+        "total": 100,
+        "paymentMode": "Cash",
+        "status": "Ready",
+        "updatedAt": "2026-04-23T15:50:57.915Z"
+      },
+      {
+        "id": "43cbdd8e-14b1-47f1-becf-a0aa8a707009",
+        "billNo": "AID-2026-04-23-0019",
+        "token": "014",
+        "createdAt": "2026-04-23T15:51:06.096Z",
+        "customerName": "",
+        "customerPhone": "",
+        "items": [
+          {
+            "id": "rabdi-ice-dish-1776959409624-2bea9b7f30c07",
+            "name": "Rabdi Ice Dish",
+            "category": "Ice Dish",
+            "price": 100,
+            "menuId": "rabdi-ice-dish",
+            "qty": 1,
+            "flavours": "Kala Khatta",
+            "instructions": ""
+          },
+          {
+            "id": "flavor-stick-gola-1776959462357-c7ef4e6eabddb8",
+            "name": "Flavor Stick Gola",
+            "category": "Ice Gola",
+            "price": 50,
+            "menuId": "flavor-stick-gola",
+            "qty": 1,
+            "flavours": "Guava",
+            "instructions": ""
+          }
+        ],
+        "subtotal": 150,
+        "discount": 0,
+        "total": 150,
+        "paymentMode": "Cash",
+        "status": "Ready",
+        "updatedAt": "2026-04-23T15:52:12.784Z"
+      },
+      {
+        "id": "84f7123e-9bda-4efa-a7f2-3f2f4a8f4fd0",
+        "billNo": "AID-2026-04-23-0020",
+        "token": "015",
+        "createdAt": "2026-04-23T15:55:34.196Z",
+        "customerName": "",
+        "customerPhone": "",
+        "items": [
+          {
+            "id": "rabdi-ice-dish-1776959724174-39956ae4a10bf8",
+            "name": "Rabdi Ice Dish",
+            "category": "Ice Dish",
+            "price": 100,
+            "menuId": "rabdi-ice-dish",
+            "qty": 1,
+            "flavours": "Choco Chocolate + Kala Khatta",
+            "instructions": "Parcel"
+          }
+        ],
+        "subtotal": 100,
+        "discount": 0,
+        "total": 100,
+        "paymentMode": "Cash",
+        "status": "Ready",
+        "updatedAt": "2026-04-23T15:56:56.578Z"
+      },
+      {
+        "id": "4c05cc75-c72a-4d2d-beda-b12b9e7f6917",
+        "billNo": "AID-2026-04-23-0021",
+        "token": "016",
+        "createdAt": "2026-04-23T15:57:07.980Z",
+        "customerName": "",
+        "customerPhone": "",
+        "items": [
+          {
+            "id": "rabdi-stick-gola-1776959804928-eb2a84e7089e98",
+            "name": "Rabdi Stick Gola",
+            "category": "Ice Gola",
+            "price": 70,
+            "menuId": "rabdi-stick-gola",
+            "qty": 1,
+            "flavours": "Jamun",
+            "instructions": ""
+          },
+          {
+            "id": "flavor-ice-dish-1776959820357-2e9dbefa4d60c",
+            "name": "Flavor Ice Dish",
+            "category": "Ice Dish",
+            "price": 60,
+            "menuId": "flavor-ice-dish",
+            "qty": 1,
+            "flavours": "Falsa",
+            "instructions": ""
+          }
+        ],
+        "subtotal": 130,
+        "discount": 0,
+        "total": 130,
+        "paymentMode": "Cash",
+        "status": "Ready",
+        "updatedAt": "2026-04-23T15:58:44.253Z"
+      },
+      {
+        "id": "6f84eba9-7fc6-47e5-9b3a-92ff47a789ce",
+        "billNo": "AID-2026-04-23-0022",
+        "token": "017",
+        "createdAt": "2026-04-23T15:59:41.530Z",
+        "customerName": "",
+        "customerPhone": "",
+        "items": [
+          {
+            "id": "dry-fruit-rabdi-ice-dish-1776959929541-3d8401545f25f8",
+            "name": "Dry Fruit Rabdi Ice Dish",
+            "category": "Ice Dish",
+            "price": 150,
+            "menuId": "dry-fruit-rabdi-ice-dish",
+            "qty": 1,
+            "flavours": "Kala Khatta",
+            "instructions": ""
+          }
+        ],
+        "subtotal": 150,
+        "discount": 0,
+        "total": 150,
+        "paymentMode": "Cash",
+        "status": "Ready",
+        "updatedAt": "2026-04-23T15:59:52.789Z"
+      },
+      {
+        "id": "cda2aeaa-7cc5-4d18-9420-4637daa29be1",
+        "billNo": "AID-2026-04-23-0023",
+        "token": "018",
+        "createdAt": "2026-04-23T16:02:38.099Z",
+        "customerName": "",
+        "customerPhone": "",
+        "items": [
+          {
+            "id": "rabdi-ice-dish-1776960154343-4420f2bc9bdc6",
+            "name": "Rabdi Ice Dish",
+            "category": "Ice Dish",
+            "price": 100,
+            "menuId": "rabdi-ice-dish",
+            "qty": 1,
+            "flavours": "sweet mix",
+            "instructions": ""
+          }
+        ],
+        "subtotal": 100,
+        "discount": 0,
+        "total": 100,
+        "paymentMode": "Cash",
+        "status": "Ready",
+        "updatedAt": "2026-04-23T16:03:10.396Z"
+      },
+      {
+        "id": "54f0892a-dc2c-45de-ab7e-49afaeb961f7",
+        "billNo": "AID-2026-04-23-0024",
+        "token": "019",
+        "createdAt": "2026-04-23T16:03:05.962Z",
+        "customerName": "",
+        "customerPhone": "",
+        "items": [
+          {
+            "id": "flavor-stick-gola-1776960177193-29935310a3fe8",
+            "name": "Flavor Stick Gola",
+            "category": "Ice Gola",
+            "price": 50,
+            "menuId": "flavor-stick-gola",
+            "qty": 1,
+            "flavours": "Kala Khatta + Orange",
+            "instructions": ""
+          }
+        ],
+        "subtotal": 50,
+        "discount": 0,
+        "total": 50,
+        "paymentMode": "Cash",
+        "status": "Ready",
+        "updatedAt": "2026-04-23T16:04:26.092Z"
+      },
+      {
+        "id": "59e8d12e-0b99-4aa4-929c-c5c8d56372b1",
+        "billNo": "AID-2026-04-23-0025",
+        "token": "020",
+        "createdAt": "2026-04-23T16:04:23.282Z",
+        "customerName": "",
+        "customerPhone": "",
+        "items": [
+          {
+            "id": "flavor-stick-gola-1776960254293-86f8743d136df",
+            "name": "Flavor Stick Gola",
+            "category": "Ice Gola",
+            "price": 50,
+            "menuId": "flavor-stick-gola",
+            "qty": 3,
+            "flavours": "Choco Chocolate",
+            "instructions": ""
+          }
+        ],
+        "subtotal": 150,
+        "discount": 0,
+        "total": 150,
+        "paymentMode": "Cash",
+        "status": "Ready",
+        "updatedAt": "2026-04-23T16:06:01.513Z"
+      },
+      {
+        "id": "c995000d-ec96-4bf0-b330-e72f9d9d6f1b",
+        "billNo": "AID-2026-04-23-0026",
+        "token": "021",
+        "createdAt": "2026-04-23T16:05:14.249Z",
+        "customerName": "",
+        "customerPhone": "",
+        "items": [
+          {
+            "id": "flavor-stick-gola-1776960307477-cef8a514b68d68",
+            "name": "Flavor Stick Gola",
+            "category": "Ice Gola",
+            "price": 50,
+            "menuId": "flavor-stick-gola",
+            "qty": 1,
+            "flavours": "Kolthu",
+            "instructions": ""
+          }
+        ],
+        "subtotal": 50,
+        "discount": 0,
+        "total": 50,
+        "paymentMode": "Cash",
+        "status": "Ready",
+        "updatedAt": "2026-04-23T16:06:09.114Z"
+      },
+      {
+        "id": "f760717e-b19c-479b-9209-3d2dada74f25",
+        "billNo": "AID-2026-04-23-0027",
+        "token": "022",
+        "createdAt": "2026-04-23T16:05:54.132Z",
+        "customerName": "",
+        "customerPhone": "",
+        "items": [
+          {
+            "id": "flavor-stick-gola-1776960336976-478f874f6fe248",
+            "name": "Flavor Stick Gola",
+            "category": "Ice Gola",
+            "price": 50,
+            "menuId": "flavor-stick-gola",
+            "qty": 2,
+            "flavours": "Kala Khatta + Orange",
+            "instructions": ""
+          },
+          {
+            "id": "flavor-stick-gola-1776960344860-c996b6806f44c",
+            "name": "Flavor Stick Gola",
+            "category": "Ice Gola",
+            "price": 50,
+            "menuId": "flavor-stick-gola",
+            "qty": 1,
+            "flavours": "Kacchi Keri",
+            "instructions": ""
+          },
+          {
+            "id": "flavor-stick-gola-1776960347060-5efa493a5d69c8",
+            "name": "Flavor Stick Gola",
+            "category": "Ice Gola",
+            "price": 50,
+            "menuId": "flavor-stick-gola",
+            "qty": 1,
+            "flavours": "Orange",
+            "instructions": ""
+          }
+        ],
+        "subtotal": 200,
+        "discount": 0,
+        "total": 200,
+        "paymentMode": "Cash",
+        "status": "Ready",
+        "updatedAt": "2026-04-23T16:08:21.249Z"
+      },
+      {
+        "id": "66a61451-4ed8-4a75-9149-90371ba57ccb",
+        "billNo": "AID-2026-04-23-0028",
+        "token": "023",
+        "createdAt": "2026-04-23T16:06:44.599Z",
+        "customerName": "",
+        "customerPhone": "",
+        "items": [
+          {
+            "id": "flavor-stick-gola-1776960399344-a086efe649afa8",
+            "name": "Flavor Stick Gola",
+            "category": "Ice Gola",
+            "price": 50,
+            "menuId": "flavor-stick-gola",
+            "qty": 1,
+            "flavours": "Blueberry",
+            "instructions": ""
+          }
+        ],
+        "subtotal": 50,
+        "discount": 0,
+        "total": 50,
+        "paymentMode": "Cash",
+        "status": "Ready",
+        "updatedAt": "2026-04-23T16:07:25.732Z"
+      },
+      {
+        "id": "a1dd06f1-bb4e-42aa-9e48-9f323f9fdbfb",
+        "billNo": "AID-2026-04-23-0029",
+        "token": "024",
+        "createdAt": "2026-04-23T16:08:28.682Z",
+        "customerName": "",
+        "customerPhone": "",
+        "items": [
+          {
+            "id": "flavor-stick-gola-1776960487710-0781386c2d61b",
+            "name": "Flavor Stick Gola",
+            "category": "Ice Gola",
+            "price": 50,
+            "menuId": "flavor-stick-gola",
+            "qty": 1,
+            "flavours": "Kala Khatta + Shahi Gulab",
+            "instructions": ""
+          }
+        ],
+        "subtotal": 50,
+        "discount": 0,
+        "total": 50,
+        "paymentMode": "Cash",
+        "status": "Ready",
+        "updatedAt": "2026-04-23T16:09:00.327Z"
+      },
+      {
+        "id": "43215b63-c231-494b-82cb-d665ab80096e",
+        "billNo": "AID-2026-04-23-0030",
+        "token": "025",
+        "createdAt": "2026-04-23T16:09:25.466Z",
+        "customerName": "",
+        "customerPhone": "",
+        "items": [
+          {
+            "id": "flavor-stick-gola-1776960548860-f7b41edcb0e468",
+            "name": "Flavor Stick Gola",
+            "category": "Ice Gola",
+            "price": 50,
+            "menuId": "flavor-stick-gola",
+            "qty": 1,
+            "flavours": "strawberry + Blueberry",
+            "instructions": ""
+          },
+          {
+            "id": "rabdi-ice-dish-1776960561393-25c381f21eb348",
+            "name": "Rabdi Ice Dish",
+            "category": "Ice Dish",
+            "price": 100,
+            "menuId": "rabdi-ice-dish",
+            "qty": 1,
+            "flavours": "Choco Chocolate",
+            "instructions": ""
+          }
+        ],
+        "subtotal": 150,
+        "discount": 0,
+        "total": 150,
+        "paymentMode": "Cash",
+        "status": "Ready",
+        "updatedAt": "2026-04-23T16:14:00.515Z"
+      },
+      {
+        "id": "654bee9a-c5da-48e4-a963-7811638d8d10",
+        "billNo": "AID-2026-04-23-0031",
+        "token": "026",
+        "createdAt": "2026-04-23T16:09:52.416Z",
+        "customerName": "",
+        "customerPhone": "",
+        "items": [
+          {
+            "id": "flavor-ice-dish-1776960583777-a1301f21b16668",
+            "name": "Flavor Ice Dish",
+            "category": "Ice Dish",
+            "price": 60,
+            "menuId": "flavor-ice-dish",
+            "qty": 2,
+            "flavours": "Kala Khatta + Kala Khatta",
+            "instructions": ""
+          }
+        ],
+        "subtotal": 120,
+        "discount": 0,
+        "total": 120,
+        "paymentMode": "Cash",
+        "status": "Ready",
+        "updatedAt": "2026-04-23T16:11:30.734Z"
+      },
+      {
+        "id": "85424de3-1aba-49a6-8a86-f0cbac5ec607",
+        "billNo": "AID-2026-04-23-0032",
+        "token": "027",
+        "createdAt": "2026-04-23T16:10:23.249Z",
+        "customerName": "",
+        "customerPhone": "",
+        "items": [
+          {
+            "id": "flavor-sharbat-1776960605144-fb803500196518",
+            "name": "Flavor Sharbat",
+            "category": "Sharbat",
+            "price": 50,
+            "menuId": "flavor-sharbat",
+            "qty": 5,
+            "flavours": "sweet mix",
+            "instructions": ""
+          }
+        ],
+        "subtotal": 250,
+        "discount": 0,
+        "total": 250,
+        "paymentMode": "Cash",
+        "status": "Ready",
+        "updatedAt": "2026-04-23T16:13:48.849Z"
+      },
+      {
+        "id": "42c1914e-7d04-462f-9e31-c3c52209aeb0",
+        "billNo": "AID-2026-04-23-0033",
+        "token": "028",
+        "createdAt": "2026-04-23T16:12:23.366Z",
+        "customerName": "",
+        "customerPhone": "",
+        "items": [
+          {
+            "id": "flavor-stick-gola-1776960735393-2e259078556888",
+            "name": "Flavor Stick Gola",
+            "category": "Ice Gola",
+            "price": 50,
+            "menuId": "flavor-stick-gola",
+            "qty": 1,
+            "flavours": "Kala Khatta",
+            "instructions": ""
+          },
+          {
+            "id": "flavor-stick-gola-1776960737943-c384e321bfa3d",
+            "name": "Flavor Stick Gola",
+            "category": "Ice Gola",
+            "price": 50,
+            "menuId": "flavor-stick-gola",
+            "qty": 1,
+            "flavours": "Orange",
+            "instructions": ""
+          }
+        ],
+        "subtotal": 100,
+        "discount": 0,
+        "total": 100,
+        "paymentMode": "Cash",
+        "status": "Ready",
+        "updatedAt": "2026-04-23T16:13:49.489Z"
+      },
+      {
+        "id": "0a95b5cc-e9ee-4c85-88e4-39d7bde5f6e1",
+        "billNo": "AID-2026-04-23-0034",
+        "token": "029",
+        "createdAt": "2026-04-23T16:13:32.633Z",
+        "customerName": "",
+        "customerPhone": "",
+        "items": [
+          {
+            "id": "flavor-stick-gola-1776960804177-badd15c7b982a",
+            "name": "Flavor Stick Gola",
+            "category": "Ice Gola",
+            "price": 50,
+            "menuId": "flavor-stick-gola",
+            "qty": 1,
+            "flavours": "Orange",
+            "instructions": ""
+          },
+          {
+            "id": "flavor-stick-gola-1776960806461-36c2bdeb35bef",
+            "name": "Flavor Stick Gola",
+            "category": "Ice Gola",
+            "price": 50,
+            "menuId": "flavor-stick-gola",
+            "qty": 2,
+            "flavours": "Choco Chocolate",
+            "instructions": ""
+          }
+        ],
+        "subtotal": 150,
+        "discount": 0,
+        "total": 150,
+        "paymentMode": "Cash",
+        "status": "Ready",
+        "updatedAt": "2026-04-23T16:15:45.667Z"
+      },
+      {
+        "id": "3ecd06a5-a567-4e2e-b088-8bce3efef348",
+        "billNo": "AID-2026-04-23-0035",
+        "token": "030",
+        "createdAt": "2026-04-23T16:14:14.516Z",
+        "customerName": "",
+        "customerPhone": "",
+        "items": [
+          {
+            "id": "flavor-stick-gola-1776960849244-35a81f716654b8",
+            "name": "Flavor Stick Gola",
+            "category": "Ice Gola",
+            "price": 50,
+            "menuId": "flavor-stick-gola",
+            "qty": 1,
+            "flavours": "Kala Khatta + Orange",
+            "instructions": ""
+          }
+        ],
+        "subtotal": 50,
+        "discount": 0,
+        "total": 50,
+        "paymentMode": "Cash",
+        "status": "Ready",
+        "updatedAt": "2026-04-23T16:15:47.230Z"
+      },
+      {
+        "id": "fe2f1b9b-0d2d-4ed0-9eff-a9107929fba9",
+        "billNo": "AID-2026-04-23-0036",
+        "token": "031",
+        "createdAt": "2026-04-23T16:15:13.867Z",
+        "customerName": "",
+        "customerPhone": "",
+        "items": [
+          {
+            "id": "flavor-stick-gola-1776960896560-92bcdf07b0f4b",
+            "name": "Flavor Stick Gola",
+            "category": "Ice Gola",
+            "price": 50,
+            "menuId": "flavor-stick-gola",
+            "qty": 1,
+            "flavours": "Kala Khatta + Orange",
+            "instructions": ""
+          },
+          {
+            "id": "flavor-stick-gola-1776960899861-b5ad7190d22558",
+            "name": "Flavor Stick Gola",
+            "category": "Ice Gola",
+            "price": 50,
+            "menuId": "flavor-stick-gola",
+            "qty": 1,
+            "flavours": "Kacchi Keri + Shahi Gulab",
+            "instructions": ""
+          }
+        ],
+        "subtotal": 100,
+        "discount": 0,
+        "total": 100,
+        "paymentMode": "Cash",
+        "status": "Ready",
+        "updatedAt": "2026-04-23T16:17:02.929Z"
+      },
+      {
+        "id": "f99f23ab-dfac-4c49-b3c2-e0532ad2158c",
+        "billNo": "AID-2026-04-23-0037",
+        "token": "032",
+        "createdAt": "2026-04-23T16:16:51.149Z",
+        "customerName": "",
+        "customerPhone": "",
+        "items": [
+          {
+            "id": "flavor-stick-gola-1776960948444-51732b5ce909c8",
+            "name": "Flavor Stick Gola",
+            "category": "Ice Gola",
+            "price": 50,
+            "menuId": "flavor-stick-gola",
+            "qty": 1,
+            "flavours": "Shahi Gulab + Kacchi Keri",
+            "instructions": ""
+          },
+          {
+            "id": "flavor-stick-gola-1776960961094-a1fe5bfb6d506",
+            "name": "Flavor Stick Gola",
+            "category": "Ice Gola",
+            "price": 50,
+            "menuId": "flavor-stick-gola",
+            "qty": 1,
+            "flavours": "Kala Khatta + Jamun",
+            "instructions": ""
+          },
+          {
+            "id": "flavor-stick-gola-1776960968044-cca07707d2e1b8",
+            "name": "Flavor Stick Gola",
+            "category": "Ice Gola",
+            "price": 50,
+            "menuId": "flavor-stick-gola",
+            "qty": 1,
+            "flavours": "Kolthu + Kesar Mava",
+            "instructions": ""
+          },
+          {
+            "id": "rabdi-ice-dish-1776960981711-97197af90f14f8",
+            "name": "Rabdi Ice Dish",
+            "category": "Ice Dish",
+            "price": 100,
+            "menuId": "rabdi-ice-dish",
+            "qty": 1,
+            "flavours": "Kaju Mava + Chikoo + Orange",
+            "instructions": ""
+          }
+        ],
+        "subtotal": 250,
+        "discount": 0,
+        "total": 250,
+        "paymentMode": "Cash",
+        "status": "Ready",
+        "updatedAt": "2026-04-23T16:19:08.355Z"
+      },
+      {
+        "id": "f0e0374d-0243-47f7-9a32-3e8380a683b4",
+        "billNo": "AID-2026-04-23-0038",
+        "token": "033",
+        "createdAt": "2026-04-23T16:19:49.450Z",
+        "customerName": "",
+        "customerPhone": "",
+        "items": [
+          {
+            "id": "rabdi-ice-dish-1776961176728-a7a367c90c2f18",
+            "name": "Rabdi Ice Dish",
+            "category": "Ice Dish",
+            "price": 100,
+            "menuId": "rabdi-ice-dish",
+            "qty": 1,
+            "flavours": "sweet mix",
+            "instructions": ""
+          },
+          {
+            "id": "rabdi-ice-dish-1776961182127-96a73dcc76f37",
+            "name": "Rabdi Ice Dish",
+            "category": "Ice Dish",
+            "price": 100,
+            "menuId": "rabdi-ice-dish",
+            "qty": 1,
+            "flavours": "khati mithi mix",
+            "instructions": ""
+          }
+        ],
+        "subtotal": 200,
+        "discount": 0,
+        "total": 200,
+        "paymentMode": "Cash",
+        "status": "Ready",
+        "updatedAt": "2026-04-23T16:21:16.966Z"
+      },
+      {
+        "id": "5d8a0028-b49b-4d40-9389-3cdaa9210e1b",
+        "billNo": "AID-2026-04-23-0039",
+        "token": "034",
+        "createdAt": "2026-04-23T16:20:22.016Z",
+        "customerName": "",
+        "customerPhone": "",
+        "items": [
+          {
+            "id": "flavor-stick-gola-1776961205544-6b53ace86046b8",
+            "name": "Flavor Stick Gola",
+            "category": "Ice Gola",
+            "price": 50,
+            "menuId": "flavor-stick-gola",
+            "qty": 3,
+            "flavours": "Orange + Kolthu",
+            "instructions": "Parcel"
+          }
+        ],
+        "subtotal": 150,
+        "discount": 0,
+        "total": 150,
+        "paymentMode": "Cash",
+        "status": "Ready",
+        "updatedAt": "2026-04-23T16:23:27.098Z"
+      },
+      {
+        "id": "7bfc7b41-36ee-48da-ad71-de7ea84a2f2e",
+        "billNo": "AID-2026-04-23-0040",
+        "token": "035",
+        "createdAt": "2026-04-23T16:21:10.817Z",
+        "customerName": "",
+        "customerPhone": "",
+        "items": [
+          {
+            "id": "flavor-stick-gola-1776961259960-be0021cd1ab6f",
+            "name": "Flavor Stick Gola",
+            "category": "Ice Gola",
+            "price": 50,
+            "menuId": "flavor-stick-gola",
+            "qty": 2,
+            "flavours": "Kesar Mava + Shahi Gulab",
+            "instructions": ""
+          }
+        ],
+        "subtotal": 100,
+        "discount": 0,
+        "total": 100,
+        "paymentMode": "Cash",
+        "status": "Ready",
+        "updatedAt": "2026-04-23T16:21:52.025Z"
+      },
+      {
+        "id": "b9f812ef-2947-499d-9ed4-9c1888d1e457",
+        "billNo": "AID-2026-04-23-0041",
+        "token": "036",
+        "createdAt": "2026-04-23T16:23:07.051Z",
+        "customerName": "",
+        "customerPhone": "",
+        "items": [
+          {
+            "id": "rabdi-stick-gola-1776961382495-f479f3c5b12648",
+            "name": "Rabdi Stick Gola",
+            "category": "Ice Gola",
+            "price": 70,
+            "menuId": "rabdi-stick-gola",
+            "qty": 1,
+            "flavours": "Choco Chocolate",
+            "instructions": ""
+          }
+        ],
+        "subtotal": 70,
+        "discount": 0,
+        "total": 70,
+        "paymentMode": "Cash",
+        "status": "Ready",
+        "updatedAt": "2026-04-23T16:24:14.293Z"
+      },
+      {
+        "id": "bfb3fd76-87a7-4478-a4a6-608da887ef87",
+        "billNo": "AID-2026-04-23-0042",
+        "token": "037",
+        "createdAt": "2026-04-23T16:23:53.018Z",
+        "customerName": "",
+        "customerPhone": "",
+        "items": [
+          {
+            "id": "flavor-ice-dish-1776961403011-2ed0efadd7b0a8",
+            "name": "Flavor Ice Dish",
+            "category": "Ice Dish",
+            "price": 60,
+            "menuId": "flavor-ice-dish",
+            "qty": 1,
+            "flavours": "Choco Chocolate",
+            "instructions": ""
+          },
+          {
+            "id": "flavor-stick-gola-1776961413845-e85ff16bf2515",
+            "name": "Flavor Stick Gola",
+            "category": "Ice Gola",
+            "price": 50,
+            "menuId": "flavor-stick-gola",
+            "qty": 3,
+            "flavours": "Choco Chocolate",
+            "instructions": ""
+          }
+        ],
+        "subtotal": 210,
+        "discount": 0,
+        "total": 210,
+        "paymentMode": "Cash",
+        "status": "Ready",
+        "updatedAt": "2026-04-23T16:26:01.883Z"
+      },
+      {
+        "id": "d2853ce5-01be-41ec-b443-aa30d858fa10",
+        "billNo": "AID-2026-04-23-0043",
+        "token": "038",
+        "createdAt": "2026-04-23T16:26:08.752Z",
+        "customerName": "",
+        "customerPhone": "",
+        "items": [
+          {
+            "id": "flavor-sharbat-1776961536078-399034fffcd35",
+            "name": "Flavor Sharbat",
+            "category": "Sharbat",
+            "price": 50,
+            "menuId": "flavor-sharbat",
+            "qty": 2,
+            "flavours": "Chikoo",
+            "instructions": ""
+          },
+          {
+            "id": "flavor-sharbat-1776961550897-a237de5dae77e8",
+            "name": "Flavor Sharbat",
+            "category": "Sharbat",
+            "price": 50,
+            "menuId": "flavor-sharbat",
+            "qty": 2,
+            "flavours": "Choco Chocolate",
+            "instructions": ""
+          }
+        ],
+        "subtotal": 200,
+        "discount": 0,
+        "total": 200,
+        "paymentMode": "Cash",
+        "status": "Ready",
+        "updatedAt": "2026-04-23T16:35:06.125Z"
+      },
+      {
+        "id": "c513c4b1-445b-4510-ac56-1e4f5137b592",
+        "billNo": "AID-2026-04-23-0044",
+        "token": "039",
+        "createdAt": "2026-04-23T16:29:09.450Z",
+        "customerName": "",
+        "customerPhone": "",
+        "items": [
+          {
+            "id": "flavor-sharbat-1776961595345-134a1ea4ba8138",
+            "name": "Flavor Sharbat",
+            "category": "Sharbat",
+            "price": 50,
+            "menuId": "flavor-sharbat",
+            "qty": 2,
+            "flavours": "Kala Khatta",
+            "instructions": ""
+          },
+          {
+            "id": "flavor-stick-gola-1776961608296-a8cc2f8f63aa38",
+            "name": "Flavor Stick Gola",
+            "category": "Ice Gola",
+            "price": 50,
+            "menuId": "flavor-stick-gola",
+            "qty": 1,
+            "flavours": "Orange + Kolthu",
+            "instructions": ""
+          },
+          {
+            "id": "flavor-stick-gola-1776961622329-b56da5bfd8fcb8",
+            "name": "Flavor Stick Gola",
+            "category": "Ice Gola",
+            "price": 50,
+            "menuId": "flavor-stick-gola",
+            "qty": 2,
+            "flavours": "Kala Khatta + Kacchi Keri",
+            "instructions": ""
+          },
+          {
+            "id": "flavor-stick-gola-1776961641495-17c83358e9934",
+            "name": "Flavor Stick Gola",
+            "category": "Ice Gola",
+            "price": 50,
+            "menuId": "flavor-stick-gola",
+            "qty": 1,
+            "flavours": "Kolthu",
+            "instructions": ""
+          },
+          {
+            "id": "flavor-stick-gola-1776961655679-59c5c7757ccf6",
+            "name": "Flavor Stick Gola",
+            "category": "Ice Gola",
+            "price": 50,
+            "menuId": "flavor-stick-gola",
+            "qty": 1,
+            "flavours": "Choco Chocolate + Kala Khatta",
+            "instructions": ""
+          },
+          {
+            "id": "flavor-sharbat-1776961730312-bf843aabcdd2b8",
+            "name": "Flavor Sharbat",
+            "category": "Sharbat",
+            "price": 50,
+            "menuId": "flavor-sharbat",
+            "qty": 1,
+            "flavours": "khati mithi mix",
+            "instructions": ""
+          }
+        ],
+        "subtotal": 400,
+        "discount": 0,
+        "total": 400,
+        "paymentMode": "Cash",
+        "status": "Ready",
+        "updatedAt": "2026-04-23T16:32:47.059Z"
+      },
+      {
+        "id": "c0df39ad-1cc5-48df-b868-f4463ef6f8e4",
+        "billNo": "AID-2026-04-23-0045",
+        "token": "040",
+        "createdAt": "2026-04-23T16:29:34.752Z",
+        "customerName": "",
+        "customerPhone": "",
+        "items": [
+          {
+            "id": "dry-fruit-rabdi-ice-dish-1776961760762-7d15f2be06335",
+            "name": "Dry Fruit Rabdi Ice Dish",
+            "category": "Ice Dish",
+            "price": 150,
+            "menuId": "dry-fruit-rabdi-ice-dish",
+            "qty": 1,
+            "flavours": "khati mithi mix",
+            "instructions": ""
+          }
+        ],
+        "subtotal": 150,
+        "discount": 0,
+        "total": 150,
+        "paymentMode": "Cash",
+        "status": "Ready",
+        "updatedAt": "2026-04-23T16:35:00.978Z"
+      },
+      {
+        "id": "c6e0b253-464b-4871-acc8-0f331683ee2f",
+        "billNo": "AID-2026-04-23-0046",
+        "token": "041",
+        "createdAt": "2026-04-23T16:30:26.535Z",
+        "customerName": "",
+        "customerPhone": "",
+        "items": [
+          {
+            "id": "flavor-stick-gola-1776961811696-7a43bc7564c078",
+            "name": "Flavor Stick Gola",
+            "category": "Ice Gola",
+            "price": 50,
+            "menuId": "flavor-stick-gola",
+            "qty": 1,
+            "flavours": "Chikoo + Pineapple",
+            "instructions": ""
+          }
+        ],
+        "subtotal": 50,
+        "discount": 0,
+        "total": 50,
+        "paymentMode": "Cash",
+        "status": "Ready",
+        "updatedAt": "2026-04-23T16:34:50.517Z"
+      },
+      {
+        "id": "bf679d13-cc92-45b6-ad31-0c8ad4bbb4aa",
+        "billNo": "AID-2026-04-23-0047",
+        "token": "042",
+        "createdAt": "2026-04-23T16:31:06.303Z",
+        "customerName": "",
+        "customerPhone": "",
+        "items": [
+          {
+            "id": "flavor-stick-gola-1776961844663-255d4b90a101a8",
+            "name": "Flavor Stick Gola",
+            "category": "Ice Gola",
+            "price": 50,
+            "menuId": "flavor-stick-gola",
+            "qty": 3,
+            "flavours": "Kala Khatta + Orange",
+            "instructions": ""
+          },
+          {
+            "id": "flavor-stick-gola-1776961858346-79ca3799a163f",
+            "name": "Flavor Stick Gola",
+            "category": "Ice Gola",
+            "price": 50,
+            "menuId": "flavor-stick-gola",
+            "qty": 2,
+            "flavours": "Kacchi Keri + Shahi Gulab",
+            "instructions": ""
+          }
+        ],
+        "subtotal": 250,
+        "discount": 0,
+        "total": 250,
+        "paymentMode": "Cash",
+        "status": "Ready",
+        "updatedAt": "2026-04-23T16:33:59.123Z"
+      },
+      {
+        "id": "eef32a39-c2b6-4b4d-a997-bb7293714436",
+        "billNo": "AID-2026-04-23-0048",
+        "token": "043",
+        "createdAt": "2026-04-23T16:32:35.850Z",
+        "customerName": "",
+        "customerPhone": "",
+        "items": [
+          {
+            "id": "rabdi-stick-gola-1776961972462-ca8b3bc63c426",
+            "name": "Rabdi Stick Gola",
+            "category": "Ice Gola",
+            "price": 70,
+            "menuId": "rabdi-stick-gola",
+            "qty": 2,
+            "flavours": "sweet mix",
+            "instructions": ""
+          },
+          {
+            "id": "flavor-ice-dish-1776961972462-e5e3cdef68ea38",
+            "name": "Flavor Ice Dish",
+            "category": "Ice Dish",
+            "price": 60,
+            "menuId": "flavor-ice-dish",
+            "qty": 1,
+            "flavours": "Choco Chocolate",
+            "instructions": ""
+          },
+          {
+            "id": "rainbow-stick-gola-1776961972462-9e7e53022798e8",
+            "name": "Rainbow Stick Gola",
+            "category": "Ice Gola",
+            "price": 60,
+            "menuId": "rainbow-stick-gola",
+            "qty": 1,
+            "flavours": "",
+            "instructions": ""
+          }
+        ],
+        "subtotal": 260,
+        "discount": 0,
+        "total": 260,
+        "paymentMode": "Cash",
+        "status": "Ready",
+        "editedAt": "2026-04-23T16:32:56.562Z",
+        "updatedAt": "2026-04-23T16:38:25.000Z"
+      },
+      {
+        "id": "deb19c3a-eb65-422f-9864-e2af3e4cf623",
+        "billNo": "AID-2026-04-23-0049",
+        "token": "044",
+        "createdAt": "2026-04-23T16:35:53.947Z",
+        "customerName": "",
+        "customerPhone": "",
+        "items": [
+          {
+            "id": "flavor-stick-gola-1776962117511-343943b6cbbdb",
+            "name": "Flavor Stick Gola",
+            "category": "Ice Gola",
+            "price": 50,
+            "menuId": "flavor-stick-gola",
+            "qty": 1,
+            "flavours": "Kala Khatta",
+            "instructions": ""
+          },
+          {
+            "id": "flavor-stick-gola-1776962120494-45677e60634ee",
+            "name": "Flavor Stick Gola",
+            "category": "Ice Gola",
+            "price": 50,
+            "menuId": "flavor-stick-gola",
+            "qty": 1,
+            "flavours": "Kacchi Keri",
+            "instructions": ""
+          },
+          {
+            "id": "rabdi-stick-gola-1776962148278-c1865700a1dd78",
+            "name": "Rabdi Stick Gola",
+            "category": "Ice Gola",
+            "price": 70,
+            "menuId": "rabdi-stick-gola",
+            "qty": 1,
+            "flavours": "Choco Chocolate",
+            "instructions": ""
+          }
+        ],
+        "subtotal": 170,
+        "discount": 0,
+        "total": 170,
+        "paymentMode": "Cash",
+        "status": "Ready",
+        "updatedAt": "2026-04-23T16:38:26.966Z"
+      },
+      {
+        "id": "ac111e82-3114-47f8-839f-4a442989b693",
+        "billNo": "AID-2026-04-23-0050",
+        "token": "045",
+        "createdAt": "2026-04-23T16:36:54.234Z",
+        "customerName": "",
+        "customerPhone": "",
+        "items": [
+          {
+            "id": "flavor-stick-gola-1776962198545-88da5d62c798",
+            "name": "Flavor Stick Gola",
+            "category": "Ice Gola",
+            "price": 50,
+            "menuId": "flavor-stick-gola",
+            "qty": 1,
+            "flavours": "Blueberry",
+            "instructions": ""
+          },
+          {
+            "id": "flavor-stick-gola-1776962206261-394c7adbf0ae28",
+            "name": "Flavor Stick Gola",
+            "category": "Ice Gola",
+            "price": 50,
+            "menuId": "flavor-stick-gola",
+            "qty": 1,
+            "flavours": "Kala Khatta",
+            "instructions": ""
+          },
+          {
+            "id": "flavor-stick-gola-1776962209344-19b35f127ad4d8",
+            "name": "Flavor Stick Gola",
+            "category": "Ice Gola",
+            "price": 50,
+            "menuId": "flavor-stick-gola",
+            "qty": 1,
+            "flavours": "Choco Chocolate",
+            "instructions": ""
+          }
+        ],
+        "subtotal": 150,
+        "discount": 0,
+        "total": 150,
+        "paymentMode": "Cash",
+        "status": "Ready",
+        "updatedAt": "2026-04-23T16:39:47.323Z"
+      },
+      {
+        "id": "5a3089e7-1676-46d4-badf-eb356aef6d54",
+        "billNo": "AID-2026-04-23-0051",
+        "token": "046",
+        "createdAt": "2026-04-23T16:38:44.489Z",
+        "customerName": "",
+        "customerPhone": "",
+        "items": [
+          {
+            "id": "flavor-stick-gola-1776962314445-4fdd712321ba1",
+            "name": "Flavor Stick Gola",
+            "category": "Ice Gola",
+            "price": 50,
+            "menuId": "flavor-stick-gola",
+            "qty": 1,
+            "flavours": "Orange + Choco Chocolate",
+            "instructions": "Parcel"
+          }
+        ],
+        "subtotal": 50,
+        "discount": 0,
+        "total": 50,
+        "paymentMode": "Cash",
+        "status": "Ready",
+        "updatedAt": "2026-04-23T16:40:12.895Z"
+      },
+      {
+        "id": "9df7c989-b3c6-44b6-a1c7-3f431522bd06",
+        "billNo": "AID-2026-04-23-0052",
+        "token": "047",
+        "createdAt": "2026-04-23T16:39:08.667Z",
+        "customerName": "",
+        "customerPhone": "",
+        "items": [
+          {
+            "id": "flavor-stick-gola-1776962340411-8ad3f0d694df2",
+            "name": "Flavor Stick Gola",
+            "category": "Ice Gola",
+            "price": 50,
+            "menuId": "flavor-stick-gola",
+            "qty": 3,
+            "flavours": "Choco Chocolate",
+            "instructions": ""
+          }
+        ],
+        "subtotal": 150,
+        "discount": 0,
+        "total": 150,
+        "paymentMode": "Cash",
+        "status": "Ready",
+        "updatedAt": "2026-04-23T16:43:13.259Z"
+      },
+      {
+        "id": "611c0561-8566-4ac9-91cc-af07db5f537b",
+        "billNo": "AID-2026-04-23-0053",
+        "token": "048",
+        "createdAt": "2026-04-23T16:40:51.964Z",
+        "customerName": "",
+        "customerPhone": "",
+        "items": [
+          {
+            "id": "flavor-stick-gola-1776962473163-4bd96744d7f47",
+            "name": "Flavor Stick Gola",
+            "category": "Ice Gola",
+            "price": 50,
+            "menuId": "flavor-stick-gola",
+            "qty": 1,
+            "flavours": "Choco Chocolate",
+            "instructions": "Parcel"
+          }
+        ],
+        "subtotal": 50,
+        "discount": 0,
+        "total": 50,
+        "paymentMode": "Cash",
+        "status": "Ready",
+        "editedAt": "2026-04-23T16:41:17.862Z",
+        "updatedAt": "2026-04-23T16:43:10.008Z"
+      },
+      {
+        "id": "c8fff6f5-3fea-441c-b3de-bbf2eeff184d",
+        "billNo": "AID-2026-04-23-0054",
+        "token": "049",
+        "createdAt": "2026-04-23T16:41:07.301Z",
+        "customerName": "",
+        "customerPhone": "",
+        "items": [
+          {
+            "id": "flavor-stick-gola-1776962530345-db83629e76d9c8",
+            "name": "Flavor Stick Gola",
+            "category": "Ice Gola",
+            "price": 50,
+            "menuId": "flavor-stick-gola",
+            "qty": 2,
+            "flavours": "Kala Khatta + Orange",
+            "instructions": "Parcel"
+          }
+        ],
+        "subtotal": 100,
+        "discount": 0,
+        "total": 100,
+        "paymentMode": "Cash",
+        "status": "Ready",
+        "editedAt": "2026-04-23T16:42:27.163Z",
+        "updatedAt": "2026-04-23T16:44:10.928Z"
+      },
+      {
+        "id": "a4f24124-e91e-4dcc-8225-061b1dc6d422",
+        "billNo": "AID-2026-04-23-0055",
+        "token": "050",
+        "createdAt": "2026-04-23T16:42:38.317Z",
+        "customerName": "",
+        "customerPhone": "",
+        "items": [
+          {
+            "id": "flavor-stick-gola-1776962552728-239922e8d30e7",
+            "name": "Flavor Stick Gola",
+            "category": "Ice Gola",
+            "price": 50,
+            "menuId": "flavor-stick-gola",
+            "qty": 1,
+            "flavours": "Orange + Choco Chocolate",
+            "instructions": ""
+          }
+        ],
+        "subtotal": 50,
+        "discount": 0,
+        "total": 50,
+        "paymentMode": "Cash",
+        "status": "Ready",
+        "updatedAt": "2026-04-23T16:44:09.511Z"
+      },
+      {
+        "id": "3c9ad1e2-bc2e-48d7-afc2-79ea065c8271",
+        "billNo": "AID-2026-04-23-0056",
+        "token": "051",
+        "createdAt": "2026-04-23T16:43:13.883Z",
+        "customerName": "",
+        "customerPhone": "",
+        "items": [
+          {
+            "id": "flavor-stick-gola-1776962578995-87feec80122088",
+            "name": "Flavor Stick Gola",
+            "category": "Ice Gola",
+            "price": 50,
+            "menuId": "flavor-stick-gola",
+            "qty": 1,
+            "flavours": "Rimzim",
+            "instructions": ""
+          },
+          {
+            "id": "flavor-stick-gola-1776962586894-7a3921d424dc1",
+            "name": "Flavor Stick Gola",
+            "category": "Ice Gola",
+            "price": 50,
+            "menuId": "flavor-stick-gola",
+            "qty": 1,
+            "flavours": "Kala Khatta",
+            "instructions": ""
+          }
+        ],
+        "subtotal": 100,
+        "discount": 0,
+        "total": 100,
+        "paymentMode": "Cash",
+        "status": "Ready",
+        "updatedAt": "2026-04-23T16:44:51.927Z"
+      },
+      {
+        "id": "e502d02e-ec0e-4a4b-b08f-8ddc5d2c4979",
+        "billNo": "AID-2026-04-23-0057",
+        "token": "052",
+        "createdAt": "2026-04-23T16:44:15.051Z",
+        "customerName": "",
+        "customerPhone": "",
+        "items": [
+          {
+            "id": "rabdi-flavor-sharbat-1776962641129-f54b5c01e0b75",
+            "name": "Rabdi Flavor Sharbat",
+            "category": "Sharbat",
+            "price": 70,
+            "menuId": "rabdi-flavor-sharbat",
+            "qty": 1,
+            "flavours": "sweet mix",
+            "instructions": "Parcel"
+          }
+        ],
+        "subtotal": 70,
+        "discount": 0,
+        "total": 70,
+        "paymentMode": "Cash",
+        "status": "Ready",
+        "updatedAt": "2026-04-23T16:46:37.541Z"
+      },
+      {
+        "id": "bf49f7c2-0e4a-4b2d-aad2-0020661aecd1",
+        "billNo": "AID-2026-04-23-0058",
+        "token": "053",
+        "createdAt": "2026-04-23T16:44:39.085Z",
+        "customerName": "",
+        "customerPhone": "",
+        "items": [
+          {
+            "id": "flavor-stick-gola-1776962665512-b7d21c8380324",
+            "name": "Flavor Stick Gola",
+            "category": "Ice Gola",
+            "price": 50,
+            "menuId": "flavor-stick-gola",
+            "qty": 2,
+            "flavours": "Kala Khatta + Kala Khatta",
+            "instructions": ""
+          },
+          {
+            "id": "punjabi-lassi-1776962677479-f28b51a009003",
+            "name": "Punjabi Lassi",
+            "category": "Lassi",
+            "price": 50,
+            "menuId": "punjabi-lassi",
+            "qty": 1,
+            "flavours": "",
+            "instructions": ""
+          }
+        ],
+        "subtotal": 150,
+        "discount": 0,
+        "total": 150,
+        "paymentMode": "Cash",
+        "status": "Ready",
+        "updatedAt": "2026-04-23T16:46:33.945Z"
+      },
+      {
+        "id": "177551e2-4d60-429c-86d5-16f1347e4e81",
+        "billNo": "AID-2026-04-23-0059",
+        "token": "054",
+        "createdAt": "2026-04-23T16:46:20.985Z",
+        "customerName": "",
+        "customerPhone": "",
+        "items": [
+          {
+            "id": "flavor-stick-gola-1776962744479-b9cb0af60b86c",
+            "name": "Flavor Stick Gola",
+            "category": "Ice Gola",
+            "price": 50,
+            "menuId": "flavor-stick-gola",
+            "qty": 1,
+            "flavours": "Orange + Kala Khatta",
+            "instructions": ""
+          }
+        ],
+        "subtotal": 50,
+        "discount": 0,
+        "total": 50,
+        "paymentMode": "Cash",
+        "status": "Ready",
+        "updatedAt": "2026-04-23T16:48:21.180Z"
+      },
+      {
+        "id": "a6736e67-d1af-42ba-a963-26fbad32777b",
+        "billNo": "AID-2026-04-23-0060",
+        "token": "055",
+        "createdAt": "2026-04-23T16:49:33.716Z",
+        "customerName": "",
+        "customerPhone": "",
+        "items": [
+          {
+            "id": "flavor-stick-gola-1776962791912-583957b5fb82d8",
+            "name": "Flavor Stick Gola",
+            "category": "Ice Gola",
+            "price": 50,
+            "menuId": "flavor-stick-gola",
+            "qty": 1,
+            "flavours": "Mazza Mango + Kacchi Keri",
+            "instructions": ""
+          },
+          {
+            "id": "flavor-stick-gola-1776962807196-0c44d1a44cd8d8",
+            "name": "Flavor Stick Gola",
+            "category": "Ice Gola",
+            "price": 50,
+            "menuId": "flavor-stick-gola",
+            "qty": 1,
+            "flavours": "Kaju Mava",
+            "instructions": ""
+          },
+          {
+            "id": "flavor-stick-gola-1776962812462-9aa432453b24c8",
+            "name": "Flavor Stick Gola",
+            "category": "Ice Gola",
+            "price": 50,
+            "menuId": "flavor-stick-gola",
+            "qty": 1,
+            "flavours": "Jamun",
+            "instructions": ""
+          },
+          {
+            "id": "flavor-stick-gola-1776962817762-b1d665daf27ce",
+            "name": "Flavor Stick Gola",
+            "category": "Ice Gola",
+            "price": 50,
+            "menuId": "flavor-stick-gola",
+            "qty": 1,
+            "flavours": "Kaju Mava",
+            "instructions": ""
+          },
+          {
+            "id": "flavor-stick-gola-1776962838562-c5b7136d55da8",
+            "name": "Flavor Stick Gola",
+            "category": "Ice Gola",
+            "price": 50,
+            "menuId": "flavor-stick-gola",
+            "qty": 1,
+            "flavours": "Kala Khatta",
+            "instructions": ""
+          },
+          {
+            "id": "flavor-sharbat-1776962851378-75a0f3437f617",
+            "name": "Flavor Sharbat",
+            "category": "Sharbat",
+            "price": 50,
+            "menuId": "flavor-sharbat",
+            "qty": 1,
+            "flavours": "Kala Khatta",
+            "instructions": ""
+          },
+          {
+            "id": "rabdi-stick-gola-1776962928093-25b0e4eb762a4",
+            "name": "Rabdi Stick Gola",
+            "category": "Ice Gola",
+            "price": 70,
+            "menuId": "rabdi-stick-gola",
+            "qty": 1,
+            "flavours": "Choco Chocolate",
+            "instructions": ""
+          },
+          {
+            "id": "rainbow-stick-gola-1776962936810-31e45103dae58",
+            "name": "Rainbow Stick Gola",
+            "category": "Ice Gola",
+            "price": 60,
+            "menuId": "rainbow-stick-gola",
+            "qty": 1,
+            "flavours": "",
+            "instructions": ""
+          }
+        ],
+        "subtotal": 430,
+        "discount": 0,
+        "total": 430,
+        "paymentMode": "Cash",
+        "status": "Ready",
+        "updatedAt": "2026-04-23T16:54:49.922Z"
+      },
+      {
+        "id": "985440f7-9030-4442-be99-0d9e19cebf3c",
+        "billNo": "AID-2026-04-23-0061",
+        "token": "056",
+        "createdAt": "2026-04-23T16:50:22.166Z",
+        "customerName": "",
+        "customerPhone": "",
+        "items": [
+          {
+            "id": "rabdi-ice-dish-1776963026677-189b58720e9b2",
+            "name": "Rabdi Ice Dish",
+            "category": "Ice Dish",
+            "price": 100,
+            "menuId": "rabdi-ice-dish",
+            "qty": 2,
+            "flavours": "Kaju Mava + Coconut",
+            "instructions": "Parcel"
+          }
+        ],
+        "subtotal": 200,
+        "discount": 0,
+        "total": 200,
+        "paymentMode": "Cash",
+        "status": "Ready",
+        "editedAt": "2026-04-23T16:50:31.426Z",
+        "updatedAt": "2026-04-23T16:56:02.260Z"
+      },
+      {
+        "id": "b06efeaf-4d4c-4095-b456-85e1a78823d2",
+        "billNo": "AID-2026-04-23-0062",
+        "token": "057",
+        "createdAt": "2026-04-23T16:51:33.881Z",
+        "customerName": "",
+        "customerPhone": "",
+        "items": [
+          {
+            "id": "flavor-sharbat-1776963064260-a50eb1ac57a43",
+            "name": "Flavor Sharbat",
+            "category": "Sharbat",
+            "price": 50,
+            "menuId": "flavor-sharbat",
+            "qty": 1,
+            "flavours": "Kaju Mava",
+            "instructions": ""
+          },
+          {
+            "id": "flavor-sharbat-1776963068776-fbea6c9d158d7",
+            "name": "Flavor Sharbat",
+            "category": "Sharbat",
+            "price": 50,
+            "menuId": "flavor-sharbat",
+            "qty": 1,
+            "flavours": "lichi",
+            "instructions": ""
+          },
+          {
+            "id": "dry-fruit-rabdi-sharbat-1776963086377-eea16e70e6cd28",
+            "name": "Dry Fruit Rabdi Sharbat",
+            "category": "Sharbat",
+            "price": 80,
+            "menuId": "dry-fruit-rabdi-sharbat",
+            "qty": 1,
+            "flavours": "Choco Chocolate",
+            "instructions": ""
+          }
+        ],
+        "subtotal": 180,
+        "discount": 0,
+        "total": 180,
+        "paymentMode": "Cash",
+        "status": "Ready",
+        "updatedAt": "2026-04-23T16:54:51.607Z"
+      },
+      {
+        "id": "7ee43340-6ef2-4a29-b32f-bf14b494fa9f",
+        "billNo": "AID-2026-04-23-0063",
+        "token": "058",
+        "createdAt": "2026-04-23T16:52:25.149Z",
+        "customerName": "",
+        "customerPhone": "",
+        "items": [
+          {
+            "id": "flavor-stick-gola-1776963129143-b64c58c56a5e98",
+            "name": "Flavor Stick Gola",
+            "category": "Ice Gola",
+            "price": 50,
+            "menuId": "flavor-stick-gola",
+            "qty": 1,
+            "flavours": "Kala Khatta + Orange",
+            "instructions": ""
+          }
+        ],
+        "subtotal": 50,
+        "discount": 0,
+        "total": 50,
+        "paymentMode": "Cash",
+        "status": "Ready",
+        "updatedAt": "2026-04-23T16:55:22.062Z"
+      },
+      {
+        "id": "dfb5aae0-1122-457a-bde9-4e0cfea378c0",
+        "billNo": "AID-2026-04-23-0064",
+        "token": "059",
+        "createdAt": "2026-04-23T16:52:47.998Z",
+        "customerName": "",
+        "customerPhone": "",
+        "items": [
+          {
+            "id": "flavor-stick-gola-1776963163476-32e812e58606d8",
+            "name": "Flavor Stick Gola",
+            "category": "Ice Gola",
+            "price": 50,
+            "menuId": "flavor-stick-gola",
+            "qty": 1,
+            "flavours": "Kolthu",
+            "instructions": ""
+          }
+        ],
+        "subtotal": 50,
+        "discount": 0,
+        "total": 50,
+        "paymentMode": "Cash",
+        "status": "Ready",
+        "updatedAt": "2026-04-23T16:56:48.976Z"
+      },
+      {
+        "id": "86a891f7-c421-4ebb-8638-b662a2291e6a",
+        "billNo": "AID-2026-04-23-0065",
+        "token": "060",
+        "createdAt": "2026-04-23T16:53:21.533Z",
+        "customerName": "",
+        "customerPhone": "",
+        "items": [
+          {
+            "id": "dry-fruit-rabdi-ice-dish-1776963184743-c2bca883de9ea",
+            "name": "Dry Fruit Rabdi Ice Dish",
+            "category": "Ice Dish",
+            "price": 150,
+            "menuId": "dry-fruit-rabdi-ice-dish",
+            "qty": 1,
+            "flavours": "Orange + Choco Chocolate",
+            "instructions": ""
+          }
+        ],
+        "subtotal": 150,
+        "discount": 0,
+        "total": 150,
+        "paymentMode": "Cash",
+        "status": "Ready",
+        "updatedAt": "2026-04-23T16:56:53.168Z"
+      },
+      {
+        "id": "f1b315dd-4357-4638-9957-33757b529748",
+        "billNo": "AID-2026-04-23-0066",
+        "token": "061",
+        "createdAt": "2026-04-23T16:55:30.482Z",
+        "customerName": "",
+        "customerPhone": "",
+        "items": [
+          {
+            "id": "flavor-stick-gola-1776963318860-2b403cc727dfd",
+            "name": "Flavor Stick Gola",
+            "category": "Ice Gola",
+            "price": 50,
+            "menuId": "flavor-stick-gola",
+            "qty": 1,
+            "flavours": "Shahi Gulab",
+            "instructions": "Parcel"
+          }
+        ],
+        "subtotal": 50,
+        "discount": 0,
+        "total": 50,
+        "paymentMode": "Cash",
+        "status": "Ready",
+        "updatedAt": "2026-04-23T16:56:50.427Z"
+      },
+      {
+        "id": "d4e9a782-47a3-4575-9714-d0ee559833e9",
+        "billNo": "AID-2026-04-23-0067",
+        "token": "062",
+        "createdAt": "2026-04-23T17:01:36.600Z",
+        "customerName": "",
+        "customerPhone": "",
+        "items": [
+          {
+            "id": "flavor-sharbat-1776963690878-9cb33d789f1908",
+            "name": "Flavor Sharbat",
+            "category": "Sharbat",
+            "price": 50,
+            "menuId": "flavor-sharbat",
+            "qty": 1,
+            "flavours": "Orange",
+            "instructions": ""
+          }
+        ],
+        "subtotal": 50,
+        "discount": 0,
+        "total": 50,
+        "paymentMode": "Cash",
+        "status": "Ready",
+        "updatedAt": "2026-04-23T17:03:00.731Z"
+      },
+      {
+        "id": "272bdbd7-8295-492e-9af9-9af377ee0a81",
+        "billNo": "AID-2026-04-23-0068",
+        "token": "063",
+        "createdAt": "2026-04-23T17:03:32.668Z",
+        "customerName": "",
+        "customerPhone": "",
+        "items": [
+          {
+            "id": "rabdi-ice-dish-1776963786595-ed4ab90fb0133",
+            "name": "Rabdi Ice Dish",
+            "category": "Ice Dish",
+            "price": 100,
+            "menuId": "rabdi-ice-dish",
+            "qty": 1,
+            "flavours": "Kala Khatta + Choco Chocolate",
+            "instructions": ""
+          },
+          {
+            "id": "rabdi-stick-gola-1776963810162-9982c4cb5b089",
+            "name": "Rabdi Stick Gola",
+            "category": "Ice Gola",
+            "price": 70,
+            "menuId": "rabdi-stick-gola",
+            "qty": 1,
+            "flavours": "Choco Chocolate",
+            "instructions": ""
+          }
+        ],
+        "subtotal": 170,
+        "discount": 0,
+        "total": 170,
+        "paymentMode": "Cash",
+        "status": "Ready",
+        "updatedAt": "2026-04-23T17:06:08.814Z"
+      },
+      {
+        "id": "10e3e943-65da-46a0-b8ec-365854ab76bf",
+        "billNo": "AID-2026-04-23-0069",
+        "token": "064",
+        "createdAt": "2026-04-23T17:06:34.648Z",
+        "customerName": "",
+        "customerPhone": "",
+        "items": [
+          {
+            "id": "rabdi-ice-dish-1776963985392-b198b9f8be94f",
+            "name": "Rabdi Ice Dish",
+            "category": "Ice Dish",
+            "price": 100,
+            "menuId": "rabdi-ice-dish",
+            "qty": 1,
+            "flavours": "Choco Chocolate",
+            "instructions": ""
+          }
+        ],
+        "subtotal": 100,
+        "discount": 0,
+        "total": 100,
+        "paymentMode": "Cash",
+        "status": "Ready",
+        "updatedAt": "2026-04-23T17:10:46.079Z"
+      },
+      {
+        "id": "3070ff96-aa73-4888-bad4-167912773015",
+        "billNo": "AID-2026-04-23-0070",
+        "token": "065",
+        "createdAt": "2026-04-23T17:11:07.017Z",
+        "customerName": "",
+        "customerPhone": "",
+        "items": [
+          {
+            "id": "rabdi-stick-gola-1776964309325-2a317b9cdabee8",
+            "name": "Rabdi Stick Gola",
+            "category": "Ice Gola",
+            "price": 70,
+            "menuId": "rabdi-stick-gola",
+            "qty": 1,
+            "flavours": "Kaju Mava + Orange",
+            "instructions": ""
+          },
+          {
+            "id": "dry-fruit-rabdi-sharbat-1776964309325-b7579b9928e6c8",
+            "name": "Dry Fruit Rabdi Sharbat",
+            "category": "Sharbat",
+            "price": 80,
+            "menuId": "dry-fruit-rabdi-sharbat",
+            "qty": 1,
+            "flavours": "",
+            "instructions": ""
+          },
+          {
+            "id": "rabdi-stick-gola-1776964309325-bd93756365f5b",
+            "name": "Rabdi Stick Gola",
+            "category": "Ice Gola",
+            "price": 70,
+            "menuId": "rabdi-stick-gola",
+            "qty": 1,
+            "flavours": "",
+            "instructions": ""
+          },
+          {
+            "id": "dry-fruit-rabdi-stick-gola-1776964309325-ccd07f8d29f1f8",
+            "name": "Dry Fruit Rabdi Stick Gola",
+            "category": "Ice Gola",
+            "price": 80,
+            "menuId": "dry-fruit-rabdi-stick-gola",
+            "qty": 1,
+            "flavours": "",
+            "instructions": ""
+          }
+        ],
+        "subtotal": 300,
+        "discount": 0,
+        "total": 300,
+        "paymentMode": "Cash",
+        "status": "Ready",
+        "updatedAt": "2026-04-23T17:16:45.433Z",
+        "editedAt": "2026-04-23T17:11:53.126Z"
+      },
+      {
+        "id": "c67e09a1-3526-4b8d-b0e4-543b235612aa",
+        "billNo": "AID-2026-04-23-0071",
+        "token": "066",
+        "createdAt": "2026-04-23T17:11:19.853Z",
+        "customerName": "",
+        "customerPhone": "",
+        "items": [
+          {
+            "id": "rainbow-stick-gola-1776964276058-e6665518f25bd8",
+            "name": "Rainbow Stick Gola",
+            "category": "Ice Gola",
+            "price": 60,
+            "menuId": "rainbow-stick-gola",
+            "qty": 2,
+            "flavours": "",
+            "instructions": ""
+          }
+        ],
+        "subtotal": 120,
+        "discount": 0,
+        "total": 120,
+        "paymentMode": "Cash",
+        "status": "Ready",
+        "updatedAt": "2026-04-23T17:16:43.576Z"
+      },
+      {
+        "id": "e080cdfb-daf8-493d-889d-5452d2727add",
+        "billNo": "AID-2026-04-23-0072",
+        "token": "067",
+        "createdAt": "2026-04-23T17:12:50.082Z",
+        "customerName": "",
+        "customerPhone": "",
+        "items": [
+          {
+            "id": "flavor-stick-gola-1776964364976-06f0d7f0d74ab8",
+            "name": "Flavor Stick Gola",
+            "category": "Ice Gola",
+            "price": 50,
+            "menuId": "flavor-stick-gola",
+            "qty": 1,
+            "flavours": "Choco Chocolate",
+            "instructions": ""
+          }
+        ],
+        "subtotal": 50,
+        "discount": 0,
+        "total": 50,
+        "paymentMode": "Cash",
+        "status": "Ready",
+        "updatedAt": "2026-04-23T17:16:19.018Z"
+      },
+      {
+        "id": "e32c7755-f35c-4099-b148-bded4c4d93dc",
+        "billNo": "AID-2026-04-23-0073",
+        "token": "068",
+        "createdAt": "2026-04-23T17:13:09.748Z",
+        "customerName": "",
+        "customerPhone": "",
+        "items": [
+          {
+            "id": "rabdi-stick-gola-1776964381858-626295a9880dc",
+            "name": "Rabdi Stick Gola",
+            "category": "Ice Gola",
+            "price": 70,
+            "menuId": "rabdi-stick-gola",
+            "qty": 2,
+            "flavours": "Choco Chocolate",
+            "instructions": ""
+          }
+        ],
+        "subtotal": 140,
+        "discount": 0,
+        "total": 140,
+        "paymentMode": "Cash",
+        "status": "Ready",
+        "updatedAt": "2026-04-23T17:18:17.570Z"
+      },
+      {
+        "id": "d558f43c-ce33-4b94-bb66-c290a3117642",
+        "billNo": "AID-2026-04-23-0074",
+        "token": "069",
+        "createdAt": "2026-04-23T17:14:23.382Z",
+        "customerName": "",
+        "customerPhone": "",
+        "items": [
+          {
+            "id": "flavor-stick-gola-1776964445176-c3995f4b441d78",
+            "name": "Flavor Stick Gola",
+            "category": "Ice Gola",
+            "price": 50,
+            "menuId": "flavor-stick-gola",
+            "qty": 2,
+            "flavours": "Orange + Kala Khatta",
+            "instructions": ""
+          },
+          {
+            "id": "flavor-ice-dish-1776964457042-9fc04bdfbd2e28",
+            "name": "Flavor Ice Dish",
+            "category": "Ice Dish",
+            "price": 60,
+            "menuId": "flavor-ice-dish",
+            "qty": 1,
+            "flavours": "Kala Khatta + Orange",
+            "instructions": ""
+          }
+        ],
+        "subtotal": 160,
+        "discount": 0,
+        "total": 160,
+        "paymentMode": "Cash",
+        "status": "Ready",
+        "updatedAt": "2026-04-23T17:18:18.633Z"
+      },
+      {
+        "id": "5d36792c-b46b-4c62-bb1b-d651e9ceff20",
+        "billNo": "AID-2026-04-23-0075",
+        "token": "070",
+        "createdAt": "2026-04-23T17:15:03.645Z",
+        "customerName": "",
+        "customerPhone": "",
+        "items": [
+          {
+            "id": "flavor-stick-gola-1776964491808-cc5d61bf574ff",
+            "name": "Flavor Stick Gola",
+            "category": "Ice Gola",
+            "price": 50,
+            "menuId": "flavor-stick-gola",
+            "qty": 7,
+            "flavours": "",
+            "instructions": ""
+          }
+        ],
+        "subtotal": 350,
+        "discount": 0,
+        "total": 350,
+        "paymentMode": "Cash",
+        "status": "Ready",
+        "updatedAt": "2026-04-23T17:18:30.146Z"
+      },
+      {
+        "id": "5956b963-7439-4cd4-972a-92480ce59f9f",
+        "billNo": "AID-2026-04-23-0076",
+        "token": "071",
+        "createdAt": "2026-04-23T17:16:23.015Z",
+        "customerName": "",
+        "customerPhone": "",
+        "items": [
+          {
+            "id": "flavor-ice-dish-1776964634509-54fbf8c69f4e88",
+            "name": "Flavor Ice Dish",
+            "category": "Ice Dish",
+            "price": 60,
+            "menuId": "flavor-ice-dish",
+            "qty": 1,
+            "flavours": "Orange + Kolthu",
+            "instructions": ""
+          },
+          {
+            "id": "flavor-ice-dish-1776964634509-be48435901a258",
+            "name": "Flavor Ice Dish",
+            "category": "Ice Dish",
+            "price": 60,
+            "menuId": "flavor-ice-dish",
+            "qty": 2,
+            "flavours": "Choco Chocolate",
+            "instructions": ""
+          },
+          {
+            "id": "flavor-ice-dish-1776964638376-14e3e5a72ee7d",
+            "name": "Flavor Ice Dish",
+            "category": "Ice Dish",
+            "price": 60,
+            "menuId": "flavor-ice-dish",
+            "qty": 1,
+            "flavours": "Kaju Mava",
+            "instructions": ""
+          }
+        ],
+        "subtotal": 240,
+        "discount": 0,
+        "total": 240,
+        "paymentMode": "Cash",
+        "status": "Ready",
+        "editedAt": "2026-04-23T17:17:30.543Z",
+        "updatedAt": "2026-04-23T17:27:28.618Z"
+      },
+      {
+        "id": "e5c0bb09-a4a0-4606-a567-27abf9be459e",
+        "billNo": "AID-2026-04-23-0077",
+        "token": "072",
+        "createdAt": "2026-04-23T17:19:22.632Z",
+        "customerName": "",
+        "customerPhone": "",
+        "items": [
+          {
+            "id": "flavor-stick-gola-1776964735226-1af8b3b745131",
+            "name": "Flavor Stick Gola",
+            "category": "Ice Gola",
+            "price": 50,
+            "menuId": "flavor-stick-gola",
+            "qty": 3,
+            "flavours": "Jamun + + Kolthu",
+            "instructions": ""
+          }
+        ],
+        "subtotal": 150,
+        "discount": 0,
+        "total": 150,
+        "paymentMode": "Cash",
+        "status": "Ready",
+        "updatedAt": "2026-04-23T17:27:29.075Z"
+      },
+      {
+        "id": "05086371-9321-4de8-8000-2f86acfb7396",
+        "billNo": "AID-2026-04-23-0078",
+        "token": "073",
+        "createdAt": "2026-04-23T17:20:15.033Z",
+        "customerName": "",
+        "customerPhone": "",
+        "items": [
+          {
+            "id": "flavor-sharbat-1776964801626-4259d964e1d0e8",
+            "name": "Flavor Sharbat",
+            "category": "Sharbat",
+            "price": 50,
+            "menuId": "flavor-sharbat",
+            "qty": 4,
+            "flavours": "",
+            "instructions": ""
+          },
+          {
+            "id": "rabdi-flavor-sharbat-1776964812375-49541dc38a1708",
+            "name": "Rabdi Flavor Sharbat",
+            "category": "Sharbat",
+            "price": 70,
+            "menuId": "rabdi-flavor-sharbat",
+            "qty": 1,
+            "flavours": "",
+            "instructions": ""
+          }
+        ],
+        "subtotal": 270,
+        "discount": 0,
+        "total": 270,
+        "paymentMode": "Cash",
+        "status": "Ready",
+        "updatedAt": "2026-04-23T17:27:30.122Z"
+      },
+      {
+        "id": "ceb27f47-04ba-44d0-a837-6a5d2a722ca3",
+        "billNo": "AID-2026-04-23-0079",
+        "token": "074",
+        "createdAt": "2026-04-23T17:21:16.727Z",
+        "customerName": "",
+        "customerPhone": "",
+        "items": [
+          {
+            "id": "flavor-stick-gola-1776964846941-a507a14ba4ed58",
+            "name": "Flavor Stick Gola",
+            "category": "Ice Gola",
+            "price": 50,
+            "menuId": "flavor-stick-gola",
+            "qty": 2,
+            "flavours": "Kala Khatta",
+            "instructions": ""
+          },
+          {
+            "id": "rabdi-stick-gola-1776964863657-6eb3c8ab8e778",
+            "name": "Rabdi Stick Gola",
+            "category": "Ice Gola",
+            "price": 70,
+            "menuId": "rabdi-stick-gola",
+            "qty": 2,
+            "flavours": "Coconut",
+            "instructions": ""
+          }
+        ],
+        "subtotal": 240,
+        "discount": 0,
+        "total": 240,
+        "paymentMode": "Cash",
+        "status": "Ready",
+        "updatedAt": "2026-04-23T17:27:16.147Z"
+      },
+      {
+        "id": "6f4e7d05-d849-4230-8c29-979da1c6e348",
+        "billNo": "AID-2026-04-23-0080",
+        "token": "075",
+        "createdAt": "2026-04-23T17:22:05.196Z",
+        "customerName": "",
+        "customerPhone": "",
+        "items": [
+          {
+            "id": "flavor-sharbat-1776964933090-91590a9cea0bc8",
+            "name": "Flavor Sharbat",
+            "category": "Sharbat",
+            "price": 50,
+            "menuId": "flavor-sharbat",
+            "qty": 2,
+            "flavours": "Kolthu",
+            "instructions": "Parcel"
+          },
+          {
+            "id": "flavor-sharbat-1776964933090-5a71bd80a1a7e",
+            "name": "Flavor Sharbat",
+            "category": "Sharbat",
+            "price": 50,
+            "menuId": "flavor-sharbat",
+            "qty": 4,
+            "flavours": "Choco Chocolate",
+            "instructions": "Parcel"
+          },
+          {
+            "id": "flavor-sharbat-1776964934923-35a45cc927df6",
+            "name": "Flavor Sharbat",
+            "category": "Sharbat",
+            "price": 50,
+            "menuId": "flavor-sharbat",
+            "qty": 2,
+            "flavours": "Kaju Mava",
+            "instructions": ""
+          },
+          {
+            "id": "flavor-sharbat-1776964953255-bf717be97cf4c",
+            "name": "Flavor Sharbat",
+            "category": "Sharbat",
+            "price": 50,
+            "menuId": "flavor-sharbat",
+            "qty": 1,
+            "flavours": "khati mithi mix",
+            "instructions": ""
+          }
+        ],
+        "subtotal": 450,
+        "discount": 0,
+        "total": 450,
+        "paymentMode": "Cash",
+        "status": "Ready",
+        "editedAt": "2026-04-23T17:22:41.490Z",
+        "updatedAt": "2026-04-23T17:32:48.922Z"
+      },
+      {
+        "id": "6dc25036-d52b-4277-bb2e-99f83090a09b",
+        "billNo": "AID-2026-04-23-0081",
+        "token": "076",
+        "createdAt": "2026-04-23T17:23:56.463Z",
+        "customerName": "",
+        "customerPhone": "",
+        "items": [
+          {
+            "id": "rabdi-flavor-sharbat-1776965016323-e0e0854e179e38",
+            "name": "Rabdi Flavor Sharbat",
+            "category": "Sharbat",
+            "price": 70,
+            "menuId": "rabdi-flavor-sharbat",
+            "qty": 1,
+            "flavours": "Choco Chocolate",
+            "instructions": ""
+          },
+          {
+            "id": "rabdi-flavor-sharbat-1776965024873-7296e7a230913",
+            "name": "Rabdi Flavor Sharbat",
+            "category": "Sharbat",
+            "price": 70,
+            "menuId": "rabdi-flavor-sharbat",
+            "qty": 1,
+            "flavours": "Coconut",
+            "instructions": ""
+          },
+          {
+            "id": "flavor-sharbat-1776965031822-2aee5abb70e39",
+            "name": "Flavor Sharbat",
+            "category": "Sharbat",
+            "price": 50,
+            "menuId": "flavor-sharbat",
+            "qty": 1,
+            "flavours": "Pineapple",
+            "instructions": ""
+          }
+        ],
+        "subtotal": 190,
+        "discount": 0,
+        "total": 190,
+        "paymentMode": "Cash",
+        "status": "Ready",
+        "updatedAt": "2026-04-23T17:29:36.221Z"
+      },
+      {
+        "id": "cb4c2723-b8b2-43ce-bd78-76882f686afd",
+        "billNo": "AID-2026-04-23-0082",
+        "token": "077",
+        "createdAt": "2026-04-23T17:24:41.099Z",
+        "customerName": "",
+        "customerPhone": "",
+        "items": [
+          {
+            "id": "flavor-stick-gola-1776965072340-81eef59d10938",
+            "name": "Flavor Stick Gola",
+            "category": "Ice Gola",
+            "price": 50,
+            "menuId": "flavor-stick-gola",
+            "qty": 2,
+            "flavours": "Choco Chocolate",
+            "instructions": ""
+          },
+          {
+            "id": "flavor-stick-gola-1776965078039-18c376837dd1f",
+            "name": "Flavor Stick Gola",
+            "category": "Ice Gola",
+            "price": 50,
+            "menuId": "flavor-stick-gola",
+            "qty": 1,
+            "flavours": "Kala Khatta",
+            "instructions": ""
+          }
+        ],
+        "subtotal": 150,
+        "discount": 0,
+        "total": 150,
+        "paymentMode": "Cash",
+        "status": "Ready",
+        "updatedAt": "2026-04-23T17:32:46.053Z"
+      },
+      {
+        "id": "bcde26db-5f8f-4f1b-b0b4-048b02665a0e",
+        "billNo": "AID-2026-04-23-0083",
+        "token": "078",
+        "createdAt": "2026-04-23T17:28:51.429Z",
+        "customerName": "",
+        "customerPhone": "",
+        "items": [
+          {
+            "id": "flavor-ice-dish-1776965317023-2805df388e3948",
+            "name": "Flavor Ice Dish",
+            "category": "Ice Dish",
+            "price": 60,
+            "menuId": "flavor-ice-dish",
+            "qty": 1,
+            "flavours": "Orange + Rajbhog",
+            "instructions": ""
+          }
+        ],
+        "subtotal": 60,
+        "discount": 0,
+        "total": 60,
+        "paymentMode": "Cash",
+        "status": "Ready",
+        "updatedAt": "2026-04-23T17:32:44.158Z"
+      },
+      {
+        "id": "621208c0-21e9-413b-9320-e2e9c6939ab2",
+        "billNo": "AID-2026-04-23-0084",
+        "token": "079",
+        "createdAt": "2026-04-23T17:29:49.311Z",
+        "customerName": "",
+        "customerPhone": "",
+        "items": [
+          {
+            "id": "rabdi-ice-dish-1776965377239-8ea28c7f5b2858",
+            "name": "Rabdi Ice Dish",
+            "category": "Ice Dish",
+            "price": 100,
+            "menuId": "rabdi-ice-dish",
+            "qty": 1,
+            "flavours": "Choco Chocolate + Kala Khatta",
+            "instructions": ""
+          }
+        ],
+        "subtotal": 100,
+        "discount": 0,
+        "total": 100,
+        "paymentMode": "Cash",
+        "status": "Ready",
+        "updatedAt": "2026-04-23T17:32:43.737Z"
+      },
+      {
+        "id": "deef0043-877f-45ef-8af2-0d3150d129d9",
+        "billNo": "AID-2026-04-23-0085",
+        "token": "080",
+        "createdAt": "2026-04-23T17:31:06.463Z",
+        "customerName": "",
+        "customerPhone": "",
+        "items": [
+          {
+            "id": "flavor-stick-gola-1776965483990-c217801c4900a",
+            "name": "Flavor Stick Gola",
+            "category": "Ice Gola",
+            "price": 50,
+            "menuId": "flavor-stick-gola",
+            "qty": 1,
+            "flavours": "Kala Khatta + Orange",
+            "instructions": ""
+          },
+          {
+            "id": "flavor-stick-gola-1776965483991-f490be2bdd9ae8",
+            "name": "Flavor Stick Gola",
+            "category": "Ice Gola",
+            "price": 50,
+            "menuId": "flavor-stick-gola",
+            "qty": 1,
+            "flavours": "Kala Khatta + Blueberry",
+            "instructions": ""
+          },
+          {
+            "id": "flavor-stick-gola-1776965490357-80577aa43cb768",
+            "name": "Flavor Stick Gola",
+            "category": "Ice Gola",
+            "price": 50,
+            "menuId": "flavor-stick-gola",
+            "qty": 1,
+            "flavours": "Orange",
+            "instructions": "Parcel"
+          }
+        ],
+        "subtotal": 150,
+        "discount": 0,
+        "total": 150,
+        "paymentMode": "Cash",
+        "status": "Ready",
+        "updatedAt": "2026-04-23T17:35:31.419Z",
+        "editedAt": "2026-04-23T17:32:15.674Z"
+      },
+      {
+        "id": "8b3908e3-872f-4de4-ab8c-e26df00a645a",
+        "billNo": "AID-2026-04-23-0086",
+        "token": "081",
+        "createdAt": "2026-04-23T17:33:20.078Z",
+        "customerName": "",
+        "customerPhone": "",
+        "items": [
+          {
+            "id": "dry-fruit-rabdi-ice-dish-1776965585207-6b3a3a40f706c",
+            "name": "Dry Fruit Rabdi Ice Dish",
+            "category": "Ice Dish",
+            "price": 150,
+            "menuId": "dry-fruit-rabdi-ice-dish",
+            "qty": 1,
+            "flavours": "khati mithi mix",
+            "instructions": "Parcel"
+          }
+        ],
+        "subtotal": 150,
+        "discount": 0,
+        "total": 150,
+        "paymentMode": "Cash",
+        "status": "Ready",
+        "updatedAt": "2026-04-23T17:35:30.142Z"
+      },
+      {
+        "id": "2b5e8e95-6797-402b-8c3a-8a3b2a3a79c1",
+        "billNo": "AID-2026-04-23-0087",
+        "token": "082",
+        "createdAt": "2026-04-23T17:33:48.563Z",
+        "customerName": "",
+        "customerPhone": "",
+        "items": [
+          {
+            "id": "flavor-stick-gola-1776965616673-c4faa4abd030f8",
+            "name": "Flavor Stick Gola",
+            "category": "Ice Gola",
+            "price": 50,
+            "menuId": "flavor-stick-gola",
+            "qty": 1,
+            "flavours": "Kala Khatta",
+            "instructions": ""
+          },
+          {
+            "id": "rainbow-stick-gola-1776965623373-55966a144c3578",
+            "name": "Rainbow Stick Gola",
+            "category": "Ice Gola",
+            "price": 60,
+            "menuId": "rainbow-stick-gola",
+            "qty": 1,
+            "flavours": "",
+            "instructions": ""
+          }
+        ],
+        "subtotal": 110,
+        "discount": 0,
+        "total": 110,
+        "paymentMode": "Cash",
+        "status": "Ready",
+        "updatedAt": "2026-04-23T17:35:29.576Z"
+      },
+      {
+        "id": "8a96fd97-eace-42c5-a8e5-31acb9544037",
+        "billNo": "AID-2026-04-23-0088",
+        "token": "083",
+        "createdAt": "2026-04-23T17:35:34.262Z",
+        "customerName": "",
+        "customerPhone": "",
+        "items": [
+          {
+            "id": "flavor-ice-dish-1776965722873-0e4cd52e90e8d8",
+            "name": "Flavor Ice Dish",
+            "category": "Ice Dish",
+            "price": 60,
+            "menuId": "flavor-ice-dish",
+            "qty": 1,
+            "flavours": "Rimzim + Jamun",
+            "instructions": ""
+          }
+        ],
+        "subtotal": 60,
+        "discount": 0,
+        "total": 60,
+        "paymentMode": "Cash",
+        "status": "Ready",
+        "updatedAt": "2026-04-23T17:37:02.423Z"
+      },
+      {
+        "id": "10e92e63-34dd-4365-afb3-24a337969277",
+        "billNo": "AID-2026-04-23-0089",
+        "token": "084",
+        "createdAt": "2026-04-23T17:36:52.706Z",
+        "customerName": "",
+        "customerPhone": "",
+        "items": [
+          {
+            "id": "flavor-sharbat-1776965802270-def346c38bf54",
+            "name": "Flavor Sharbat",
+            "category": "Sharbat",
+            "price": 50,
+            "menuId": "flavor-sharbat",
+            "qty": 2,
+            "flavours": "",
+            "instructions": ""
+          },
+          {
+            "id": "dry-fruit-rabdi-ice-dish-1776965809019-382cd4b10eca58",
+            "name": "Dry Fruit Rabdi Ice Dish",
+            "category": "Ice Dish",
+            "price": 150,
+            "menuId": "dry-fruit-rabdi-ice-dish",
+            "qty": 1,
+            "flavours": "",
+            "instructions": ""
+          }
+        ],
+        "subtotal": 250,
+        "discount": 0,
+        "total": 250,
+        "paymentMode": "Cash",
+        "status": "Ready",
+        "updatedAt": "2026-04-23T17:38:49.387Z"
+      },
+      {
+        "id": "035e15b5-b5de-4c27-a2c1-9226132d135b",
+        "billNo": "AID-2026-04-23-0090",
+        "token": "085",
+        "createdAt": "2026-04-23T17:37:35.271Z",
+        "customerName": "",
+        "customerPhone": "",
+        "items": [
+          {
+            "id": "flavor-stick-gola-1776965850919-fa6d82dc677f5",
+            "name": "Flavor Stick Gola",
+            "category": "Ice Gola",
+            "price": 50,
+            "menuId": "flavor-stick-gola",
+            "qty": 1,
+            "flavours": "",
+            "instructions": ""
+          }
+        ],
+        "subtotal": 50,
+        "discount": 0,
+        "total": 50,
+        "paymentMode": "Cash",
+        "status": "Ready",
+        "updatedAt": "2026-04-23T17:39:27.943Z"
+      },
+      {
+        "id": "10e8de89-0a3c-41c2-873c-59219ab38ebc",
+        "billNo": "AID-2026-04-23-0091",
+        "token": "086",
+        "createdAt": "2026-04-23T17:38:02.807Z",
+        "customerName": "",
+        "customerPhone": "",
+        "items": [
+          {
+            "id": "flavor-stick-gola-1776965863818-604a82db92dd38",
+            "name": "Flavor Stick Gola",
+            "category": "Ice Gola",
+            "price": 50,
+            "menuId": "flavor-stick-gola",
+            "qty": 12,
+            "flavours": "",
+            "instructions": ""
+          }
+        ],
+        "subtotal": 600,
+        "discount": 0,
+        "total": 600,
+        "paymentMode": "Cash",
+        "status": "Ready",
+        "updatedAt": "2026-04-23T17:41:31.749Z"
+      },
+      {
+        "id": "8536f444-3a33-4be1-a968-68eba2bf2b37",
+        "billNo": "AID-2026-04-23-0092",
+        "token": "087",
+        "createdAt": "2026-04-23T17:38:22.223Z",
+        "customerName": "",
+        "customerPhone": "",
+        "items": [
+          {
+            "id": "flavor-ice-dish-1776965892385-c89dacbc81637",
+            "name": "Flavor Ice Dish",
+            "category": "Ice Dish",
+            "price": 60,
+            "menuId": "flavor-ice-dish",
+            "qty": 1,
+            "flavours": "Orange + Kala Khatta + Choco Chocolate",
+            "instructions": ""
+          }
+        ],
+        "subtotal": 60,
+        "discount": 0,
+        "total": 60,
+        "paymentMode": "Cash",
+        "status": "Ready",
+        "updatedAt": "2026-04-23T17:42:46.128Z"
+      },
+      {
+        "id": "355dabbe-6a75-49e3-8ce8-80ecf0632c4f",
+        "billNo": "AID-2026-04-23-0093",
+        "token": "088",
+        "createdAt": "2026-04-23T17:40:11.593Z",
+        "customerName": "",
+        "customerPhone": "",
+        "items": [
+          {
+            "id": "rabdi-flavor-sharbat-1776966191885-3cb04592eb5a",
+            "name": "Rabdi Flavor Sharbat",
+            "category": "Sharbat",
+            "price": 70,
+            "menuId": "rabdi-flavor-sharbat",
+            "qty": 1,
+            "flavours": "Kesar Mava",
+            "instructions": ""
+          },
+          {
+            "id": "rabdi-flavor-sharbat-1776966191885-fdc4a3f1f40fe8",
+            "name": "Rabdi Flavor Sharbat",
+            "category": "Sharbat",
+            "price": 70,
+            "menuId": "rabdi-flavor-sharbat",
+            "qty": 1,
+            "flavours": "Choco Chocolate",
+            "instructions": ""
+          },
+          {
+            "id": "rabdi-flavor-sharbat-1776966191885-19963f4ef47a48",
+            "name": "Rabdi Flavor Sharbat",
+            "category": "Sharbat",
+            "price": 70,
+            "menuId": "rabdi-flavor-sharbat",
+            "qty": 1,
+            "flavours": "Kaju Mava",
+            "instructions": ""
+          },
+          {
+            "id": "flavor-stick-gola-1776966191885-ed3387e3b3bb3",
+            "name": "Flavor Stick Gola",
+            "category": "Ice Gola",
+            "price": 50,
+            "menuId": "flavor-stick-gola",
+            "qty": 1,
+            "flavours": "Kaju Mava + Choco Chocolate",
+            "instructions": ""
+          },
+          {
+            "id": "rabdi-stick-gola-1776966203902-4602e162eb39b",
+            "name": "Rabdi Stick Gola",
+            "category": "Ice Gola",
+            "price": 70,
+            "menuId": "rabdi-stick-gola",
+            "qty": 1,
+            "flavours": "Kesar Mava + Rajbhog",
+            "instructions": ""
+          }
+        ],
+        "subtotal": 330,
+        "discount": 0,
+        "total": 330,
+        "paymentMode": "Cash",
+        "status": "Ready",
+        "updatedAt": "2026-04-23T17:46:06.787Z",
+        "editedAt": "2026-04-23T17:43:33.069Z"
+      },
+      {
+        "id": "c887cacb-8644-4257-9d65-0ca2017d67fe",
+        "billNo": "AID-2026-04-23-0094",
+        "token": "089",
+        "createdAt": "2026-04-23T17:43:55.720Z",
+        "customerName": "",
+        "customerPhone": "",
+        "items": [
+          {
+            "id": "flavor-stick-gola-1776966229268-315e554edd3f7",
+            "name": "Flavor Stick Gola",
+            "category": "Ice Gola",
+            "price": 50,
+            "menuId": "flavor-stick-gola",
+            "qty": 2,
+            "flavours": "Kala Khatta",
+            "instructions": ""
+          }
+        ],
+        "subtotal": 100,
+        "discount": 0,
+        "total": 100,
+        "paymentMode": "Cash",
+        "status": "Ready",
+        "updatedAt": "2026-04-23T17:46:15.923Z"
+      },
+      {
+        "id": "483c31ae-f28a-4918-a460-1f848104dc40",
+        "billNo": "AID-2026-04-23-0095",
+        "token": "090",
+        "createdAt": "2026-04-23T17:44:40.775Z",
+        "customerName": "",
+        "customerPhone": "",
+        "items": [
+          {
+            "id": "dry-fruit-rabdi-ice-dish-1776966262636-f1b99b2dbc003",
+            "name": "Dry Fruit Rabdi Ice Dish",
+            "category": "Ice Dish",
+            "price": 150,
+            "menuId": "dry-fruit-rabdi-ice-dish",
+            "qty": 1,
+            "flavours": "Vanilla Mava + Blueberry + Rajbhog",
+            "instructions": ""
+          }
+        ],
+        "subtotal": 150,
+        "discount": 0,
+        "total": 150,
+        "paymentMode": "Cash",
+        "status": "Ready",
+        "updatedAt": "2026-04-23T17:47:47.106Z"
+      }
+    ],
+    "2026-04-24": [
+      {
+        "id": "7fdecfc9-7d57-4839-af0e-c6b3846cbac5",
+        "billNo": "AID-2026-04-24-0096",
+        "token": "001",
+        "createdAt": "2026-04-24T15:45:10.345Z",
+        "customerName": "",
+        "customerPhone": "",
+        "items": [
+          {
+            "id": "flavor-sharbat-1777045820698-60600bca2d6c7",
+            "name": "Flavor Sharbat",
+            "category": "Sharbat",
+            "price": 50,
+            "menuId": "flavor-sharbat",
+            "qty": 3,
+            "flavours": "Chikoo",
+            "instructions": ""
+          },
+          {
+            "id": "flavor-sharbat-1777045820698-7e3b6f9bc53dd8",
+            "name": "Flavor Sharbat",
+            "category": "Sharbat",
+            "price": 50,
+            "menuId": "flavor-sharbat",
+            "qty": 2,
+            "flavours": "Orange",
+            "instructions": ""
+          },
+          {
+            "id": "flavor-sharbat-1777045820698-cec4c4a5cd63f",
+            "name": "Flavor Sharbat",
+            "category": "Sharbat",
+            "price": 50,
+            "menuId": "flavor-sharbat",
+            "qty": 1,
+            "flavours": "Rimzim",
+            "instructions": ""
+          },
+          {
+            "id": "rainbow-stick-gola-1777045820698-be3694e8b2d0e",
+            "name": "Rainbow Stick Gola",
+            "category": "Ice Gola",
+            "price": 60,
+            "menuId": "rainbow-stick-gola",
+            "qty": 1,
+            "flavours": "",
+            "instructions": ""
+          },
+          {
+            "id": "flavor-stick-gola-1777045820698-5443333da352b8",
+            "name": "Flavor Stick Gola",
+            "category": "Ice Gola",
+            "price": 50,
+            "menuId": "flavor-stick-gola",
+            "qty": 1,
+            "flavours": "Kacchi Keri",
+            "instructions": ""
+          },
+          {
+            "id": "flavor-stick-gola-1777045820698-ca0a1428168a4",
+            "name": "Flavor Stick Gola",
+            "category": "Ice Gola",
+            "price": 50,
+            "menuId": "flavor-stick-gola",
+            "qty": 1,
+            "flavours": "Choco Chocolate",
+            "instructions": ""
+          }
+        ],
+        "subtotal": 460,
+        "discount": 0,
+        "total": 460,
+        "paymentMode": "Cash",
+        "status": "Ready",
+        "updatedAt": "2026-04-24T18:13:01.540Z",
+        "editedAt": "2026-04-24T15:50:25.397Z"
+      },
+      {
+        "id": "4a4bbfcb-8543-45cb-b2e4-58ae2068ee50",
+        "billNo": "AID-2026-04-24-0097",
+        "token": "002",
+        "createdAt": "2026-04-24T15:48:34.155Z",
+        "customerName": "",
+        "customerPhone": "",
+        "items": [
+          {
+            "id": "flavor-sharbat-1777045709398-25b0b693494e78",
+            "name": "Flavor Sharbat",
+            "category": "Sharbat",
+            "price": 50,
+            "menuId": "flavor-sharbat",
+            "qty": 1,
+            "flavours": "Choco Chocolate",
+            "instructions": ""
+          }
+        ],
+        "subtotal": 50,
+        "discount": 0,
+        "total": 50,
+        "paymentMode": "Cash",
+        "status": "Ready",
+        "updatedAt": "2026-04-24T15:52:32.287Z"
+      },
+      {
+        "id": "7df08c49-54ee-4acb-a1ab-d8f2fb3d8070",
+        "billNo": "AID-2026-04-24-0098",
+        "token": "003",
+        "createdAt": "2026-04-24T15:49:06.289Z",
+        "customerName": "",
+        "customerPhone": "",
+        "items": [
+          {
+            "id": "flavor-ice-dish-1777045736265-20cb76d8013d8",
+            "name": "Flavor Ice Dish",
+            "category": "Ice Dish",
+            "price": 60,
+            "menuId": "flavor-ice-dish",
+            "qty": 1,
+            "flavours": "",
+            "instructions": ""
+          }
+        ],
+        "subtotal": 60,
+        "discount": 0,
+        "total": 60,
+        "paymentMode": "Cash",
+        "status": "Ready",
+        "updatedAt": "2026-04-24T15:52:38.935Z"
+      },
+      {
+        "id": "54874370-e484-49ce-b233-a9d7434dface",
+        "billNo": "AID-2026-04-24-0099",
+        "token": "004",
+        "createdAt": "2026-04-24T15:50:04.987Z",
+        "customerName": "",
+        "customerPhone": "",
+        "items": [
+          {
+            "id": "flavor-sharbat-1777045784798-6f48529833c3f8",
+            "name": "Flavor Sharbat",
+            "category": "Sharbat",
+            "price": 50,
+            "menuId": "flavor-sharbat",
+            "qty": 3,
+            "flavours": "Kacchi Keri",
+            "instructions": ""
+          },
+          {
+            "id": "flavor-sharbat-1777045802297-d44168cd58b388",
+            "name": "Flavor Sharbat",
+            "category": "Sharbat",
+            "price": 50,
+            "menuId": "flavor-sharbat",
+            "qty": 1,
+            "flavours": "",
+            "instructions": ""
+          }
+        ],
+        "subtotal": 200,
+        "discount": 0,
+        "total": 200,
+        "paymentMode": "Cash",
+        "status": "Ready",
+        "updatedAt": "2026-04-24T15:54:14.837Z"
+      },
+      {
+        "id": "518736f7-078a-47fa-b416-499762cafd71",
+        "billNo": "AID-2026-04-24-0100",
+        "token": "005",
+        "createdAt": "2026-04-24T15:53:06.652Z",
+        "customerName": "",
+        "customerPhone": "",
+        "items": [
+          {
+            "id": "rabdi-stick-gola-1777045998830-88b6b9b70daf2",
+            "name": "Rabdi Stick Gola",
+            "category": "Ice Gola",
+            "price": 70,
+            "menuId": "rabdi-stick-gola",
+            "qty": 1,
+            "flavours": "Choco Chocolate",
+            "instructions": ""
+          },
+          {
+            "id": "flavor-ice-dish-1777045998830-467cc4c7147008",
+            "name": "Flavor Ice Dish",
+            "category": "Ice Dish",
+            "price": 60,
+            "menuId": "flavor-ice-dish",
+            "qty": 1,
+            "flavours": "",
+            "instructions": ""
+          },
+          {
+            "id": "dry-fruit-rabdi-ice-dish-1777045998830-1898672453f24",
+            "name": "Dry Fruit Rabdi Ice Dish",
+            "category": "Ice Dish",
+            "price": 150,
+            "menuId": "dry-fruit-rabdi-ice-dish",
+            "qty": 1,
+            "flavours": "",
+            "instructions": ""
+          }
+        ],
+        "subtotal": 280,
+        "discount": 0,
+        "total": 280,
+        "paymentMode": "Cash",
+        "status": "Ready",
+        "updatedAt": "2026-04-24T15:53:21.636Z",
+        "editedAt": "2026-04-24T15:53:21.630Z"
+      },
+      {
+        "id": "d452e2d2-d6e1-46fb-8849-6dd402174e4a",
+        "billNo": "AID-2026-04-24-0101",
+        "token": "006",
+        "createdAt": "2026-04-24T15:56:34.635Z",
+        "customerName": "",
+        "customerPhone": "",
+        "items": [
+          {
+            "id": "flavor-sharbat-1777046177462-c440dd934a9c2",
+            "name": "Flavor Sharbat",
+            "category": "Sharbat",
+            "price": 50,
+            "menuId": "flavor-sharbat",
+            "qty": 2,
+            "flavours": "Kacchi Keri",
+            "instructions": ""
+          }
+        ],
+        "subtotal": 100,
+        "discount": 0,
+        "total": 100,
+        "paymentMode": "Cash",
+        "status": "Ready",
+        "updatedAt": "2026-04-24T16:00:30.881Z"
+      },
+      {
+        "id": "06b4bfd2-9ee5-4146-ba43-181a86782cae",
+        "billNo": "AID-2026-04-24-0102",
+        "token": "007",
+        "createdAt": "2026-04-24T15:57:09.902Z",
+        "customerName": "",
+        "customerPhone": "",
+        "items": [
+          {
+            "id": "flavor-sharbat-1777046237029-05673231d7243",
+            "name": "Flavor Sharbat",
+            "category": "Sharbat",
+            "price": 50,
+            "menuId": "flavor-sharbat",
+            "qty": 1,
+            "flavours": "Kaju Mava",
+            "instructions": ""
+          }
+        ],
+        "subtotal": 50,
+        "discount": 0,
+        "total": 50,
+        "paymentMode": "Cash",
+        "status": "Ready",
+        "editedAt": "2026-04-24T15:57:22.911Z",
+        "updatedAt": "2026-04-24T16:00:37.183Z"
+      },
+      {
+        "id": "fdc3a724-d72c-407c-8688-f48f5531c3f2",
+        "billNo": "AID-2026-04-24-0103",
+        "token": "008",
+        "createdAt": "2026-04-24T15:57:44.802Z",
+        "customerName": "",
+        "customerPhone": "",
+        "items": [
+          {
+            "id": "flavor-stick-gola-1777046254928-2b39b20fd2ebf",
+            "name": "Flavor Stick Gola",
+            "category": "Ice Gola",
+            "price": 50,
+            "menuId": "flavor-stick-gola",
+            "qty": 1,
+            "flavours": "Kala Khatta + Kolthu",
+            "instructions": ""
+          },
+          {
+            "id": "lemon-soda-1777046261378-7b9cfc546be4d",
+            "name": "Lemon Soda",
+            "category": "Extras",
+            "price": 20,
+            "menuId": "lemon-soda",
+            "qty": 1,
+            "flavours": "",
+            "instructions": ""
+          }
+        ],
+        "subtotal": 70,
+        "discount": 0,
+        "total": 70,
+        "paymentMode": "Cash",
+        "status": "Ready",
+        "updatedAt": "2026-04-24T16:00:46.816Z"
+      },
+      {
+        "id": "64c30da7-7078-4f61-8000-c26b5e6e1fbf",
+        "billNo": "AID-2026-04-24-0104",
+        "token": "009",
+        "createdAt": "2026-04-24T15:58:46.451Z",
+        "customerName": "",
+        "customerPhone": "",
+        "items": [
+          {
+            "id": "dry-fruit-rabdi-ice-dish-1777046381228-59a3ef911de608",
+            "name": "Dry Fruit Rabdi Ice Dish",
+            "category": "Ice Dish",
+            "price": 150,
+            "menuId": "dry-fruit-rabdi-ice-dish",
+            "qty": 1,
+            "flavours": "Kala Khatta",
+            "instructions": ""
+          },
+          {
+            "id": "flavor-stick-gola-1777046381228-76cf9102652b1",
+            "name": "Flavor Stick Gola",
+            "category": "Ice Gola",
+            "price": 50,
+            "menuId": "flavor-stick-gola",
+            "qty": 1,
+            "flavours": "Kolthu + +",
+            "instructions": ""
+          }
+        ],
+        "subtotal": 200,
+        "discount": 0,
+        "total": 200,
+        "paymentMode": "Cash",
+        "status": "Ready",
+        "updatedAt": "2026-04-24T16:07:30.656Z",
+        "editedAt": "2026-04-24T16:00:02.893Z"
+      },
+      {
+        "id": "ad20cd74-c514-4743-8c77-0192ab70424a",
+        "billNo": "AID-2026-04-24-0105",
+        "token": "010",
+        "createdAt": "2026-04-24T16:00:14.984Z",
+        "customerName": "",
+        "customerPhone": "",
+        "items": [
+          {
+            "id": "flavor-stick-gola-1777046405977-6843fd56513578",
+            "name": "Flavor Stick Gola",
+            "category": "Ice Gola",
+            "price": 50,
+            "menuId": "flavor-stick-gola",
+            "qty": 1,
+            "flavours": "Orange + Kala Khatta",
+            "instructions": ""
+          },
+          {
+            "id": "lemon-soda-1777046412910-41079ea7c9a6b8",
+            "name": "Lemon Soda",
+            "category": "Extras",
+            "price": 20,
+            "menuId": "lemon-soda",
+            "qty": 1,
+            "flavours": "",
+            "instructions": ""
+          }
+        ],
+        "subtotal": 70,
+        "discount": 0,
+        "total": 70,
+        "paymentMode": "Cash",
+        "status": "Ready",
+        "updatedAt": "2026-04-24T16:07:34.139Z"
+      },
+      {
+        "id": "48131709-1384-4376-b870-b632880a9db9",
+        "billNo": "AID-2026-04-24-0106",
+        "token": "011",
+        "createdAt": "2026-04-24T16:01:24.284Z",
+        "customerName": "",
+        "customerPhone": "",
+        "items": [
+          {
+            "id": "rabdi-ice-dish-1777046478210-83574cae9b5158",
+            "name": "Rabdi Ice Dish",
+            "category": "Ice Dish",
+            "price": 100,
+            "menuId": "rabdi-ice-dish",
+            "qty": 2,
+            "flavours": "Choco Chocolate",
+            "instructions": ""
+          }
+        ],
+        "subtotal": 200,
+        "discount": 0,
+        "total": 200,
+        "paymentMode": "Cash",
+        "status": "Ready",
+        "updatedAt": "2026-04-24T16:07:35.206Z"
+      },
+      {
+        "id": "ba426c59-20c3-4a43-b9de-627363ef63bb",
+        "billNo": "AID-2026-04-24-0107",
+        "token": "012",
+        "createdAt": "2026-04-24T16:02:45.581Z",
+        "customerName": "",
+        "customerPhone": "",
+        "items": [
+          {
+            "id": "dry-fruit-flavor-cream-lassi-1777046503360-9728eb6ab2b7c8",
+            "name": "Dry Fruit Flavor Cream Lassi",
+            "category": "Lassi",
+            "price": 80,
+            "menuId": "dry-fruit-flavor-cream-lassi",
+            "qty": 9,
+            "flavours": "",
+            "instructions": ""
+          }
+        ],
+        "subtotal": 720,
+        "discount": 0,
+        "total": 720,
+        "paymentMode": "Cash",
+        "status": "Ready",
+        "updatedAt": "2026-04-24T16:07:36.822Z"
+      },
+      {
+        "id": "96b528e2-15d7-4279-972b-801ae5c5ddbe",
+        "billNo": "AID-2026-04-24-0108",
+        "token": "013",
+        "createdAt": "2026-04-24T16:09:01.756Z",
+        "customerName": "",
+        "customerPhone": "",
+        "items": [
+          {
+            "id": "flavor-stick-gola-1777047032366-c263fb84cc4b98",
+            "name": "Flavor Stick Gola",
+            "category": "Ice Gola",
+            "price": 50,
+            "menuId": "flavor-stick-gola",
+            "qty": 1,
+            "flavours": "Kala Khatt",
+            "instructions": ""
+          },
+          {
+            "id": "flavor-ice-dish-1777047032366-964c5e52b80e88",
+            "name": "Flavor Ice Dish",
+            "category": "Ice Dish",
+            "price": 60,
+            "menuId": "flavor-ice-dish",
+            "qty": 1,
+            "flavours": "Kesar Mava + Orange",
+            "instructions": ""
+          }
+        ],
+        "subtotal": 110,
+        "discount": 0,
+        "total": 110,
+        "paymentMode": "Cash",
+        "status": "Ready",
+        "updatedAt": "2026-04-24T16:12:31.623Z",
+        "editedAt": "2026-04-24T16:11:10.466Z"
+      },
+      {
+        "id": "e9b795ad-327d-4ea9-aa1d-a785bedfd5c0",
+        "billNo": "AID-2026-04-24-0109",
+        "token": "014",
+        "createdAt": "2026-04-24T16:10:21.540Z",
+        "customerName": "",
+        "customerPhone": "",
+        "items": [
+          {
+            "id": "dry-fruit-rabdi-ice-dish-1777047079233-6ef25f6a13ddb8",
+            "name": "Dry Fruit Rabdi Ice Dish",
+            "category": "Ice Dish",
+            "price": 150,
+            "menuId": "dry-fruit-rabdi-ice-dish",
+            "qty": 1,
+            "flavours": "Choco Chocolate",
+            "instructions": ""
+          },
+          {
+            "id": "flavor-stick-gola-1777047079233-547bbf07a413b8",
+            "name": "Flavor Stick Gola",
+            "category": "Ice Gola",
+            "price": 50,
+            "menuId": "flavor-stick-gola",
+            "qty": 1,
+            "flavours": "Orange",
+            "instructions": ""
+          }
+        ],
+        "subtotal": 200,
+        "discount": 0,
+        "total": 200,
+        "paymentMode": "Cash",
+        "status": "Ready",
+        "updatedAt": "2026-04-24T16:12:43.352Z",
+        "editedAt": "2026-04-24T16:11:28.716Z"
+      },
+      {
+        "id": "b5304c68-6972-4e30-9337-66b741cf5d86",
+        "billNo": "AID-2026-04-24-0110",
+        "token": "015",
+        "createdAt": "2026-04-24T16:12:00.156Z",
+        "customerName": "",
+        "customerPhone": "",
+        "items": [
+          {
+            "id": "flavor-stick-gola-1777047106666-42ae90b6454798",
+            "name": "Flavor Stick Gola",
+            "category": "Ice Gola",
+            "price": 50,
+            "menuId": "flavor-stick-gola",
+            "qty": 2,
+            "flavours": "Kala Khatta",
+            "instructions": ""
+          },
+          {
+            "id": "flavor-stick-gola-1777047116099-f4bccbed1422f8",
+            "name": "Flavor Stick Gola",
+            "category": "Ice Gola",
+            "price": 50,
+            "menuId": "flavor-stick-gola",
+            "qty": 1,
+            "flavours": "Kacchi Keri",
+            "instructions": ""
+          }
+        ],
+        "subtotal": 150,
+        "discount": 0,
+        "total": 150,
+        "paymentMode": "Cash",
+        "status": "Ready",
+        "updatedAt": "2026-04-24T16:15:49.821Z"
+      },
+      {
+        "id": "72047053-f947-4949-a059-0358c20621b0",
+        "billNo": "AID-2026-04-24-0111",
+        "token": "016",
+        "createdAt": "2026-04-24T16:15:15.902Z",
+        "customerName": "",
+        "customerPhone": "",
+        "items": [
+          {
+            "id": "flavor-ice-dish-1777047244248-a24c09e2d6856",
+            "name": "Flavor Ice Dish",
+            "category": "Ice Dish",
+            "price": 60,
+            "menuId": "flavor-ice-dish",
+            "qty": 1,
+            "flavours": "khati mithi mix",
+            "instructions": ""
+          },
+          {
+            "id": "rabdi-ice-dish-1777047286449-0883459a662f58",
+            "name": "Rabdi Ice Dish",
+            "category": "Ice Dish",
+            "price": 100,
+            "menuId": "rabdi-ice-dish",
+            "qty": 1,
+            "flavours": "Orange + Kolthu",
+            "instructions": ""
+          }
+        ],
+        "subtotal": 160,
+        "discount": 0,
+        "total": 160,
+        "paymentMode": "Cash",
+        "status": "Ready",
+        "updatedAt": "2026-04-24T16:17:47.205Z"
+      },
+      {
+        "id": "c9b46cd6-d19b-4709-b30b-b94a56f9fabc",
+        "billNo": "AID-2026-04-24-0112",
+        "token": "017",
+        "createdAt": "2026-04-24T16:17:10.822Z",
+        "customerName": "",
+        "customerPhone": "",
+        "items": [
+          {
+            "id": "flavor-stick-gola-1777047360850-27e1487cab95b",
+            "name": "Flavor Stick Gola",
+            "category": "Ice Gola",
+            "price": 50,
+            "menuId": "flavor-stick-gola",
+            "qty": 1,
+            "flavours": "Kolthu",
+            "instructions": "Parcel"
+          },
+          {
+            "id": "flavor-stick-gola-1777047366099-1e39ae02492a18",
+            "name": "Flavor Stick Gola",
+            "category": "Ice Gola",
+            "price": 50,
+            "menuId": "flavor-stick-gola",
+            "qty": 2,
+            "flavours": "Kaju Mava",
+            "instructions": "Parcel"
+          },
+          {
+            "id": "dry-fruit-rabdi-ice-dish-1777047374115-7c2490fb88605",
+            "name": "Dry Fruit Rabdi Ice Dish",
+            "category": "Ice Dish",
+            "price": 150,
+            "menuId": "dry-fruit-rabdi-ice-dish",
+            "qty": 2,
+            "flavours": "Orange + Kaju Mava",
+            "instructions": "Parcel"
+          }
+        ],
+        "subtotal": 450,
+        "discount": 0,
+        "total": 450,
+        "paymentMode": "Cash",
+        "status": "Ready",
+        "updatedAt": "2026-04-24T16:20:21.320Z"
+      },
+      {
+        "id": "f065babb-d897-447c-817c-9e2ed0301b58",
+        "billNo": "AID-2026-04-24-0113",
+        "token": "018",
+        "createdAt": "2026-04-24T16:18:45.488Z",
+        "customerName": "",
+        "customerPhone": "",
+        "items": [
+          {
+            "id": "rabdi-ice-dish-1777047516131-81e4bdc78b264",
+            "name": "Rabdi Ice Dish",
+            "category": "Ice Dish",
+            "price": 100,
+            "menuId": "rabdi-ice-dish",
+            "qty": 1,
+            "flavours": "",
+            "instructions": ""
+          }
+        ],
+        "subtotal": 100,
+        "discount": 0,
+        "total": 100,
+        "paymentMode": "Cash",
+        "status": "Ready",
+        "updatedAt": "2026-04-24T16:42:15.025Z"
+      },
+      {
+        "id": "b577325d-6fac-4a0a-926c-02da14fdbc9c",
+        "billNo": "AID-2026-04-24-0114",
+        "token": "019",
+        "createdAt": "2026-04-24T16:19:42.305Z",
+        "customerName": "",
+        "customerPhone": "",
+        "items": [
+          {
+            "id": "flavor-stick-gola-1777047546265-89d028f7dff0e",
+            "name": "Flavor Stick Gola",
+            "category": "Ice Gola",
+            "price": 50,
+            "menuId": "flavor-stick-gola",
+            "qty": 3,
+            "flavours": "Orange + Kolthu",
+            "instructions": ""
+          },
+          {
+            "id": "flavor-stick-gola-1777047551531-fcd86bfde5f928",
+            "name": "Flavor Stick Gola",
+            "category": "Ice Gola",
+            "price": 50,
+            "menuId": "flavor-stick-gola",
+            "qty": 1,
+            "flavours": "Kala Khatta",
+            "instructions": ""
+          },
+          {
+            "id": "flavor-stick-gola-1777047555814-f848050a7eef2",
+            "name": "Flavor Stick Gola",
+            "category": "Ice Gola",
+            "price": 50,
+            "menuId": "flavor-stick-gola",
+            "qty": 1,
+            "flavours": "Kala Khatta + Orange",
+            "instructions": ""
+          },
+          {
+            "id": "flavor-ice-dish-1777047566448-d947ce45b0642",
+            "name": "Flavor Ice Dish",
+            "category": "Ice Dish",
+            "price": 60,
+            "menuId": "flavor-ice-dish",
+            "qty": 1,
+            "flavours": "Choco Chocolate",
+            "instructions": ""
+          }
+        ],
+        "subtotal": 310,
+        "discount": 0,
+        "total": 310,
+        "paymentMode": "Cash",
+        "status": "Ready",
+        "updatedAt": "2026-04-24T16:42:06.522Z"
+      },
+      {
+        "id": "f2e85a6e-3468-46fa-b145-9e72a485cebf",
+        "billNo": "AID-2026-04-24-0115",
+        "token": "020",
+        "createdAt": "2026-04-24T16:20:50.787Z",
+        "customerName": "",
+        "customerPhone": "",
+        "items": [
+          {
+            "id": "dry-fruit-rabdi-ice-dish-1777047633780-54fb90f7e8efd",
+            "name": "Dry Fruit Rabdi Ice Dish",
+            "category": "Ice Dish",
+            "price": 150,
+            "menuId": "dry-fruit-rabdi-ice-dish",
+            "qty": 1,
+            "flavours": "Choco Chocolate + Chikoo",
+            "instructions": ""
+          },
+          {
+            "id": "flavor-stick-gola-1777047647664-1d1463410d3b3",
+            "name": "Flavor Stick Gola",
+            "category": "Ice Gola",
+            "price": 50,
+            "menuId": "flavor-stick-gola",
+            "qty": 1,
+            "flavours": "Kala Khatta",
+            "instructions": ""
+          }
+        ],
+        "subtotal": 200,
+        "discount": 0,
+        "total": 200,
+        "paymentMode": "Cash",
+        "status": "Ready",
+        "updatedAt": "2026-04-24T16:41:44.892Z"
+      },
+      {
+        "id": "8fcaccb5-4c2f-40a6-bfbd-f2bbbd0ba487",
+        "billNo": "AID-2026-04-24-0116",
+        "token": "021",
+        "createdAt": "2026-04-24T16:23:08.791Z",
+        "customerName": "",
+        "customerPhone": "",
+        "items": [
+          {
+            "id": "rabdi-ice-dish-1777047805867-aa4a2b50b17d98",
+            "name": "Rabdi Ice Dish",
+            "category": "Ice Dish",
+            "price": 100,
+            "menuId": "rabdi-ice-dish",
+            "qty": 1,
+            "flavours": "",
+            "instructions": ""
+          }
+        ],
+        "subtotal": 100,
+        "discount": 0,
+        "total": 100,
+        "paymentMode": "Cash",
+        "status": "Ready",
+        "updatedAt": "2026-04-24T16:41:47.977Z",
+        "editedAt": "2026-04-24T16:23:27.285Z"
+      },
+      {
+        "id": "4c54571d-eb57-4ab1-bcd0-1f8203efeada",
+        "billNo": "AID-2026-04-24-0117",
+        "token": "022",
+        "createdAt": "2026-04-24T16:24:50.074Z",
+        "customerName": "",
+        "customerPhone": "",
+        "items": [
+          {
+            "id": "flavor-stick-gola-1777047858435-2e9df195a7c4b",
+            "name": "Flavor Stick Gola",
+            "category": "Ice Gola",
+            "price": 50,
+            "menuId": "flavor-stick-gola",
+            "qty": 2,
+            "flavours": "Orange",
+            "instructions": "Parcel"
+          },
+          {
+            "id": "flavor-stick-gola-1777047868151-ff5ae2ae1c644",
+            "name": "Flavor Stick Gola",
+            "category": "Ice Gola",
+            "price": 50,
+            "menuId": "flavor-stick-gola",
+            "qty": 1,
+            "flavours": "Kala Khatta",
+            "instructions": "Parcel"
+          }
+        ],
+        "subtotal": 150,
+        "discount": 0,
+        "total": 150,
+        "paymentMode": "Cash",
+        "status": "Ready",
+        "updatedAt": "2026-04-24T16:41:50.076Z"
+      },
+      {
+        "id": "f8e4423c-42cb-4d70-89e8-ac1aaa818b7d",
+        "billNo": "AID-2026-04-24-0118",
+        "token": "023",
+        "createdAt": "2026-04-24T16:25:24.408Z",
+        "customerName": "",
+        "customerPhone": "",
+        "items": [
+          {
+            "id": "rabdi-ice-dish-1777047898985-689254cfe90618",
+            "name": "Rabdi Ice Dish",
+            "category": "Ice Dish",
+            "price": 100,
+            "menuId": "rabdi-ice-dish",
+            "qty": 1,
+            "flavours": "Choco Chocolate + Vanilla Mava",
+            "instructions": ""
+          }
+        ],
+        "subtotal": 100,
+        "discount": 0,
+        "total": 100,
+        "paymentMode": "Cash",
+        "status": "Ready",
+        "updatedAt": "2026-04-24T16:35:18.040Z"
+      },
+      {
+        "id": "d8cacf48-9dd8-43ff-b9e7-06c0219622ee",
+        "billNo": "AID-2026-04-24-0119",
+        "token": "024",
+        "createdAt": "2026-04-24T16:27:18.093Z",
+        "customerName": "",
+        "customerPhone": "",
+        "items": [
+          {
+            "id": "flavor-ice-dish-1777048010318-626f77e29062b8",
+            "name": "Flavor Ice Dish",
+            "category": "Ice Dish",
+            "price": 60,
+            "menuId": "flavor-ice-dish",
+            "qty": 2,
+            "flavours": "khati mithi mix",
+            "instructions": ""
+          },
+          {
+            "id": "flavor-ice-dish-1777048032318-5b1f16b983db1",
+            "name": "Flavor Ice Dish",
+            "category": "Ice Dish",
+            "price": 60,
+            "menuId": "flavor-ice-dish",
+            "qty": 1,
+            "flavours": "sweet mix",
+            "instructions": ""
+          }
+        ],
+        "subtotal": 180,
+        "discount": 0,
+        "total": 180,
+        "paymentMode": "Cash",
+        "status": "Ready",
+        "updatedAt": "2026-04-24T16:35:21.141Z"
+      },
+      {
+        "id": "8225dd22-639b-41bb-b101-7d81308b2126",
+        "billNo": "AID-2026-04-24-0120",
+        "token": "025",
+        "createdAt": "2026-04-24T16:28:37.524Z",
+        "customerName": "",
+        "customerPhone": "",
+        "items": [
+          {
+            "id": "flavor-stick-gola-1777048103584-71bd21ad3caea8",
+            "name": "Flavor Stick Gola",
+            "category": "Ice Gola",
+            "price": 50,
+            "menuId": "flavor-stick-gola",
+            "qty": 2,
+            "flavours": "Kala Khatta + Kacchi Keri",
+            "instructions": ""
+          }
+        ],
+        "subtotal": 100,
+        "discount": 0,
+        "total": 100,
+        "paymentMode": "Cash",
+        "status": "Ready",
+        "updatedAt": "2026-04-24T16:35:24.022Z"
+      },
+      {
+        "id": "7dcab5bb-ea34-4027-9945-528123e1b7f7",
+        "billNo": "AID-2026-04-24-0121",
+        "token": "026",
+        "createdAt": "2026-04-24T16:30:05.973Z",
+        "customerName": "",
+        "customerPhone": "",
+        "items": [
+          {
+            "id": "flavor-cream-lassi-1777048174134-6ce893a63d2db",
+            "name": "Flavor Cream Lassi",
+            "category": "Lassi",
+            "price": 60,
+            "menuId": "flavor-cream-lassi",
+            "qty": 2,
+            "flavours": "Shahi Gulab",
+            "instructions": ""
+          },
+          {
+            "id": "dry-fruit-rabdi-ice-dish-1777048186700-263bee85ef094",
+            "name": "Dry Fruit Rabdi Ice Dish",
+            "category": "Ice Dish",
+            "price": 150,
+            "menuId": "dry-fruit-rabdi-ice-dish",
+            "qty": 1,
+            "flavours": "",
+            "instructions": ""
+          }
+        ],
+        "subtotal": 270,
+        "discount": 0,
+        "total": 270,
+        "paymentMode": "Cash",
+        "status": "Ready",
+        "updatedAt": "2026-04-24T16:41:54.792Z"
+      },
+      {
+        "id": "6b5cc0b4-e371-476e-a67a-098f5d5d6b6a",
+        "billNo": "AID-2026-04-24-0122",
+        "token": "027",
+        "createdAt": "2026-04-24T16:31:06.557Z",
+        "customerName": "",
+        "customerPhone": "",
+        "items": [
+          {
+            "id": "flavor-stick-gola-1777048240017-8fa653caaab95",
+            "name": "Flavor Stick Gola",
+            "category": "Ice Gola",
+            "price": 50,
+            "menuId": "flavor-stick-gola",
+            "qty": 1,
+            "flavours": "Kacchi Keri",
+            "instructions": ""
+          },
+          {
+            "id": "dry-fruit-rabdi-ice-dish-1777048248784-f9edeca0f77fc",
+            "name": "Dry Fruit Rabdi Ice Dish",
+            "category": "Ice Dish",
+            "price": 150,
+            "menuId": "dry-fruit-rabdi-ice-dish",
+            "qty": 1,
+            "flavours": "sweet mix",
+            "instructions": ""
+          }
+        ],
+        "subtotal": 200,
+        "discount": 0,
+        "total": 200,
+        "paymentMode": "Cash",
+        "status": "Ready",
+        "updatedAt": "2026-04-24T16:41:58.992Z"
+      },
+      {
+        "id": "4741a99b-18a5-4175-ad8c-f8ca1efbae34",
+        "billNo": "AID-2026-04-24-0123",
+        "token": "028",
+        "createdAt": "2026-04-24T16:32:12.322Z",
+        "customerName": "",
+        "customerPhone": "",
+        "items": [
+          {
+            "id": "flavor-stick-gola-1777048312251-5fd369e9eb4d78",
+            "name": "Flavor Stick Gola",
+            "category": "Ice Gola",
+            "price": 50,
+            "menuId": "flavor-stick-gola",
+            "qty": 1,
+            "flavours": "Kacchi Keri",
+            "instructions": ""
+          },
+          {
+            "id": "flavor-stick-gola-1777048320100-efb73b86361ae",
+            "name": "Flavor Stick Gola",
+            "category": "Ice Gola",
+            "price": 50,
+            "menuId": "flavor-stick-gola",
+            "qty": 1,
+            "flavours": "Jamun",
+            "instructions": ""
+          },
+          {
+            "id": "flavor-ice-dish-1777048325600-d71084aea8af98",
+            "name": "Flavor Ice Dish",
+            "category": "Ice Dish",
+            "price": 60,
+            "menuId": "flavor-ice-dish",
+            "qty": 1,
+            "flavours": "Choco Chocolate",
+            "instructions": ""
+          }
+        ],
+        "subtotal": 160,
+        "discount": 0,
+        "total": 160,
+        "paymentMode": "Cash",
+        "status": "Ready",
+        "updatedAt": "2026-04-24T16:41:16.542Z"
+      },
+      {
+        "id": "c724ad97-d598-4baa-a708-4b65241c9280",
+        "billNo": "AID-2026-04-24-0124",
+        "token": "029",
+        "createdAt": "2026-04-24T16:33:07.141Z",
+        "customerName": "",
+        "customerPhone": "",
+        "items": [
+          {
+            "id": "flavor-stick-gola-1777048359151-2be8b386a2a3e8",
+            "name": "Flavor Stick Gola",
+            "category": "Ice Gola",
+            "price": 50,
+            "menuId": "flavor-stick-gola",
+            "qty": 3,
+            "flavours": "Kaju Mava",
+            "instructions": "Parcel"
+          },
+          {
+            "id": "flavor-stick-gola-1777048376417-8e54f88ce68288",
+            "name": "Flavor Stick Gola",
+            "category": "Ice Gola",
+            "price": 50,
+            "menuId": "flavor-stick-gola",
+            "qty": 1,
+            "flavours": "Choco Chocolate + Chikoo",
+            "instructions": "Parcel"
+          }
+        ],
+        "subtotal": 200,
+        "discount": 0,
+        "total": 200,
+        "paymentMode": "Cash",
+        "status": "Ready",
+        "updatedAt": "2026-04-24T16:41:18.359Z"
+      },
+      {
+        "id": "c1c8c68a-8d88-4206-a902-c365348cb056",
+        "billNo": "AID-2026-04-24-0125",
+        "token": "030",
+        "createdAt": "2026-04-24T16:33:31.157Z",
+        "customerName": "",
+        "customerPhone": "",
+        "items": [
+          {
+            "id": "rabdi-ice-dish-1777048406300-fda17a4749f6e8",
+            "name": "Rabdi Ice Dish",
+            "category": "Ice Dish",
+            "price": 100,
+            "menuId": "rabdi-ice-dish",
+            "qty": 1,
+            "flavours": "Kala Khatta + Orange",
+            "instructions": ""
+          }
+        ],
+        "subtotal": 100,
+        "discount": 0,
+        "total": 100,
+        "paymentMode": "Cash",
+        "status": "Ready",
+        "updatedAt": "2026-04-24T16:42:00.324Z"
+      },
+      {
+        "id": "49265a61-31cc-4d0a-8c0b-32f78d6e12e9",
+        "billNo": "AID-2026-04-24-0126",
+        "token": "031",
+        "createdAt": "2026-04-24T16:34:07.507Z",
+        "customerName": "",
+        "customerPhone": "",
+        "items": [
+          {
+            "id": "rabdi-stick-gola-1777048455684-6e2a59b2081e48",
+            "name": "Rabdi Stick Gola",
+            "category": "Ice Gola",
+            "price": 70,
+            "menuId": "rabdi-stick-gola",
+            "qty": 1,
+            "flavours": "",
+            "instructions": ""
+          },
+          {
+            "id": "flavor-ice-dish-1777048455684-db8fe9cd3f0d18",
+            "name": "Flavor Ice Dish",
+            "category": "Ice Dish",
+            "price": 60,
+            "menuId": "flavor-ice-dish",
+            "qty": 1,
+            "flavours": "",
+            "instructions": ""
+          },
+          {
+            "id": "flavor-stick-gola-1777048468017-b1032c86c468e",
+            "name": "Flavor Stick Gola",
+            "category": "Ice Gola",
+            "price": 50,
+            "menuId": "flavor-stick-gola",
+            "qty": 1,
+            "flavours": "",
+            "instructions": ""
+          }
+        ],
+        "subtotal": 180,
+        "discount": 0,
+        "total": 180,
+        "paymentMode": "Cash",
+        "status": "Ready",
+        "editedAt": "2026-04-24T16:34:29.817Z",
+        "updatedAt": "2026-04-24T16:51:44.611Z"
+      },
+      {
+        "id": "4fc1644b-e064-4ace-9512-a922f0daed0d",
+        "billNo": "AID-2026-04-24-0127",
+        "token": "032",
+        "createdAt": "2026-04-24T16:34:52.289Z",
+        "customerName": "",
+        "customerPhone": "",
+        "items": [
+          {
+            "id": "flavor-ice-dish-1777048489167-1f4126706411f8",
+            "name": "Flavor Ice Dish",
+            "category": "Ice Dish",
+            "price": 60,
+            "menuId": "flavor-ice-dish",
+            "qty": 2,
+            "flavours": "",
+            "instructions": ""
+          }
+        ],
+        "subtotal": 120,
+        "discount": 0,
+        "total": 120,
+        "paymentMode": "Cash",
+        "status": "Ready",
+        "updatedAt": "2026-04-24T16:51:45.791Z"
+      },
+      {
+        "id": "8487504f-2af6-40b0-a04b-4594ffaf3cde",
+        "billNo": "AID-2026-04-24-0128",
+        "token": "033",
+        "createdAt": "2026-04-24T16:37:36.740Z",
+        "customerName": "",
+        "customerPhone": "",
+        "items": [
+          {
+            "id": "dry-fruit-rabdi-ice-dish-1777048610417-088164774b6248",
+            "name": "Dry Fruit Rabdi Ice Dish",
+            "category": "Ice Dish",
+            "price": 150,
+            "menuId": "dry-fruit-rabdi-ice-dish",
+            "qty": 1,
+            "flavours": "Guava + Rajbhog",
+            "instructions": ""
+          }
+        ],
+        "subtotal": 150,
+        "discount": 0,
+        "total": 150,
+        "paymentMode": "Cash",
+        "status": "Ready",
+        "updatedAt": "2026-04-24T16:51:46.591Z"
+      },
+      {
+        "id": "c60b0b71-7cb6-432b-8d01-3d75e7e09a30",
+        "billNo": "AID-2026-04-24-0129",
+        "token": "034",
+        "createdAt": "2026-04-24T16:38:33.239Z",
+        "customerName": "",
+        "customerPhone": "",
+        "items": [
+          {
+            "id": "flavor-stick-gola-1777048694716-2706daebc3308",
+            "name": "Flavor Stick Gola",
+            "category": "Ice Gola",
+            "price": 50,
+            "menuId": "flavor-stick-gola",
+            "qty": 6,
+            "flavours": "Choco Chocolate",
+            "instructions": ""
+          }
+        ],
+        "subtotal": 300,
+        "discount": 0,
+        "total": 300,
+        "paymentMode": "Cash",
+        "status": "Ready",
+        "updatedAt": "2026-04-24T16:51:47.626Z"
+      },
+      {
+        "id": "b7f6a190-18d7-4b5a-84f4-8c208fa6670b",
+        "billNo": "AID-2026-04-24-0130",
+        "token": "035",
+        "createdAt": "2026-04-24T16:39:08.410Z",
+        "customerName": "",
+        "customerPhone": "",
+        "items": [
+          {
+            "id": "flavor-stick-gola-1777048732218-e7cff85150cd98",
+            "name": "Flavor Stick Gola",
+            "category": "Ice Gola",
+            "price": 50,
+            "menuId": "flavor-stick-gola",
+            "qty": 2,
+            "flavours": "",
+            "instructions": ""
+          },
+          {
+            "id": "rainbow-stick-gola-1777048733901-e6c99233ff1c88",
+            "name": "Rainbow Stick Gola",
+            "category": "Ice Gola",
+            "price": 60,
+            "menuId": "rainbow-stick-gola",
+            "qty": 1,
+            "flavours": "",
+            "instructions": ""
+          }
+        ],
+        "subtotal": 160,
+        "discount": 0,
+        "total": 160,
+        "paymentMode": "Cash",
+        "status": "Ready",
+        "updatedAt": "2026-04-24T16:52:16.308Z"
+      },
+      {
+        "id": "97ee828d-75ec-461a-bc05-a08e116bebc1",
+        "billNo": "AID-2026-04-24-0131",
+        "token": "036",
+        "createdAt": "2026-04-24T16:39:53.287Z",
+        "customerName": "",
+        "customerPhone": "",
+        "items": [
+          {
+            "id": "flavor-stick-gola-1777048787885-6497e6b53b9b08",
+            "name": "Flavor Stick Gola",
+            "category": "Ice Gola",
+            "price": 50,
+            "menuId": "flavor-stick-gola",
+            "qty": 1,
+            "flavours": "",
+            "instructions": ""
+          },
+          {
+            "id": "punjabi-lassi-1777048791134-dafaecbb860e5",
+            "name": "Punjabi Lassi",
+            "category": "Lassi",
+            "price": 50,
+            "menuId": "punjabi-lassi",
+            "qty": 1,
+            "flavours": "",
+            "instructions": ""
+          }
+        ],
+        "subtotal": 100,
+        "discount": 0,
+        "total": 100,
+        "paymentMode": "Cash",
+        "status": "Ready",
+        "updatedAt": "2026-04-24T16:52:17.257Z"
+      },
+      {
+        "id": "84aa4f56-5fff-4a20-bd11-ce3b1eecd6a2",
+        "billNo": "AID-2026-04-24-0132",
+        "token": "037",
+        "createdAt": "2026-04-24T16:40:54.357Z",
+        "customerName": "",
+        "customerPhone": "",
+        "items": [
+          {
+            "id": "dry-fruit-rabdi-ice-dish-1777048848751-80e05416f99ec",
+            "name": "Dry Fruit Rabdi Ice Dish",
+            "category": "Ice Dish",
+            "price": 150,
+            "menuId": "dry-fruit-rabdi-ice-dish",
+            "qty": 1,
+            "flavours": "",
+            "instructions": ""
+          }
+        ],
+        "subtotal": 150,
+        "discount": 0,
+        "total": 150,
+        "paymentMode": "Cash",
+        "status": "Ready",
+        "updatedAt": "2026-04-24T16:52:18.241Z"
+      },
+      {
+        "id": "f641a005-5a83-47ee-9acf-5c2d0a8fc1c8",
+        "billNo": "AID-2026-04-24-0133",
+        "token": "038",
+        "createdAt": "2026-04-24T16:42:47.543Z",
+        "customerName": "",
+        "customerPhone": "",
+        "items": [
+          {
+            "id": "flavor-stick-gola-1777048969469-04312d7fa9fca",
+            "name": "Flavor Stick Gola",
+            "category": "Ice Gola",
+            "price": 50,
+            "menuId": "flavor-stick-gola",
+            "qty": 1,
+            "flavours": "",
+            "instructions": ""
+          },
+          {
+            "id": "rabdi-ice-dish-1777048976585-2334e84842dd78",
+            "name": "Rabdi Ice Dish",
+            "category": "Ice Dish",
+            "price": 100,
+            "menuId": "rabdi-ice-dish",
+            "qty": 1,
+            "flavours": "",
+            "instructions": ""
+          }
+        ],
+        "subtotal": 150,
+        "discount": 0,
+        "total": 150,
+        "paymentMode": "Cash",
+        "status": "Ready",
+        "editedAt": "2026-04-24T16:43:01.118Z",
+        "updatedAt": "2026-04-24T16:56:48.041Z"
+      },
+      {
+        "id": "e653d2ae-b6da-4507-9cf3-a92f63ffe086",
+        "billNo": "AID-2026-04-24-0134",
+        "token": "039",
+        "createdAt": "2026-04-24T16:43:50.725Z",
+        "customerName": "",
+        "customerPhone": "",
+        "items": [
+          {
+            "id": "flavor-ice-dish-1777048997535-6fe2a2d23edca",
+            "name": "Flavor Ice Dish",
+            "category": "Ice Dish",
+            "price": 60,
+            "menuId": "flavor-ice-dish",
+            "qty": 1,
+            "flavours": "Kacchi Keri",
+            "instructions": ""
+          },
+          {
+            "id": "flavor-ice-dish-1777049006952-f7c8b2aa5641",
+            "name": "Flavor Ice Dish",
+            "category": "Ice Dish",
+            "price": 60,
+            "menuId": "flavor-ice-dish",
+            "qty": 1,
+            "flavours": "Kala Khatta",
+            "instructions": ""
+          },
+          {
+            "id": "flavor-ice-dish-1777049009934-f21238cc97a9a",
+            "name": "Flavor Ice Dish",
+            "category": "Ice Dish",
+            "price": 60,
+            "menuId": "flavor-ice-dish",
+            "qty": 1,
+            "flavours": "Kolthu",
+            "instructions": ""
+          },
+          {
+            "id": "flavor-ice-dish-1777049018035-148a1fc3872c48",
+            "name": "Flavor Ice Dish",
+            "category": "Ice Dish",
+            "price": 60,
+            "menuId": "flavor-ice-dish",
+            "qty": 1,
+            "flavours": "Choco Chocolate",
+            "instructions": ""
+          }
+        ],
+        "subtotal": 240,
+        "discount": 0,
+        "total": 240,
+        "paymentMode": "Cash",
+        "status": "Ready",
+        "updatedAt": "2026-04-24T16:56:50.139Z"
+      },
+      {
+        "id": "132229bd-6e31-433b-9110-2924c6a4d037",
+        "billNo": "AID-2026-04-24-0135",
+        "token": "040",
+        "createdAt": "2026-04-24T16:44:55.809Z",
+        "customerName": "",
+        "customerPhone": "",
+        "items": [
+          {
+            "id": "flavor-sharbat-1777049099419-5f96603ec0cd28",
+            "name": "Flavor Sharbat",
+            "category": "Sharbat",
+            "price": 50,
+            "menuId": "flavor-sharbat",
+            "qty": 1,
+            "flavours": "Kolthu",
+            "instructions": ""
+          },
+          {
+            "id": "flavor-stick-gola-1777049099419-7a2e7278f2a58",
+            "name": "Flavor Stick Gola",
+            "category": "Ice Gola",
+            "price": 50,
+            "menuId": "flavor-stick-gola",
+            "qty": 1,
+            "flavours": "Orange + Kala Khatta",
+            "instructions": ""
+          },
+          {
+            "id": "flavor-stick-gola-1777049099419-c4c0b6a3b172",
+            "name": "Flavor Stick Gola",
+            "category": "Ice Gola",
+            "price": 50,
+            "menuId": "flavor-stick-gola",
+            "qty": 1,
+            "flavours": "",
+            "instructions": ""
+          }
+        ],
+        "subtotal": 150,
+        "discount": 0,
+        "total": 150,
+        "paymentMode": "Cash",
+        "status": "Ready",
+        "editedAt": "2026-04-24T16:45:03.002Z",
+        "updatedAt": "2026-04-24T16:56:51.690Z"
+      },
+      {
+        "id": "eab99ff0-d797-4578-a075-d4d8cfbcd476",
+        "billNo": "AID-2026-04-24-0136",
+        "token": "041",
+        "createdAt": "2026-04-24T16:46:02.342Z",
+        "customerName": "",
+        "customerPhone": "",
+        "items": [
+          {
+            "id": "flavor-stick-gola-1777049153152-16429c97a0a51",
+            "name": "Flavor Stick Gola",
+            "category": "Ice Gola",
+            "price": 50,
+            "menuId": "flavor-stick-gola",
+            "qty": 1,
+            "flavours": "",
+            "instructions": ""
+          },
+          {
+            "id": "rabdi-ice-dish-1777049157135-397d6e1002c278",
+            "name": "Rabdi Ice Dish",
+            "category": "Ice Dish",
+            "price": 100,
+            "menuId": "rabdi-ice-dish",
+            "qty": 1,
+            "flavours": "",
+            "instructions": ""
+          }
+        ],
+        "subtotal": 150,
+        "discount": 0,
+        "total": 150,
+        "paymentMode": "Cash",
+        "status": "Ready",
+        "updatedAt": "2026-04-24T16:57:03.171Z"
+      },
+      {
+        "id": "d51257dc-8db3-4d6b-a76e-ca3f0049e9fc",
+        "billNo": "AID-2026-04-24-0137",
+        "token": "042",
+        "createdAt": "2026-04-24T16:46:27.092Z",
+        "customerName": "",
+        "customerPhone": "",
+        "items": [
+          {
+            "id": "rabdi-ice-dish-1777049175901-fd5c9233bba118",
+            "name": "Rabdi Ice Dish",
+            "category": "Ice Dish",
+            "price": 100,
+            "menuId": "rabdi-ice-dish",
+            "qty": 1,
+            "flavours": "",
+            "instructions": ""
+          },
+          {
+            "id": "flavor-stick-gola-1777049179668-c0fcd00634e35",
+            "name": "Flavor Stick Gola",
+            "category": "Ice Gola",
+            "price": 50,
+            "menuId": "flavor-stick-gola",
+            "qty": 3,
+            "flavours": "",
+            "instructions": ""
+          }
+        ],
+        "subtotal": 250,
+        "discount": 0,
+        "total": 250,
+        "paymentMode": "Cash",
+        "status": "Ready",
+        "updatedAt": "2026-04-24T17:01:06.857Z"
+      },
+      {
+        "id": "9c327cf1-ecda-403f-a7a6-650a720bc14f",
+        "billNo": "AID-2026-04-24-0138",
+        "token": "043",
+        "createdAt": "2026-04-24T16:47:24.991Z",
+        "customerName": "",
+        "customerPhone": "",
+        "items": [
+          {
+            "id": "flavor-stick-gola-1777049235318-df4639c88c3a6",
+            "name": "Flavor Stick Gola",
+            "category": "Ice Gola",
+            "price": 50,
+            "menuId": "flavor-stick-gola",
+            "qty": 3,
+            "flavours": "",
+            "instructions": ""
+          },
+          {
+            "id": "dry-fruit-rabdi-ice-dish-1777049241301-9ed80502848778",
+            "name": "Dry Fruit Rabdi Ice Dish",
+            "category": "Ice Dish",
+            "price": 150,
+            "menuId": "dry-fruit-rabdi-ice-dish",
+            "qty": 1,
+            "flavours": "",
+            "instructions": ""
+          }
+        ],
+        "subtotal": 300,
+        "discount": 0,
+        "total": 300,
+        "paymentMode": "Cash",
+        "status": "Ready",
+        "updatedAt": "2026-04-24T17:01:08.489Z"
+      },
+      {
+        "id": "22cb68a4-aedb-4fa7-9f0a-5ce173f552c2",
+        "billNo": "AID-2026-04-24-0139",
+        "token": "044",
+        "createdAt": "2026-04-24T16:48:51.226Z",
+        "customerName": "",
+        "customerPhone": "",
+        "items": [
+          {
+            "id": "flavor-stick-gola-1777049264285-7dc19c7c1f48f",
+            "name": "Flavor Stick Gola",
+            "category": "Ice Gola",
+            "price": 50,
+            "menuId": "flavor-stick-gola",
+            "qty": 2,
+            "flavours": "Blueberry + Kala Khatta",
+            "instructions": ""
+          },
+          {
+            "id": "dry-fruit-rabdi-stick-gola-1777049280722-231ecd889252c8",
+            "name": "Dry Fruit Rabdi Stick Gola",
+            "category": "Ice Gola",
+            "price": 80,
+            "menuId": "dry-fruit-rabdi-stick-gola",
+            "qty": 1,
+            "flavours": "Orange + Kala Khatta",
+            "instructions": ""
+          },
+          {
+            "id": "dry-fruit-rabdi-stick-gola-1777049285468-4c2f8f47e2e4e8",
+            "name": "Dry Fruit Rabdi Stick Gola",
+            "category": "Ice Gola",
+            "price": 80,
+            "menuId": "dry-fruit-rabdi-stick-gola",
+            "qty": 1,
+            "flavours": "Shahi Gulab + Kala Khatta",
+            "instructions": ""
+          },
+          {
+            "id": "rabdi-stick-gola-1777049314235-5b1c3a9c28e55",
+            "name": "Rabdi Stick Gola",
+            "category": "Ice Gola",
+            "price": 70,
+            "menuId": "rabdi-stick-gola",
+            "qty": 1,
+            "flavours": "",
+            "instructions": ""
+          }
+        ],
+        "subtotal": 330,
+        "discount": 0,
+        "total": 330,
+        "paymentMode": "Cash",
+        "status": "Ready",
+        "updatedAt": "2026-04-24T17:03:21.355Z"
+      },
+      {
+        "id": "3a084b44-cb30-48bb-b5fa-bc20f7427db6",
+        "billNo": "AID-2026-04-24-0140",
+        "token": "045",
+        "createdAt": "2026-04-24T16:49:31.425Z",
+        "customerName": "",
+        "customerPhone": "",
+        "items": [
+          {
+            "id": "rabdi-stick-gola-1777049357501-441f1e69a8db4",
+            "name": "Rabdi Stick Gola",
+            "category": "Ice Gola",
+            "price": 70,
+            "menuId": "rabdi-stick-gola",
+            "qty": 1,
+            "flavours": "Shahi Gulab + Kaju Mava",
+            "instructions": ""
+          }
+        ],
+        "subtotal": 70,
+        "discount": 0,
+        "total": 70,
+        "paymentMode": "Cash",
+        "status": "Ready",
+        "updatedAt": "2026-04-24T17:03:23.073Z"
+      },
+      {
+        "id": "a5c67d56-4047-413d-af89-f6591a356e3c",
+        "billNo": "AID-2026-04-24-0141",
+        "token": "046",
+        "createdAt": "2026-04-24T16:50:16.141Z",
+        "customerName": "",
+        "customerPhone": "",
+        "items": [
+          {
+            "id": "rabdi-ice-dish-1777049393168-319b8e8f525c8",
+            "name": "Rabdi Ice Dish",
+            "category": "Ice Dish",
+            "price": 100,
+            "menuId": "rabdi-ice-dish",
+            "qty": 1,
+            "flavours": "Kala Khatta + Shahi Gulab",
+            "instructions": ""
+          },
+          {
+            "id": "dry-fruit-rabdi-ice-dish-1777049409867-7dc8a921997c78",
+            "name": "Dry Fruit Rabdi Ice Dish",
+            "category": "Ice Dish",
+            "price": 150,
+            "menuId": "dry-fruit-rabdi-ice-dish",
+            "qty": 1,
+            "flavours": "Kolthu + Shahi Gulab",
+            "instructions": ""
+          }
+        ],
+        "subtotal": 250,
+        "discount": 0,
+        "total": 250,
+        "paymentMode": "Cash",
+        "status": "Ready",
+        "updatedAt": "2026-04-24T17:07:34.673Z"
+      },
+      {
+        "id": "b2c0b28e-2888-4511-84ed-549a8a4d312b",
+        "billNo": "AID-2026-04-24-0142",
+        "token": "047",
+        "createdAt": "2026-04-24T16:50:47.841Z",
+        "customerName": "",
+        "customerPhone": "",
+        "items": [
+          {
+            "id": "flavor-stick-gola-1777049435300-777cb9aa60fa98",
+            "name": "Flavor Stick Gola",
+            "category": "Ice Gola",
+            "price": 50,
+            "menuId": "flavor-stick-gola",
+            "qty": 4,
+            "flavours": "Kala Khatta",
+            "instructions": "Parcel"
+          }
+        ],
+        "subtotal": 200,
+        "discount": 0,
+        "total": 200,
+        "paymentMode": "Cash",
+        "status": "Ready",
+        "updatedAt": "2026-04-24T17:07:35.539Z"
+      },
+      {
+        "id": "4a7c3f6c-2f78-4ea7-bae0-889ad7f06ec6",
+        "billNo": "AID-2026-04-24-0143",
+        "token": "048",
+        "createdAt": "2026-04-24T16:53:39.725Z",
+        "customerName": "",
+        "customerPhone": "",
+        "items": [
+          {
+            "id": "dry-fruit-rabdi-ice-dish-1777049671984-7ab35cf28625a",
+            "name": "Dry Fruit Rabdi Ice Dish",
+            "category": "Ice Dish",
+            "price": 150,
+            "menuId": "dry-fruit-rabdi-ice-dish",
+            "qty": 1,
+            "flavours": "",
+            "instructions": ""
+          },
+          {
+            "id": "flavor-stick-gola-1777049671984-4fc8d54eb4b658",
+            "name": "Flavor Stick Gola",
+            "category": "Ice Gola",
+            "price": 50,
+            "menuId": "flavor-stick-gola",
+            "qty": 2,
+            "flavours": "",
+            "instructions": ""
+          },
+          {
+            "id": "flavor-sharbat-1777049671984-af5cf6cb90ede8",
+            "name": "Flavor Sharbat",
+            "category": "Sharbat",
+            "price": 50,
+            "menuId": "flavor-sharbat",
+            "qty": 7,
+            "flavours": "",
+            "instructions": ""
+          },
+          {
+            "id": "flavor-stick-gola-1777049692317-96cedc93861968",
+            "name": "Flavor Stick Gola",
+            "category": "Ice Gola",
+            "price": 50,
+            "menuId": "flavor-stick-gola",
+            "qty": 1,
+            "flavours": "",
+            "instructions": ""
+          },
+          {
+            "id": "flavor-ice-dish-1777049697366-a18796acd125e",
+            "name": "Flavor Ice Dish",
+            "category": "Ice Dish",
+            "price": 60,
+            "menuId": "flavor-ice-dish",
+            "qty": 1,
+            "flavours": "",
+            "instructions": ""
+          }
+        ],
+        "subtotal": 710,
+        "discount": 0,
+        "total": 710,
+        "paymentMode": "Cash",
+        "status": "Ready",
+        "editedAt": "2026-04-24T16:55:03.484Z",
+        "updatedAt": "2026-04-24T17:11:03.117Z"
+      },
+      {
+        "id": "a4e814a5-1207-4957-a4cf-971bc28aec90",
+        "billNo": "AID-2026-04-24-0144",
+        "token": "049",
+        "createdAt": "2026-04-24T16:55:26.023Z",
+        "customerName": "",
+        "customerPhone": "",
+        "items": [
+          {
+            "id": "dry-fruit-rabdi-ice-dish-1777049718916-783a131b1b4c2",
+            "name": "Dry Fruit Rabdi Ice Dish",
+            "category": "Ice Dish",
+            "price": 150,
+            "menuId": "dry-fruit-rabdi-ice-dish",
+            "qty": 1,
+            "flavours": "",
+            "instructions": ""
+          },
+          {
+            "id": "dry-fruit-rabdi-ice-dish-1777049720083-6a33c4b9056ba8",
+            "name": "Dry Fruit Rabdi Ice Dish",
+            "category": "Ice Dish",
+            "price": 150,
+            "menuId": "dry-fruit-rabdi-ice-dish",
+            "qty": 1,
+            "flavours": "",
+            "instructions": ""
+          }
+        ],
+        "subtotal": 300,
+        "discount": 0,
+        "total": 300,
+        "paymentMode": "Cash",
+        "status": "Ready",
+        "updatedAt": "2026-04-24T17:14:53.010Z"
+      },
+      {
+        "id": "3ce3cc4a-517c-487a-8ff5-725636621a4f",
+        "billNo": "AID-2026-04-24-0145",
+        "token": "050",
+        "createdAt": "2026-04-24T16:56:10.524Z",
+        "customerName": "",
+        "customerPhone": "",
+        "items": [
+          {
+            "id": "flavor-stick-gola-1777049779233-1f5416e0442098",
+            "name": "Flavor Stick Gola",
+            "category": "Ice Gola",
+            "price": 50,
+            "menuId": "flavor-stick-gola",
+            "qty": 3,
+            "flavours": "",
+            "instructions": ""
+          },
+          {
+            "id": "flavor-ice-dish-1777049779233-39079c9423cbc8",
+            "name": "Flavor Ice Dish",
+            "category": "Ice Dish",
+            "price": 60,
+            "menuId": "flavor-ice-dish",
+            "qty": 1,
+            "flavours": "",
+            "instructions": ""
+          },
+          {
+            "id": "rabdi-flavor-sharbat-1777049779233-53a25c93e58c48",
+            "name": "Rabdi Flavor Sharbat",
+            "category": "Sharbat",
+            "price": 70,
+            "menuId": "rabdi-flavor-sharbat",
+            "qty": 1,
+            "flavours": "",
+            "instructions": ""
+          }
+        ],
+        "subtotal": 280,
+        "discount": 0,
+        "total": 280,
+        "paymentMode": "Cash",
+        "status": "Ready",
+        "editedAt": "2026-04-24T16:56:34.150Z",
+        "updatedAt": "2026-04-24T17:14:54.611Z"
+      },
+      {
+        "id": "5fa58566-54be-435a-bd00-280d52f7cbdb",
+        "billNo": "AID-2026-04-24-0146",
+        "token": "051",
+        "createdAt": "2026-04-24T17:01:57.989Z",
+        "customerName": "",
+        "customerPhone": "",
+        "items": [
+          {
+            "id": "rainbow-stick-gola-1777050102750-39a08a426ca63",
+            "name": "Rainbow Stick Gola",
+            "category": "Ice Gola",
+            "price": 60,
+            "menuId": "rainbow-stick-gola",
+            "qty": 1,
+            "flavours": "",
+            "instructions": ""
+          },
+          {
+            "id": "rainbow-stick-gola-1777050103199-13c2a65b750d88",
+            "name": "Rainbow Stick Gola",
+            "category": "Ice Gola",
+            "price": 60,
+            "menuId": "rainbow-stick-gola",
+            "qty": 1,
+            "flavours": "",
+            "instructions": ""
+          },
+          {
+            "id": "rabdi-ice-dish-1777050107815-3bbffebbb8d8d8",
+            "name": "Rabdi Ice Dish",
+            "category": "Ice Dish",
+            "price": 100,
+            "menuId": "rabdi-ice-dish",
+            "qty": 1,
+            "flavours": "",
+            "instructions": ""
+          }
+        ],
+        "subtotal": 220,
+        "discount": 0,
+        "total": 220,
+        "paymentMode": "Cash",
+        "status": "Ready",
+        "updatedAt": "2026-04-24T17:14:55.478Z"
+      },
+      {
+        "id": "cb92d3f6-840b-48cc-941e-4c3d2e590c06",
+        "billNo": "AID-2026-04-24-0147",
+        "token": "052",
+        "createdAt": "2026-04-24T17:04:11.073Z",
+        "customerName": "",
+        "customerPhone": "",
+        "items": [
+          {
+            "id": "rainbow-stick-gola-1777050240149-1e4d78315ee73",
+            "name": "Rainbow Stick Gola",
+            "category": "Ice Gola",
+            "price": 60,
+            "menuId": "rainbow-stick-gola",
+            "qty": 1,
+            "flavours": "",
+            "instructions": ""
+          },
+          {
+            "id": "rainbow-stick-gola-1777050242516-d7b3ca1a2cb358",
+            "name": "Rainbow Stick Gola",
+            "category": "Ice Gola",
+            "price": 60,
+            "menuId": "rainbow-stick-gola",
+            "qty": 1,
+            "flavours": "",
+            "instructions": ""
+          },
+          {
+            "id": "flavor-stick-gola-1777050247933-6eb65155203d4",
+            "name": "Flavor Stick Gola",
+            "category": "Ice Gola",
+            "price": 50,
+            "menuId": "flavor-stick-gola",
+            "qty": 1,
+            "flavours": "",
+            "instructions": ""
+          }
+        ],
+        "subtotal": 170,
+        "discount": 0,
+        "total": 170,
+        "paymentMode": "Cash",
+        "status": "Ready",
+        "updatedAt": "2026-04-24T17:22:02.624Z"
+      },
+      {
+        "id": "0b0b7ff0-c3bc-4027-bece-bbecbb97a6c6",
+        "billNo": "AID-2026-04-24-0148",
+        "token": "053",
+        "createdAt": "2026-04-24T17:15:38.978Z",
+        "customerName": "",
+        "customerPhone": "",
+        "items": [
+          {
+            "id": "dry-fruit-rabdi-ice-dish-1777050948689-51b62c91cc1be8",
+            "name": "Dry Fruit Rabdi Ice Dish",
+            "category": "Ice Dish",
+            "price": 150,
+            "menuId": "dry-fruit-rabdi-ice-dish",
+            "qty": 1,
+            "flavours": "Orange + Kala Khatta",
+            "instructions": ""
+          }
+        ],
+        "subtotal": 150,
+        "discount": 0,
+        "total": 150,
+        "paymentMode": "Cash",
+        "status": "Ready",
+        "editedAt": "2026-04-24T17:15:53.370Z",
+        "updatedAt": "2026-04-24T17:22:06.291Z"
+      },
+      {
+        "id": "9cb3886c-cc87-4d24-8dbc-e55d481a2b84",
+        "billNo": "AID-2026-04-24-0149",
+        "token": "054",
+        "createdAt": "2026-04-24T17:16:28.062Z",
+        "customerName": "",
+        "customerPhone": "",
+        "items": [
+          {
+            "id": "flavor-stick-gola-1777050983604-f487ab2d305028",
+            "name": "Flavor Stick Gola",
+            "category": "Ice Gola",
+            "price": 50,
+            "menuId": "flavor-stick-gola",
+            "qty": 1,
+            "flavours": "",
+            "instructions": ""
+          },
+          {
+            "id": "flavor-stick-gola-1777050983821-0e6e6cd6ca8108",
+            "name": "Flavor Stick Gola",
+            "category": "Ice Gola",
+            "price": 50,
+            "menuId": "flavor-stick-gola",
+            "qty": 1,
+            "flavours": "",
+            "instructions": ""
+          },
+          {
+            "id": "flavor-stick-gola-1777050984638-4ab6b960a02218",
+            "name": "Flavor Stick Gola",
+            "category": "Ice Gola",
+            "price": 50,
+            "menuId": "flavor-stick-gola",
+            "qty": 1,
+            "flavours": "",
+            "instructions": ""
+          }
+        ],
+        "subtotal": 150,
+        "discount": 0,
+        "total": 150,
+        "paymentMode": "Cash",
+        "status": "Ready",
+        "updatedAt": "2026-04-24T17:22:05.475Z"
+      },
+      {
+        "id": "d6617808-f6e1-418f-9e16-0d8ad36552c8",
+        "billNo": "AID-2026-04-24-0150",
+        "token": "055",
+        "createdAt": "2026-04-24T17:16:38.512Z",
+        "customerName": "",
+        "customerPhone": "",
+        "items": [
+          {
+            "id": "flavor-stick-gola-1777050993488-1a061fbb792918",
+            "name": "Flavor Stick Gola",
+            "category": "Ice Gola",
+            "price": 50,
+            "menuId": "flavor-stick-gola",
+            "qty": 1,
+            "flavours": "",
+            "instructions": ""
+          },
+          {
+            "id": "flavor-stick-gola-1777050993838-1727e3d02f5168",
+            "name": "Flavor Stick Gola",
+            "category": "Ice Gola",
+            "price": 50,
+            "menuId": "flavor-stick-gola",
+            "qty": 1,
+            "flavours": "",
+            "instructions": ""
+          }
+        ],
+        "subtotal": 100,
+        "discount": 0,
+        "total": 100,
+        "paymentMode": "Cash",
+        "status": "Ready",
+        "updatedAt": "2026-04-24T17:22:04.577Z"
+      },
+      {
+        "id": "bf8be006-fbf2-401a-b3ff-7c57153110f0",
+        "billNo": "AID-2026-04-24-0151",
+        "token": "056",
+        "createdAt": "2026-04-24T17:16:52.857Z",
+        "customerName": "",
+        "customerPhone": "",
+        "items": [
+          {
+            "id": "flavor-stick-gola-1777051011038-d3eda2b6a85578",
+            "name": "Flavor Stick Gola",
+            "category": "Ice Gola",
+            "price": 50,
+            "menuId": "flavor-stick-gola",
+            "qty": 1,
+            "flavours": "",
+            "instructions": ""
+          }
+        ],
+        "subtotal": 50,
+        "discount": 0,
+        "total": 50,
+        "paymentMode": "Cash",
+        "status": "Ready",
+        "updatedAt": "2026-04-24T17:22:03.994Z"
+      },
+      {
+        "id": "9e1d0acf-f333-49ad-859c-3f292a5986ce",
+        "billNo": "AID-2026-04-24-0152",
+        "token": "057",
+        "createdAt": "2026-04-24T17:17:08.874Z",
+        "customerName": "",
+        "customerPhone": "",
+        "items": [
+          {
+            "id": "flavor-stick-gola-1777051019738-d4b6e22fe21a98",
+            "name": "Flavor Stick Gola",
+            "category": "Ice Gola",
+            "price": 50,
+            "menuId": "flavor-stick-gola",
+            "qty": 1,
+            "flavours": "",
+            "instructions": ""
+          },
+          {
+            "id": "flavor-stick-gola-1777051020071-7911c4ef8f19d8",
+            "name": "Flavor Stick Gola",
+            "category": "Ice Gola",
+            "price": 50,
+            "menuId": "flavor-stick-gola",
+            "qty": 1,
+            "flavours": "",
+            "instructions": ""
+          }
+        ],
+        "subtotal": 100,
+        "discount": 0,
+        "total": 100,
+        "paymentMode": "Cash",
+        "status": "Ready",
+        "updatedAt": "2026-04-24T17:22:03.425Z"
+      },
+      {
+        "id": "2196b68a-798c-4ac0-ab4a-22da15ba79b2",
+        "billNo": "AID-2026-04-24-0153",
+        "token": "058",
+        "createdAt": "2026-04-24T17:17:34.994Z",
+        "customerName": "",
+        "customerPhone": "",
+        "items": [
+          {
+            "id": "dry-fruit-rabdi-ice-cream-dish-1777051042304-b9362bba49116",
+            "name": "Dry Fruit Rabdi Ice Cream Dish",
+            "category": "Ice Dish",
+            "price": 180,
+            "menuId": "dry-fruit-rabdi-ice-cream-dish",
+            "qty": 1,
+            "flavours": "",
+            "instructions": ""
+          },
+          {
+            "id": "flavor-stick-gola-1777051046870-81e7c27b86783",
+            "name": "Flavor Stick Gola",
+            "category": "Ice Gola",
+            "price": 50,
+            "menuId": "flavor-stick-gola",
+            "qty": 1,
+            "flavours": "",
+            "instructions": ""
+          }
+        ],
+        "subtotal": 230,
+        "discount": 0,
+        "total": 230,
+        "paymentMode": "Cash",
+        "status": "Ready",
+        "updatedAt": "2026-04-24T17:27:49.541Z"
+      },
+      {
+        "id": "b2fb135b-867f-42f5-addd-fae64b8ad416",
+        "billNo": "AID-2026-04-24-0154",
+        "token": "059",
+        "createdAt": "2026-04-24T17:18:10.545Z",
+        "customerName": "",
+        "customerPhone": "",
+        "items": [
+          {
+            "id": "rabdi-ice-dish-1777051083921-f61beba54b0d2",
+            "name": "Rabdi Ice Dish",
+            "category": "Ice Dish",
+            "price": 100,
+            "menuId": "rabdi-ice-dish",
+            "qty": 1,
+            "flavours": "",
+            "instructions": ""
+          }
+        ],
+        "subtotal": 100,
+        "discount": 0,
+        "total": 100,
+        "paymentMode": "Cash",
+        "status": "Ready",
+        "updatedAt": "2026-04-24T17:27:57.541Z"
+      },
+      {
+        "id": "6e0a438c-ecdd-410b-8b74-2b0cf4581bff",
+        "billNo": "AID-2026-04-24-0155",
+        "token": "060",
+        "createdAt": "2026-04-24T17:18:44.777Z",
+        "customerName": "",
+        "customerPhone": "",
+        "items": [
+          {
+            "id": "flavor-stick-gola-1777051119703-5a7adfecd21e1",
+            "name": "Flavor Stick Gola",
+            "category": "Ice Gola",
+            "price": 50,
+            "menuId": "flavor-stick-gola",
+            "qty": 2,
+            "flavours": "Orange + Kala Khatta",
+            "instructions": ""
+          }
+        ],
+        "subtotal": 100,
+        "discount": 0,
+        "total": 100,
+        "paymentMode": "Cash",
+        "status": "Ready",
+        "updatedAt": "2026-04-24T17:28:00.707Z"
+      },
+      {
+        "id": "6cff0df5-6d83-4269-862c-b959241f2b6d",
+        "billNo": "AID-2026-04-24-0156",
+        "token": "061",
+        "createdAt": "2026-04-24T17:19:16.077Z",
+        "customerName": "",
+        "customerPhone": "",
+        "items": [
+          {
+            "id": "rabdi-ice-dish-1777051152254-95d51d26f71a08",
+            "name": "Rabdi Ice Dish",
+            "category": "Ice Dish",
+            "price": 100,
+            "menuId": "rabdi-ice-dish",
+            "qty": 1,
+            "flavours": "",
+            "instructions": ""
+          }
+        ],
+        "subtotal": 100,
+        "discount": 0,
+        "total": 100,
+        "paymentMode": "Cash",
+        "status": "Ready",
+        "updatedAt": "2026-04-24T17:28:00.090Z"
+      },
+      {
+        "id": "04e732a5-1411-49f1-9207-02e971da420f",
+        "billNo": "AID-2026-04-24-0157",
+        "token": "062",
+        "createdAt": "2026-04-24T17:19:30.522Z",
+        "customerName": "",
+        "customerPhone": "",
+        "items": [
+          {
+            "id": "flavor-stick-gola-1777051164704-e4e0a712fd715",
+            "name": "Flavor Stick Gola",
+            "category": "Ice Gola",
+            "price": 50,
+            "menuId": "flavor-stick-gola",
+            "qty": 1,
+            "flavours": "",
+            "instructions": ""
+          },
+          {
+            "id": "flavor-stick-gola-1777051165104-0001385e144e",
+            "name": "Flavor Stick Gola",
+            "category": "Ice Gola",
+            "price": 50,
+            "menuId": "flavor-stick-gola",
+            "qty": 1,
+            "flavours": "",
+            "instructions": ""
+          },
+          {
+            "id": "flavor-stick-gola-1777051166037-90fa65144c2c08",
+            "name": "Flavor Stick Gola",
+            "category": "Ice Gola",
+            "price": 50,
+            "menuId": "flavor-stick-gola",
+            "qty": 1,
+            "flavours": "",
+            "instructions": ""
+          }
+        ],
+        "subtotal": 150,
+        "discount": 0,
+        "total": 150,
+        "paymentMode": "Cash",
+        "status": "Ready",
+        "updatedAt": "2026-04-24T17:27:59.473Z"
+      },
+      {
+        "id": "0ea8a891-4fb8-4195-8501-647b48ac791a",
+        "billNo": "AID-2026-04-24-0158",
+        "token": "063",
+        "createdAt": "2026-04-24T17:19:59.792Z",
+        "customerName": "",
+        "customerPhone": "",
+        "items": [
+          {
+            "id": "dry-fruit-rabdi-ice-dish-1777051194454-88f9240fffb45",
+            "name": "Dry Fruit Rabdi Ice Dish",
+            "category": "Ice Dish",
+            "price": 150,
+            "menuId": "dry-fruit-rabdi-ice-dish",
+            "qty": 1,
+            "flavours": "",
+            "instructions": ""
+          }
+        ],
+        "subtotal": 150,
+        "discount": 0,
+        "total": 150,
+        "paymentMode": "Cash",
+        "status": "Ready",
+        "updatedAt": "2026-04-24T17:27:58.923Z"
+      },
+      {
+        "id": "d61992c1-02c2-4c40-82a0-1c2fab584a81",
+        "billNo": "AID-2026-04-24-0159",
+        "token": "064",
+        "createdAt": "2026-04-24T17:20:48.377Z",
+        "customerName": "",
+        "customerPhone": "",
+        "items": [
+          {
+            "id": "dry-fruit-rabdi-ice-dish-1777051244670-2f570c22853e1",
+            "name": "Dry Fruit Rabdi Ice Dish",
+            "category": "Ice Dish",
+            "price": 150,
+            "menuId": "dry-fruit-rabdi-ice-dish",
+            "qty": 1,
+            "flavours": "",
+            "instructions": ""
+          }
+        ],
+        "subtotal": 150,
+        "discount": 0,
+        "total": 150,
+        "paymentMode": "Cash",
+        "status": "Ready",
+        "updatedAt": "2026-04-24T17:27:58.357Z"
+      },
+      {
+        "id": "3e378d75-4a7a-462e-bd36-4c7ce47141b6",
+        "billNo": "AID-2026-04-24-0160",
+        "token": "065",
+        "createdAt": "2026-04-24T17:27:37.174Z",
+        "customerName": "",
+        "customerPhone": "",
+        "items": [
+          {
+            "id": "flavor-stick-gola-1777051633017-86ee5c7e19e27",
+            "name": "Flavor Stick Gola",
+            "category": "Ice Gola",
+            "price": 50,
+            "menuId": "flavor-stick-gola",
+            "qty": 1,
+            "flavours": "",
+            "instructions": ""
+          },
+          {
+            "id": "rabdi-ice-dish-1777051643967-b2652770856238",
+            "name": "Rabdi Ice Dish",
+            "category": "Ice Dish",
+            "price": 100,
+            "menuId": "rabdi-ice-dish",
+            "qty": 1,
+            "flavours": "Choco Chocolate",
+            "instructions": ""
+          }
+        ],
+        "subtotal": 150,
+        "discount": 0,
+        "total": 150,
+        "paymentMode": "Cash",
+        "status": "Ready",
+        "updatedAt": "2026-04-24T17:30:57.473Z"
+      },
+      {
+        "id": "a2bf1138-1909-433c-98c7-d0bf40ea0ea4",
+        "billNo": "AID-2026-04-24-0161",
+        "token": "066",
+        "createdAt": "2026-04-24T17:29:03.990Z",
+        "customerName": "",
+        "customerPhone": "",
+        "items": [
+          {
+            "id": "flavor-stick-gola-1777051736100-5911ed14862be8",
+            "name": "Flavor Stick Gola",
+            "category": "Ice Gola",
+            "price": 50,
+            "menuId": "flavor-stick-gola",
+            "qty": 1,
+            "flavours": "",
+            "instructions": ""
+          },
+          {
+            "id": "dry-fruit-rabdi-stick-gola-1777051741400-a94cf4033fb5c",
+            "name": "Dry Fruit Rabdi Stick Gola",
+            "category": "Ice Gola",
+            "price": 80,
+            "menuId": "dry-fruit-rabdi-stick-gola",
+            "qty": 1,
+            "flavours": "",
+            "instructions": ""
+          }
+        ],
+        "subtotal": 130,
+        "discount": 0,
+        "total": 130,
+        "paymentMode": "Cash",
+        "status": "Ready",
+        "updatedAt": "2026-04-24T17:32:45.839Z"
+      },
+      {
+        "id": "128a4db8-8b1d-49a3-a487-afa30de2ca84",
+        "billNo": "AID-2026-04-24-0162",
+        "token": "067",
+        "createdAt": "2026-04-24T17:29:27.603Z",
+        "customerName": "",
+        "customerPhone": "",
+        "items": [
+          {
+            "id": "flavor-stick-gola-1777051763267-2847f6701a702",
+            "name": "Flavor Stick Gola",
+            "category": "Ice Gola",
+            "price": 50,
+            "menuId": "flavor-stick-gola",
+            "qty": 1,
+            "flavours": "",
+            "instructions": ""
+          },
+          {
+            "id": "flavor-stick-gola-1777051763416-974ea9f0982ba",
+            "name": "Flavor Stick Gola",
+            "category": "Ice Gola",
+            "price": 50,
+            "menuId": "flavor-stick-gola",
+            "qty": 1,
+            "flavours": "",
+            "instructions": ""
+          },
+          {
+            "id": "rabdi-stick-gola-1777051765100-937381d8e6f088",
+            "name": "Rabdi Stick Gola",
+            "category": "Ice Gola",
+            "price": 70,
+            "menuId": "rabdi-stick-gola",
+            "qty": 1,
+            "flavours": "",
+            "instructions": ""
+          }
+        ],
+        "subtotal": 170,
+        "discount": 0,
+        "total": 170,
+        "paymentMode": "Cash",
+        "status": "Ready",
+        "updatedAt": "2026-04-24T17:33:31.619Z"
+      },
+      {
+        "id": "eea93d64-a534-4b18-90ec-543c347a3384",
+        "billNo": "AID-2026-04-24-0163",
+        "token": "068",
+        "createdAt": "2026-04-24T17:30:02.706Z",
+        "customerName": "",
+        "customerPhone": "",
+        "items": [
+          {
+            "id": "flavor-stick-gola-1777051781500-23d857d0870418",
+            "name": "Flavor Stick Gola",
+            "category": "Ice Gola",
+            "price": 50,
+            "menuId": "flavor-stick-gola",
+            "qty": 3,
+            "flavours": "",
+            "instructions": "Parcel"
+          }
+        ],
+        "subtotal": 150,
+        "discount": 0,
+        "total": 150,
+        "paymentMode": "Cash",
+        "status": "Ready",
+        "updatedAt": "2026-04-24T18:01:34.872Z"
+      },
+      {
+        "id": "6ce5dff0-3136-4a76-8589-0178b9bde9e1",
+        "billNo": "AID-2026-04-24-0164",
+        "token": "069",
+        "createdAt": "2026-04-24T17:30:28.722Z",
+        "customerName": "",
+        "customerPhone": "",
+        "items": [
+          {
+            "id": "flavor-stick-gola-1777051840616-2924a0d2827b88",
+            "name": "Flavor Stick Gola",
+            "category": "Ice Gola",
+            "price": 50,
+            "menuId": "flavor-stick-gola",
+            "qty": 1,
+            "flavours": "",
+            "instructions": ""
+          },
+          {
+            "id": "rabdi-stick-gola-1777051844799-5b6c53d58dad5",
+            "name": "Rabdi Stick Gola",
+            "category": "Ice Gola",
+            "price": 70,
+            "menuId": "rabdi-stick-gola",
+            "qty": 1,
+            "flavours": "",
+            "instructions": ""
+          }
+        ],
+        "subtotal": 120,
+        "discount": 0,
+        "total": 120,
+        "paymentMode": "Cash",
+        "status": "Ready",
+        "editedAt": "2026-04-24T17:30:48.666Z",
+        "updatedAt": "2026-04-24T17:37:16.970Z"
+      },
+      {
+        "id": "037774b8-c314-4bac-ab56-5eba7937b75c",
+        "billNo": "AID-2026-04-24-0165",
+        "token": "070",
+        "createdAt": "2026-04-24T17:31:15.823Z",
+        "customerName": "",
+        "customerPhone": "",
+        "items": [
+          {
+            "id": "flavor-stick-gola-1777051870765-19b90236722808",
+            "name": "Flavor Stick Gola",
+            "category": "Ice Gola",
+            "price": 50,
+            "menuId": "flavor-stick-gola",
+            "qty": 1,
+            "flavours": "",
+            "instructions": ""
+          },
+          {
+            "id": "flavor-stick-gola-1777051871016-ec9db1e4a1caf",
+            "name": "Flavor Stick Gola",
+            "category": "Ice Gola",
+            "price": 50,
+            "menuId": "flavor-stick-gola",
+            "qty": 1,
+            "flavours": "",
+            "instructions": ""
+          }
+        ],
+        "subtotal": 100,
+        "discount": 0,
+        "total": 100,
+        "paymentMode": "Cash",
+        "status": "Ready",
+        "updatedAt": "2026-04-24T17:37:17.734Z"
+      },
+      {
+        "id": "52217183-f79f-473c-8ecc-835e00b2eef8",
+        "billNo": "AID-2026-04-24-0166",
+        "token": "071",
+        "createdAt": "2026-04-24T17:31:49.273Z",
+        "customerName": "",
+        "customerPhone": "",
+        "items": [
+          {
+            "id": "flavor-stick-gola-1777051901966-bdb2b4bc7c20f8",
+            "name": "Flavor Stick Gola",
+            "category": "Ice Gola",
+            "price": 50,
+            "menuId": "flavor-stick-gola",
+            "qty": 1,
+            "flavours": "Kala Khatta",
+            "instructions": ""
+          },
+          {
+            "id": "flavor-stick-gola-1777051904182-c0180c2df5b758",
+            "name": "Flavor Stick Gola",
+            "category": "Ice Gola",
+            "price": 50,
+            "menuId": "flavor-stick-gola",
+            "qty": 1,
+            "flavours": "Jamun",
+            "instructions": ""
+          }
+        ],
+        "subtotal": 100,
+        "discount": 0,
+        "total": 100,
+        "paymentMode": "Cash",
+        "status": "Ready",
+        "updatedAt": "2026-04-24T17:37:18.736Z"
+      },
+      {
+        "id": "1f7d9f83-68df-429c-afc2-a1e055890997",
+        "billNo": "AID-2026-04-24-0167",
+        "token": "072",
+        "createdAt": "2026-04-24T17:32:05.788Z",
+        "customerName": "",
+        "customerPhone": "",
+        "items": [
+          {
+            "id": "flavor-sharbat-1777051921949-140878dcb9b31",
+            "name": "Flavor Sharbat",
+            "category": "Sharbat",
+            "price": 50,
+            "menuId": "flavor-sharbat",
+            "qty": 1,
+            "flavours": "",
+            "instructions": ""
+          }
+        ],
+        "subtotal": 50,
+        "discount": 0,
+        "total": 50,
+        "paymentMode": "Cash",
+        "status": "Ready",
+        "updatedAt": "2026-04-24T17:37:19.520Z"
+      },
+      {
+        "id": "3d83bfd2-9302-4a64-8990-9b21ba4e0144",
+        "billNo": "AID-2026-04-24-0168",
+        "token": "073",
+        "createdAt": "2026-04-24T17:37:30.021Z",
+        "customerName": "",
+        "customerPhone": "",
+        "items": [
+          {
+            "id": "rabdi-ice-dish-1777052246897-fbc687505466c",
+            "name": "Rabdi Ice Dish",
+            "category": "Ice Dish",
+            "price": 100,
+            "menuId": "rabdi-ice-dish",
+            "qty": 1,
+            "flavours": "",
+            "instructions": ""
+          },
+          {
+            "id": "rabdi-ice-dish-1777052247364-c25e2a4dc12ff8",
+            "name": "Rabdi Ice Dish",
+            "category": "Ice Dish",
+            "price": 100,
+            "menuId": "rabdi-ice-dish",
+            "qty": 1,
+            "flavours": "",
+            "instructions": ""
+          }
+        ],
+        "subtotal": 200,
+        "discount": 0,
+        "total": 200,
+        "paymentMode": "Cash",
+        "status": "Ready",
+        "updatedAt": "2026-04-24T17:41:01.019Z"
+      },
+      {
+        "id": "3dc95949-b0de-498e-b4eb-ccc70bf591d0",
+        "billNo": "AID-2026-04-24-0169",
+        "token": "074",
+        "createdAt": "2026-04-24T17:37:48.321Z",
+        "customerName": "",
+        "customerPhone": "",
+        "items": [
+          {
+            "id": "flavor-stick-gola-1777052264597-7c366f8f7d1fb",
+            "name": "Flavor Stick Gola",
+            "category": "Ice Gola",
+            "price": 50,
+            "menuId": "flavor-stick-gola",
+            "qty": 1,
+            "flavours": "",
+            "instructions": ""
+          }
+        ],
+        "subtotal": 50,
+        "discount": 0,
+        "total": 50,
+        "paymentMode": "Cash",
+        "status": "Ready",
+        "updatedAt": "2026-04-24T17:41:03.801Z"
+      },
+      {
+        "id": "2e48e4c7-26db-4739-8a30-c8bcea62d7dd",
+        "billNo": "AID-2026-04-24-0170",
+        "token": "075",
+        "createdAt": "2026-04-24T17:40:17.388Z",
+        "customerName": "",
+        "customerPhone": "",
+        "items": [
+          {
+            "id": "flavor-stick-gola-1777052380264-010174295467c",
+            "name": "Flavor Stick Gola",
+            "category": "Ice Gola",
+            "price": 50,
+            "menuId": "flavor-stick-gola",
+            "qty": 2,
+            "flavours": "strawberry + Blueberry",
+            "instructions": ""
+          },
+          {
+            "id": "flavor-stick-gola-1777052402563-686bd63884f888",
+            "name": "Flavor Stick Gola",
+            "category": "Ice Gola",
+            "price": 50,
+            "menuId": "flavor-stick-gola",
+            "qty": 1,
+            "flavours": "Kala Khatta",
+            "instructions": ""
+          },
+          {
+            "id": "punjabi-lassi-1777052413064-6f56c44fd964a",
+            "name": "Punjabi Lassi",
+            "category": "Lassi",
+            "price": 50,
+            "menuId": "punjabi-lassi",
+            "qty": 1,
+            "flavours": "",
+            "instructions": ""
+          },
+          {
+            "id": "flavor-ice-dish-1777052414796-d3bec8652bcdb",
+            "name": "Flavor Ice Dish",
+            "category": "Ice Dish",
+            "price": 60,
+            "menuId": "flavor-ice-dish",
+            "qty": 1,
+            "flavours": "",
+            "instructions": ""
+          }
+        ],
+        "subtotal": 260,
+        "discount": 0,
+        "total": 260,
+        "paymentMode": "Cash",
+        "status": "Cancelled",
+        "updatedAt": "2026-04-24T18:01:48.046Z",
+        "cancelReason": "retun",
+        "cancelledAt": "2026-04-24T18:01:48.036Z"
+      },
+      {
+        "id": "9103d0db-0829-456d-9fcb-76583344ac59",
+        "billNo": "AID-2026-04-24-0171",
+        "token": "076",
+        "createdAt": "2026-04-24T18:09:59.293Z",
+        "customerName": "",
+        "customerPhone": "",
+        "items": [
+          {
+            "id": "flavor-stick-gola-1777054173017-3c423f3829f3d8",
+            "name": "Flavor Stick Gola",
+            "category": "Ice Gola",
+            "price": 50,
+            "menuId": "flavor-stick-gola",
+            "qty": 1,
+            "flavours": "",
+            "instructions": ""
+          }
+        ],
+        "subtotal": 50,
+        "discount": 0,
+        "total": 50,
+        "paymentMode": "UPI",
+        "status": "Cancelled",
+        "updatedAt": "2026-04-24T18:12:38.727Z",
+        "cancelReason": "No reason given",
+        "cancelledAt": "2026-04-24T18:12:38.716Z"
+      },
+      {
+        "id": "34c60e96-e407-4ad2-8f5f-99d942021468",
+        "billNo": "AID-2026-04-24-0172",
+        "token": "077",
+        "createdAt": "2026-04-24T18:11:38.190Z",
+        "customerName": "",
+        "customerPhone": "",
+        "items": [
+          {
+            "id": "flavor-ice-dish-1777054242832-2e8b6e6baa2f",
+            "name": "Flavor Ice Dish",
+            "category": "Ice Dish",
+            "price": 60,
+            "menuId": "flavor-ice-dish",
+            "qty": 1,
+            "flavours": "Orange + Kaju Mava",
+            "instructions": "Parcel"
+          }
+        ],
+        "subtotal": 60,
+        "discount": 0,
+        "total": 60,
+        "paymentMode": "UPI",
+        "status": "Cancelled",
+        "updatedAt": "2026-04-24T18:12:34.877Z",
+        "cancelReason": "No reason given",
+        "cancelledAt": "2026-04-24T18:12:34.868Z"
+      }
+    ]
+  }
+}
