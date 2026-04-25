@@ -1,20 +1,6 @@
 const preparingList = document.getElementById("preparingList");
 const readyList = document.getElementById("readyList");
 const clock = document.getElementById("clock");
-const serverWarning = document.getElementById("serverWarning");
-
-async function loadData() {
-  try {
-    if (location.protocol !== "file:") {
-      const response = await fetch("/api/data", { cache: "no-store" });
-      if (!response.ok) throw new Error(`Server error ${response.status}`);
-      return await response.json();
-    }
-    return JSON.parse(localStorage.getItem("aaradhnaBilling")) || { bills: [] };
-  } catch {
-    return { bills: [] };
-  }
-}
 
 function escapeHtml(value) {
   return String(value)
@@ -53,9 +39,8 @@ function renderList(element, bills, text) {
     : `<div class="empty">${text}</div>`;
 }
 
-async function render() {
-  const data = await loadData();
-  const openBills = (data.bills || []).filter((bill) => bill.status !== "Delivered" && bill.status !== "Cancelled");
+function render(bills) {
+  const openBills = bills.filter((bill) => bill.status !== "Delivered" && bill.status !== "Cancelled");
   const newestFirst = (a, b) => new Date(b.createdAt) - new Date(a.createdAt);
   renderList(
     preparingList,
@@ -76,11 +61,10 @@ function renderClock() {
   });
 }
 
-if (location.protocol === "file:" && serverWarning) {
-  serverWarning.hidden = false;
-}
+// Real-time listener: screen updates instantly when any order status changes
+db.ref("aaradhana/bills").on("value", (snap) => {
+  render(Object.values(snap.val() || {}));
+});
 
-render();
 renderClock();
-setInterval(render, 2000);
 setInterval(renderClock, 1000);
