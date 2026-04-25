@@ -128,7 +128,14 @@ async function loadMenu() {
   try {
     const snap = await db.ref("aaradhana/menu").get();
     const raw = snap.val();
-    menu = raw ? Object.values(raw) : [...defaultMenu];
+    if (raw) {
+      menu = Object.values(raw);
+    } else {
+      menu = [...defaultMenu];
+      const menuObj = {};
+      defaultMenu.forEach((item) => { menuObj[item.id] = item; });
+      await db.ref("aaradhana/menu").set(menuObj);
+    }
   } catch {
     menu = [...defaultMenu];
   }
@@ -138,7 +145,11 @@ async function loadFlavours() {
   try {
     const snap = await db.ref("aaradhana/flavours").get();
     const raw = snap.val();
-    if (raw) flavours = raw;
+    if (raw) {
+      flavours = raw;
+    } else {
+      await db.ref("aaradhana/flavours").set(flavours);
+    }
   } catch {
     // Keep defaults
   }
