@@ -21,7 +21,7 @@ const defaultMenu = [
   { id: "lemon-sharbat", name: "Lemon Sharbat", category: "Extras", price: 30 },
   { id: "masala-chaas", name: "Masala Chaas", category: "Extras", price: 20 },
   { id: "extra-colour", name: "Extra Colour", category: "Extras", price: 10 },
-  { id: "parcel-charge", name: "Parcel Charge", category: "Extras", price: 0 }
+  { id: "parcel-charge", name: "Parcel Charge", category: "Extras", price: 10 }
 ];
 
 let menu = [...defaultMenu];
