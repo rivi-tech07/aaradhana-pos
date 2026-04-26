@@ -432,6 +432,35 @@ function escapeHtml(value) {
     .replaceAll(">", "&gt;");
 }
 
+async function apiRequest(url, options = {}) {
+  const { method = "GET", body = null, headers = {} } = options;
+
+  try {
+    const config = {
+      method,
+      headers: {
+        "Content-Type": "application/json",
+        ...headers
+      }
+    };
+
+    if (body) {
+      config.body = body;
+    }
+
+    const response = await fetch(url, config);
+
+    if (!response.ok) {
+      throw new Error(`HTTP ${response.status}: ${response.statusText}`);
+    }
+
+    return await response.json();
+  } catch (error) {
+    console.error(`API request failed (${method} ${url}):`, error);
+    throw error;
+  }
+}
+
 function renderAll() {
   renderCategories();
   renderFlavours();
