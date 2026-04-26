@@ -1,56 +1,258 @@
 const defaultMenu = [
-  { id: "flavor-stick-gola", name: "Flavor Stick Gola", category: "Ice Gola", price: 50 },
-  { id: "rabdi-stick-gola", name: "Rabdi Stick Gola", category: "Ice Gola", price: 70 },
-  { id: "rainbow-stick-gola", name: "Rainbow Stick Gola", category: "Ice Gola", price: 60 },
-  { id: "dry-fruit-rabdi-stick-gola", name: "Dry Fruit Rabdi Stick Gola", category: "Ice Gola", price: 80 },
-  { id: "flavor-ice-dish", name: "Flavor Ice Dish", category: "Ice Dish", price: 60 },
-  { id: "rabdi-ice-dish", name: "Rabdi Ice Dish", category: "Ice Dish", price: 100 },
-  { id: "dry-fruit-rabdi-ice-dish", name: "Dry Fruit Rabdi Ice Dish", category: "Ice Dish", price: 150 },
-  { id: "dry-fruit-rabdi-ice-cream-dish", name: "Dry Fruit Rabdi Ice Cream Dish", category: "Ice Dish", price: 180 },
+  {
+    id: "flavor-stick-gola",
+    name: "Flavor Stick Gola",
+    category: "Ice Gola",
+    price: 50,
+  },
+  {
+    id: "rabdi-stick-gola",
+    name: "Rabdi Stick Gola",
+    category: "Ice Gola",
+    price: 70,
+  },
+  {
+    id: "rainbow-stick-gola",
+    name: "Rainbow Stick Gola",
+    category: "Ice Gola",
+    price: 60,
+  },
+  {
+    id: "dry-fruit-rabdi-stick-gola",
+    name: "Dry Fruit Rabdi Stick Gola",
+    category: "Ice Gola",
+    price: 80,
+  },
+  {
+    id: "flavor-ice-dish",
+    name: "Flavor Ice Dish",
+    category: "Ice Dish",
+    price: 60,
+  },
+  {
+    id: "rabdi-ice-dish",
+    name: "Rabdi Ice Dish",
+    category: "Ice Dish",
+    price: 100,
+  },
+  {
+    id: "dry-fruit-rabdi-ice-dish",
+    name: "Dry Fruit Rabdi Ice Dish",
+    category: "Ice Dish",
+    price: 150,
+  },
+  {
+    id: "dry-fruit-rabdi-ice-cream-dish",
+    name: "Dry Fruit Rabdi Ice Cream Dish",
+    category: "Ice Dish",
+    price: 180,
+  },
   { id: "punjabi-lassi", name: "Punjabi Lassi", category: "Lassi", price: 50 },
-  { id: "flavor-cream-lassi", name: "Flavor Cream Lassi", category: "Lassi", price: 60 },
-  { id: "dry-fruit-flavor-cream-lassi", name: "Dry Fruit Flavor Cream Lassi", category: "Lassi", price: 80 },
-  { id: "dry-fruit-ice-cream-lassi", name: "Dry Fruit Ice Cream Lassi", category: "Lassi", price: 100 },
-  { id: "flavor-sharbat", name: "Flavor Sharbat", category: "Sharbat", price: 50 },
-  { id: "rabdi-flavor-sharbat", name: "Rabdi Flavor Sharbat", category: "Sharbat", price: 70 },
-  { id: "dry-fruit-rabdi-sharbat", name: "Dry Fruit Rabdi Sharbat", category: "Sharbat", price: 80 },
-  { id: "dry-fruit-rabdi-ice-cream-sharbat", name: "Dry Fruit Rabdi Ice Cream Sharbat", category: "Sharbat", price: 100 },
-  { id: "mix-fruit-juice-small", name: "Mix Fruit Juice Small", category: "Extras", price: 50 },
-  { id: "mix-fruit-juice-large", name: "Mix Fruit Juice Large", category: "Extras", price: 60 },
+  {
+    id: "flavor-cream-lassi",
+    name: "Flavor Cream Lassi",
+    category: "Lassi",
+    price: 60,
+  },
+  {
+    id: "dry-fruit-flavor-cream-lassi",
+    name: "Dry Fruit Flavor Cream Lassi",
+    category: "Lassi",
+    price: 80,
+  },
+  {
+    id: "dry-fruit-ice-cream-lassi",
+    name: "Dry Fruit Ice Cream Lassi",
+    category: "Lassi",
+    price: 100,
+  },
+  {
+    id: "flavor-sharbat",
+    name: "Flavor Sharbat",
+    category: "Sharbat",
+    price: 50,
+  },
+  {
+    id: "rabdi-flavor-sharbat",
+    name: "Rabdi Flavor Sharbat",
+    category: "Sharbat",
+    price: 70,
+  },
+  {
+    id: "dry-fruit-rabdi-sharbat",
+    name: "Dry Fruit Rabdi Sharbat",
+    category: "Sharbat",
+    price: 80,
+  },
+  {
+    id: "dry-fruit-rabdi-ice-cream-sharbat",
+    name: "Dry Fruit Rabdi Ice Cream Sharbat",
+    category: "Sharbat",
+    price: 100,
+  },
+  {
+    id: "mix-fruit-juice-small",
+    name: "Mix Fruit Juice Small",
+    category: "Extras",
+    price: 50,
+  },
+  {
+    id: "mix-fruit-juice-large",
+    name: "Mix Fruit Juice Large",
+    category: "Extras",
+    price: 60,
+  },
   { id: "lemon-soda", name: "Lemon Soda", category: "Extras", price: 20 },
   { id: "lemon-sharbat", name: "Lemon Sharbat", category: "Extras", price: 30 },
   { id: "masala-chaas", name: "Masala Chaas", category: "Extras", price: 20 },
   { id: "extra-colour", name: "Extra Colour", category: "Extras", price: 10 },
   { id: "parcel-charge", name: "Parcel Charge", category: "Extras", price: 10 },
-  { id: "aaradhna-family-dish", name: "Aaradhna Family Dish", category: "Aaradhna Special", price: 499 },
-  { id: "watermelon-family-blast", name: "Watermelon Family Blast", category: "Aaradhna Special", price: 299 },
-  { id: "mango-special-dish", name: "Mango Special Dish", category: "Fruit Special Dish", price: 130 },
-  { id: "pineapple-special-dish", name: "Pineapple Special Dish", category: "Fruit Special Dish", price: 130 },
-  { id: "guava-special-dish", name: "Guava Special Dish", category: "Fruit Special Dish", price: 130 },
-  { id: "strawberry-special-dish", name: "Strawberry Special Dish", category: "Fruit Special Dish", price: 130 },
-  { id: "litchi-special-dish", name: "Litchi Special Dish", category: "Fruit Special Dish", price: 130 },
-  { id: "chikoo-special-dish", name: "Chikoo Special Dish", category: "Fruit Special Dish", price: 130 },
-  { id: "orange-creamsicle-dish", name: "Orange Creamsicle Dish", category: "Fruit Special Dish", price: 130 },
-  { id: "choco-heaven-dish", name: "Choco Heaven Dish", category: "Chocolate & Fun", price: 130 },
-  { id: "kitkat-special-dish", name: "KitKat Special Dish", category: "Chocolate & Fun", price: 130 },
-  { id: "paan-special-dish", name: "Paan Special Dish", category: "Unique Special", price: 130 },
-  { id: "rose-malai-special-dish", name: "Rose Malai Special Dish", category: "Unique Special", price: 130 },
-  { id: "coconut-cooler-dish", name: "Coconut Cooler Dish", category: "Unique Special", price: 130 },
-  { id: "rajwadi-matka-dish", name: "Rajwadi Matka Dish", category: "Premium Royal Dishes", price: 190 },
-  { id: "kaju-special-dish", name: "Kaju Special Dish", category: "Premium Royal Dishes", price: 150 },
-  { id: "rajbhog-dish", name: "Rajbhog Dish", category: "Premium Royal Dishes", price: 160 },
-  { id: "rasgulla-dish", name: "Rasgulla Dish", category: "Premium Royal Dishes", price: 170 },
-  { id: "saffron-special-dish", name: "Saffron Special Dish", category: "Premium Royal Dishes", price: 130 },
+  {
+    id: "aaradhna-family-dish",
+    name: "Aaradhna Family Dish",
+    category: "Aaradhna Special",
+    price: 499,
+  },
+  {
+    id: "watermelon-family-blast",
+    name: "Watermelon Family Blast",
+    category: "Aaradhna Special",
+    price: 299,
+  },
+  {
+    id: "mango-special-dish",
+    name: "Mango Special Dish",
+    category: "Fruit Special Dish",
+    price: 130,
+  },
+  {
+    id: "pineapple-special-dish",
+    name: "Pineapple Special Dish",
+    category: "Fruit Special Dish",
+    price: 130,
+  },
+  {
+    id: "guava-special-dish",
+    name: "Guava Special Dish",
+    category: "Fruit Special Dish",
+    price: 130,
+  },
+  {
+    id: "strawberry-special-dish",
+    name: "Strawberry Special Dish",
+    category: "Fruit Special Dish",
+    price: 130,
+  },
+  {
+    id: "litchi-special-dish",
+    name: "Litchi Special Dish",
+    category: "Fruit Special Dish",
+    price: 130,
+  },
+  {
+    id: "chikoo-special-dish",
+    name: "Chikoo Special Dish",
+    category: "Fruit Special Dish",
+    price: 130,
+  },
+  {
+    id: "orange-creamsicle-dish",
+    name: "Orange Creamsicle Dish",
+    category: "Fruit Special Dish",
+    price: 130,
+  },
+  {
+    id: "choco-heaven-dish",
+    name: "Choco Heaven Dish",
+    category: "Chocolate & Fun",
+    price: 130,
+  },
+  {
+    id: "kitkat-special-dish",
+    name: "KitKat Special Dish",
+    category: "Chocolate & Fun",
+    price: 130,
+  },
+  {
+    id: "paan-special-dish",
+    name: "Paan Special Dish",
+    category: "Unique Special",
+    price: 130,
+  },
+  {
+    id: "rose-malai-special-dish",
+    name: "Rose Malai Special Dish",
+    category: "Unique Special",
+    price: 130,
+  },
+  {
+    id: "coconut-cooler-dish",
+    name: "Coconut Cooler Dish",
+    category: "Unique Special",
+    price: 130,
+  },
+  {
+    id: "rajwadi-matka-dish",
+    name: "Rajwadi Matka Dish",
+    category: "Premium Royal Dishes",
+    price: 190,
+  },
+  {
+    id: "kaju-special-dish",
+    name: "Kaju Special Dish",
+    category: "Premium Royal Dishes",
+    price: 150,
+  },
+  {
+    id: "rajbhog-dish",
+    name: "Rajbhog Dish",
+    category: "Premium Royal Dishes",
+    price: 160,
+  },
+  {
+    id: "rasgulla-dish",
+    name: "Rasgulla Dish",
+    category: "Premium Royal Dishes",
+    price: 170,
+  },
+  {
+    id: "saffron-special-dish",
+    name: "Saffron Special Dish",
+    category: "Premium Royal Dishes",
+    price: 130,
+  },
   { id: "rabdi-extra", name: "Rabdi", category: "Extras", price: 30 },
   { id: "dry-fruits-extra", name: "Dry Fruits", category: "Extras", price: 30 },
   { id: "ice-cream-extra", name: "Ice Cream", category: "Extras", price: 30 },
-  { id: "cream-extra", name: "Cream", category: "Extras", price: 10 }
+  { id: "cream-extra", name: "Cream", category: "Extras", price: 10 },
 ];
 
 let menu = [...defaultMenu];
 let flavours = {
-  sweet: ["Kaju Mava", "Watermelon", "Kesar Mava", "Vanilla Mava", "Choco Chocolate", "Guava", "Rajbhog", "Shahi Gulab", "Coconut", "Chikoo"],
-  khataMitha: ["Orange", "Kala Khatta", "Kolthu", "Jamun", "Rimzim", "Blueberry", "Pineapple", "Mazza Mango", "Kacchi Keri", "Falsa"]
+  sweet: [
+    "Kaju Mava",
+    "Watermelon",
+    "Kesar Mava",
+    "Vanilla Mava",
+    "Choco Chocolate",
+    "Guava",
+    "Rajbhog",
+    "Shahi Gulab",
+    "Coconut",
+    "Chikoo",
+  ],
+  khataMitha: [
+    "Orange",
+    "Kala Khatta",
+    "Kolthu",
+    "Jamun",
+    "Rimzim",
+    "Blueberry",
+    "Pineapple",
+    "Mazza Mango",
+    "Kacchi Keri",
+    "Falsa",
+  ],
 };
 
 const state = {
@@ -59,13 +261,13 @@ const state = {
   paymentMode: "Cash",
   lastBill: null,
   editingBillId: null,
-  data: fallbackData()
+  data: fallbackData(),
 };
 
 const money = new Intl.NumberFormat("en-IN", {
   style: "currency",
   currency: "INR",
-  maximumFractionDigits: 0
+  maximumFractionDigits: 0,
 });
 
 const els = {
@@ -106,7 +308,7 @@ const els = {
   saveEditBtn: document.getElementById("saveEditBtn"),
   printNewTokenBtn: document.getElementById("printNewTokenBtn"),
   whatsappLastBtn: document.getElementById("whatsappLastBtn"),
-  viewTabs: document.querySelector(".view-tabs")
+  viewTabs: document.querySelector(".view-tabs"),
 };
 
 function todayKey() {
@@ -114,7 +316,13 @@ function todayKey() {
 }
 
 function fallbackData() {
-  return { date: todayKey(), nextToken: 1, nextBill: 1, bills: [], history: {} };
+  return {
+    date: todayKey(),
+    nextToken: 1,
+    nextBill: 1,
+    bills: [],
+    history: {},
+  };
 }
 
 // Converts raw Firebase data (bills/history stored as objects) to internal format (arrays).
@@ -156,7 +364,9 @@ async function loadMenu() {
     } else {
       menu = [...defaultMenu];
       const menuObj = {};
-      defaultMenu.forEach((item) => { menuObj[item.id] = item; });
+      defaultMenu.forEach((item) => {
+        menuObj[item.id] = item;
+      });
       await db.ref("aaradhana/menu").set(menuObj);
     }
   } catch {
@@ -180,7 +390,9 @@ async function loadFlavours() {
 
 async function saveData() {
   const billsObj = {};
-  (state.data.bills || []).forEach((b) => { billsObj[b.id] = b; });
+  (state.data.bills || []).forEach((b) => {
+    billsObj[b.id] = b;
+  });
 
   const historyObj = {};
   Object.entries(state.data.history || {}).forEach(([date, bills]) => {
@@ -195,7 +407,7 @@ async function saveData() {
     nextToken: state.data.nextToken,
     nextBill: state.data.nextBill,
     bills: billsObj,
-    history: historyObj
+    history: historyObj,
   });
   return state.data;
 }
@@ -227,7 +439,7 @@ function total() {
 function customerDetails() {
   return {
     name: els.customerNameInput.value.trim(),
-    phone: normalizePhone(els.customerPhoneInput.value)
+    phone: normalizePhone(els.customerPhoneInput.value),
   };
 }
 
@@ -249,21 +461,32 @@ function renderCategories() {
 
 function renderFlavours() {
   const sweet = Array.isArray(flavours.sweet) ? flavours.sweet : [];
-  const khataMitha = Array.isArray(flavours.khataMitha) ? flavours.khataMitha : [];
+  const khataMitha = Array.isArray(flavours.khataMitha)
+    ? flavours.khataMitha
+    : [];
   const all = [...sweet, ...khataMitha];
-  els.flavourOptions.innerHTML = all.map((flavour) => `<option value="${escapeAttr(flavour)}">`).join("");
+  els.flavourOptions.innerHTML = all
+    .map((flavour) => `<option value="${escapeAttr(flavour)}">`)
+    .join("");
   els.sweetFlavourButtons.innerHTML = sweet
-    .map((flavour) => `<button type="button" data-flavour="${escapeAttr(flavour)}">${escapeHtml(flavour)}</button>`)
+    .map(
+      (flavour) =>
+        `<button type="button" data-flavour="${escapeAttr(flavour)}">${escapeHtml(flavour)}</button>`,
+    )
     .join("");
   els.khataMithaFlavourButtons.innerHTML = khataMitha
-    .map((flavour) => `<button type="button" data-flavour="${escapeAttr(flavour)}">${escapeHtml(flavour)}</button>`)
+    .map(
+      (flavour) =>
+        `<button type="button" data-flavour="${escapeAttr(flavour)}">${escapeHtml(flavour)}</button>`,
+    )
     .join("");
 }
 
 function renderItems() {
   const query = els.searchInput.value.trim().toLowerCase();
   const filtered = menu.filter((item) => {
-    const categoryMatch = state.activeCategory === "All" || item.category === state.activeCategory;
+    const categoryMatch =
+      state.activeCategory === "All" || item.category === state.activeCategory;
     const queryMatch = !query || item.name.toLowerCase().includes(query);
     return categoryMatch && queryMatch;
   });
@@ -275,7 +498,7 @@ function renderItems() {
           <strong>${item.name}</strong>
           <span>${money.format(item.price)}</span>
         </button>
-      `
+      `,
     )
     .join("");
 }
@@ -304,19 +527,21 @@ function renderCart() {
               <input type="text" list="instructionOptions" placeholder="Instructions e.g. Half-half mix" value="${escapeAttr(item.instructions || "")}" data-note="${item.id}" data-field="instructions">
             </div>
           </article>
-        `
+        `,
       )
       .join("");
   }
 
   els.subtotalAmount.textContent = money.format(subtotal());
   els.grandTotal.textContent = money.format(total());
-  const editing = state.editingBillId ? state.data.bills.find((bill) => bill.id === state.editingBillId) : null;
+  const editing = state.editingBillId
+    ? state.data.bills.find((bill) => bill.id === state.editingBillId)
+    : null;
   els.billPreview.textContent = editing
     ? `Editing token ${editing.token} | ${editing.paymentMode}`
     : items.length
-    ? `Next token ${formatToken(state.data.nextToken)} | ${state.paymentMode}`
-    : "Bill will be created after payment";
+      ? `Next token ${formatToken(state.data.nextToken)} | ${state.paymentMode}`
+      : "Bill will be created after payment";
   els.completeBillBtn.hidden = Boolean(editing);
   els.saveEditBtn.hidden = !editing;
   els.printNewTokenBtn.hidden = !state.lastBill;
@@ -324,7 +549,9 @@ function renderCart() {
 }
 
 function renderTokens() {
-  const openBills = state.data.bills.filter((bill) => bill.status !== "Delivered" && bill.status !== "Cancelled");
+  const openBills = state.data.bills.filter(
+    (bill) => bill.status !== "Delivered" && bill.status !== "Cancelled",
+  );
   const pending = openBills.filter((bill) => bill.status === "Pending");
   const preparing = openBills.filter((bill) => bill.status === "Preparing");
   const ready = openBills.filter((bill) => bill.status === "Ready");
@@ -345,7 +572,10 @@ function tokenCards(bills, nextStatus) {
           </header>
           <ul>${bill.items
             .map((item) => {
-              const notes = [item.flavours, item.instructions].filter(Boolean).map(escapeHtml).join(" | ");
+              const notes = [item.flavours, item.instructions]
+                .filter(Boolean)
+                .map(escapeHtml)
+                .join(" | ");
               return `<li>${item.qty} x ${item.name}${notes ? `<br><small>${notes}</small>` : ""}</li>`;
             })
             .join("")}</ul>
@@ -357,20 +587,22 @@ function tokenCards(bills, nextStatus) {
             <button class="status-button danger" type="button" data-cancel="${bill.id}">Cancel</button>
           </footer>
         </article>
-      `
+      `,
     )
     .join("");
 }
 
 function renderReport() {
-  const paidBills = state.data.bills.filter((bill) => bill.status !== "Cancelled");
+  const paidBills = state.data.bills.filter(
+    (bill) => bill.status !== "Cancelled",
+  );
   const sales = paidBills.reduce((sum, bill) => sum + bill.total, 0);
   const paymentTotals = paidBills.reduce(
     (acc, bill) => {
       acc[bill.paymentMode] += bill.total;
       return acc;
     },
-    { Cash: 0, UPI: 0, Card: 0 }
+    { Cash: 0, UPI: 0, Card: 0 },
   );
   const itemCounts = {};
   paidBills.forEach((bill) => {
@@ -390,7 +622,7 @@ function renderReport() {
     weekday: "long",
     day: "numeric",
     month: "short",
-    year: "numeric"
+    year: "numeric",
   });
 }
 
@@ -400,11 +632,11 @@ function renderClock() {
     weekday: "short",
     day: "numeric",
     month: "short",
-    year: "numeric"
+    year: "numeric",
   });
   els.screenTime.textContent = now.toLocaleTimeString("en-IN", {
     hour: "2-digit",
-    minute: "2-digit"
+    minute: "2-digit",
   });
 }
 
@@ -440,8 +672,8 @@ async function apiRequest(url, options = {}) {
       method,
       headers: {
         "Content-Type": "application/json",
-        ...headers
-      }
+        ...headers,
+      },
     };
 
     if (body) {
@@ -474,7 +706,14 @@ function addItem(id) {
   const item = menu.find((entry) => entry.id === id);
   if (!item) return;
   const lineId = `${id}-${Date.now()}-${Math.random().toString(16).slice(2)}`;
-  state.cart[lineId] = { ...item, id: lineId, menuId: item.id, qty: 1, flavours: "", instructions: "" };
+  state.cart[lineId] = {
+    ...item,
+    id: lineId,
+    menuId: item.id,
+    qty: 1,
+    flavours: "",
+    instructions: "",
+  };
   renderCart();
 }
 
@@ -513,40 +752,31 @@ async function completeBill() {
     subtotal: subtotal(),
     discount: discount(),
     total: total(),
-    paymentMode: state.paymentMode
+    paymentMode: state.paymentMode,
   };
 
   try {
-  let bill;
-  if (location.protocol === "file:") {
+    let bill;
     bill = {
       id: crypto.randomUUID(),
       billNo: formatBill(state.data.nextBill),
       token: formatToken(state.data.nextToken),
       createdAt: new Date().toISOString(),
       ...draft,
-      status: "Pending"
+      status: "Pending",
     };
     state.data.bills.push(bill);
     state.data.nextBill += 1;
     state.data.nextToken += 1;
     await saveData();
-  } else {
-    const result = await apiRequest("/api/bills", {
-      method: "POST",
-      body: JSON.stringify(draft)
-    });
-    bill = result.bill;
-    state.data = result.data;
-  }
 
-  state.cart = {};
-  els.discountInput.value = 0;
-  els.customerNameInput.value = "";
-  els.customerPhoneInput.value = "";
-  state.lastBill = bill;
-  renderAll();
-  console.log("Bill created successfully:", bill);
+    state.cart = {};
+    els.discountInput.value = 0;
+    els.customerNameInput.value = "";
+    els.customerPhoneInput.value = "";
+    state.lastBill = bill;
+    renderAll();
+    console.log("Bill created successfully:", bill);
   } catch (error) {
     console.error("Error creating bill:", error);
     alert("Error: " + error.message);
@@ -563,7 +793,11 @@ function editBill(id) {
   els.customerPhoneInput.value = bill.customerPhone || "";
   bill.items.forEach((item) => {
     const lineId = `${item.menuId || item.id}-${Date.now()}-${Math.random().toString(16).slice(2)}`;
-    state.cart[lineId] = { ...item, id: lineId, menuId: item.menuId || item.id };
+    state.cart[lineId] = {
+      ...item,
+      id: lineId,
+      menuId: item.menuId || item.id,
+    };
   });
   els.discountInput.value = bill.discount || 0;
   document.querySelectorAll(".pay-mode").forEach((mode) => {
@@ -573,7 +807,9 @@ function editBill(id) {
 }
 
 async function saveEditedBill() {
-  const bill = state.data.bills.find((entry) => entry.id === state.editingBillId);
+  const bill = state.data.bills.find(
+    (entry) => entry.id === state.editingBillId,
+  );
   if (!bill) return;
   const items = cartItems().map((item) => ({ ...item }));
   if (!items.length) return;
@@ -586,7 +822,7 @@ async function saveEditedBill() {
     paymentMode: state.paymentMode,
     customerName: customer.name,
     customerPhone: customer.phone,
-    editedAt: new Date().toISOString()
+    editedAt: new Date().toISOString(),
   };
   Object.assign(bill, patch);
   await saveData();
@@ -607,7 +843,7 @@ async function cancelBill(id) {
   const patch = {
     status: "Cancelled",
     cancelReason: reason.trim() || "No reason given",
-    cancelledAt: new Date().toISOString()
+    cancelledAt: new Date().toISOString(),
   };
   Object.assign(bill, patch);
   if (state.editingBillId === id) {
@@ -625,24 +861,31 @@ function printBill(bill) {
   if (!bill) return;
   const existing = document.querySelector(".receipt");
   if (existing) existing.remove();
-  const receipt = document.getElementById("printTemplate").content.cloneNode(true);
+  const receipt = document
+    .getElementById("printTemplate")
+    .content.cloneNode(true);
   receipt.getElementById("printToken").textContent = `Token ${bill.token}`;
   receipt.getElementById("printBill").textContent = `Bill: ${bill.billNo}`;
   receipt.getElementById("printDate").textContent = [
     new Date(bill.createdAt).toLocaleString("en-IN"),
     bill.customerName ? `Customer: ${bill.customerName}` : "",
-    bill.customerPhone ? `Contact: ${bill.customerPhone}` : ""
+    bill.customerPhone ? `Contact: ${bill.customerPhone}` : "",
   ]
     .filter(Boolean)
     .join(" | ");
   receipt.getElementById("printItems").innerHTML = bill.items
     .map((item) => {
-      const notes = [item.flavours, item.instructions].filter(Boolean).map(escapeHtml).join(" | ");
+      const notes = [item.flavours, item.instructions]
+        .filter(Boolean)
+        .map(escapeHtml)
+        .join(" | ");
       return `<p>${item.qty} x ${item.name} - ${money.format(item.price * item.qty)}${notes ? `<br>${notes}` : ""}</p>`;
     })
     .join("");
-  receipt.getElementById("printTotal").textContent = `Total: ${money.format(bill.total)}`;
-  receipt.getElementById("printPayment").textContent = `Payment: ${bill.paymentMode} | Paid`;
+  receipt.getElementById("printTotal").textContent =
+    `Total: ${money.format(bill.total)}`;
+  receipt.getElementById("printPayment").textContent =
+    `Payment: ${bill.paymentMode} | Paid`;
   document.body.appendChild(receipt);
   window.print();
 }
@@ -656,7 +899,9 @@ function billMessage(bill) {
     "",
     "Items:",
     ...bill.items.map((item) => {
-      const notes = [item.flavours, item.instructions].filter(Boolean).join(" | ");
+      const notes = [item.flavours, item.instructions]
+        .filter(Boolean)
+        .join(" | ");
       return `${item.qty} x ${item.name} - ${money.format(item.price * item.qty)}${notes ? ` (${notes})` : ""}`;
     }),
     "",
@@ -665,7 +910,7 @@ function billMessage(bill) {
     `Total: ${money.format(bill.total)}`,
     `Payment: ${bill.paymentMode} | Paid`,
     "",
-    "Please collect your order when token is called. Thank you!"
+    "Please collect your order when token is called. Thank you!",
   ];
   return lines.filter((line) => line !== "").join("\n");
 }
@@ -694,7 +939,22 @@ async function updateStatus(id, status) {
 }
 
 function exportCsv() {
-  const headers = ["Bill No", "Token", "Date", "Customer Name", "Contact Number", "Items", "Flavours", "Instructions", "Subtotal", "Discount", "Total", "Payment", "Status", "Cancel Reason"];
+  const headers = [
+    "Bill No",
+    "Token",
+    "Date",
+    "Customer Name",
+    "Contact Number",
+    "Items",
+    "Flavours",
+    "Instructions",
+    "Subtotal",
+    "Discount",
+    "Total",
+    "Payment",
+    "Status",
+    "Cancel Reason",
+  ];
   const rows = state.data.bills.map((bill) => [
     bill.billNo,
     bill.token,
@@ -702,17 +962,25 @@ function exportCsv() {
     bill.customerName || "",
     bill.customerPhone || "",
     bill.items.map((item) => `${item.qty} x ${item.name}`).join("; "),
-    bill.items.map((item) => item.flavours || "").filter(Boolean).join("; "),
-    bill.items.map((item) => item.instructions || "").filter(Boolean).join("; "),
+    bill.items
+      .map((item) => item.flavours || "")
+      .filter(Boolean)
+      .join("; "),
+    bill.items
+      .map((item) => item.instructions || "")
+      .filter(Boolean)
+      .join("; "),
     bill.subtotal,
     bill.discount,
     bill.total,
     bill.paymentMode,
     bill.status,
-    bill.cancelReason || ""
+    bill.cancelReason || "",
   ]);
   const csv = [headers, ...rows]
-    .map((row) => row.map((cell) => `"${String(cell).replaceAll('"', '""')}"`).join(","))
+    .map((row) =>
+      row.map((cell) => `"${String(cell).replaceAll('"', '""')}"`).join(","),
+    )
     .join("\n");
   const blob = new Blob([csv], { type: "text/csv;charset=utf-8" });
   const url = URL.createObjectURL(blob);
@@ -734,7 +1002,7 @@ async function closeDay() {
     nextToken: 1,
     nextBill: state.data.nextBill,
     bills: [],
-    history: state.data.history
+    history: state.data.history,
   };
   await saveData();
   state.cart = {};
@@ -792,7 +1060,9 @@ els.paymentModes.addEventListener("click", (event) => {
   const button = event.target.closest("[data-mode]");
   if (!button) return;
   state.paymentMode = button.dataset.mode;
-  document.querySelectorAll(".pay-mode").forEach((mode) => mode.classList.remove("active"));
+  document
+    .querySelectorAll(".pay-mode")
+    .forEach((mode) => mode.classList.remove("active"));
   button.classList.add("active");
   renderCart();
 });
@@ -803,9 +1073,18 @@ document.addEventListener("click", (event) => {
   const whatsappButton = event.target.closest("[data-whatsapp]");
   const editButton = event.target.closest("[data-edit]");
   const cancelButton = event.target.closest("[data-cancel]");
-  if (statusButton) updateStatus(statusButton.dataset.status, statusButton.dataset.next);
-  if (printButton) printBill(state.data.bills.find((bill) => bill.id === printButton.dataset.print));
-  if (whatsappButton) sendWhatsAppBill(state.data.bills.find((bill) => bill.id === whatsappButton.dataset.whatsapp));
+  if (statusButton)
+    updateStatus(statusButton.dataset.status, statusButton.dataset.next);
+  if (printButton)
+    printBill(
+      state.data.bills.find((bill) => bill.id === printButton.dataset.print),
+    );
+  if (whatsappButton)
+    sendWhatsAppBill(
+      state.data.bills.find(
+        (bill) => bill.id === whatsappButton.dataset.whatsapp,
+      ),
+    );
   if (editButton) editBill(editButton.dataset.edit);
   if (cancelButton) cancelBill(cancelButton.dataset.cancel);
 });
@@ -814,8 +1093,12 @@ els.searchInput.addEventListener("input", renderItems);
 els.discountInput.addEventListener("input", renderCart);
 els.completeBillBtn.addEventListener("click", completeBill);
 els.saveEditBtn.addEventListener("click", saveEditedBill);
-els.printNewTokenBtn.addEventListener("click", () => printBill(state.lastBill || state.data.bills.at(-1)));
-els.whatsappLastBtn.addEventListener("click", () => sendWhatsAppBill(state.lastBill || state.data.bills.at(-1)));
+els.printNewTokenBtn.addEventListener("click", () =>
+  printBill(state.lastBill || state.data.bills.at(-1)),
+);
+els.whatsappLastBtn.addEventListener("click", () =>
+  sendWhatsAppBill(state.lastBill || state.data.bills.at(-1)),
+);
 els.clearOrderBtn.addEventListener("click", () => {
   state.cart = {};
   state.editingBillId = null;
@@ -824,7 +1107,9 @@ els.clearOrderBtn.addEventListener("click", () => {
   els.customerPhoneInput.value = "";
   renderCart();
 });
-els.printLastBtn.addEventListener("click", () => printBill(state.lastBill || state.data.bills.at(-1)));
+els.printLastBtn.addEventListener("click", () =>
+  printBill(state.lastBill || state.data.bills.at(-1)),
+);
 els.exportBtn.addEventListener("click", exportCsv);
 els.resetDayBtn.addEventListener("click", closeDay);
 els.viewTabs.addEventListener("click", (event) => {
