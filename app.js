@@ -106,8 +106,7 @@ const els = {
   saveEditBtn: document.getElementById("saveEditBtn"),
   printNewTokenBtn: document.getElementById("printNewTokenBtn"),
   whatsappLastBtn: document.getElementById("whatsappLastBtn"),
-  viewTabs: document.querySelector(".view-tabs"),
-  serverWarning: document.getElementById("serverWarning")
+  viewTabs: document.querySelector(".view-tabs")
 };
 
 function todayKey() {
@@ -118,29 +117,31 @@ function fallbackData() {
   return { date: todayKey(), nextToken: 1, nextBill: 1, bills: [], history: {} };
 }
 
-async function apiRequest(path, options = {}) {
-  const response = await fetch(path, {
-    headers: { "Content-Type": "application/json" },
-    cache: "no-store",
-    ...options
+// Converts raw Firebase data (bills/history stored as objects) to internal format (arrays).
+function parseFirebaseData(raw) {
+  const bills = Object.values(raw.bills || {});
+  const history = {};
+  Object.entries(raw.history || {}).forEach(([date, billsObj]) => {
+    history[date] = Object.values(billsObj || {});
   });
-  if (!response.ok) throw new Error(`Server error ${response.status}`);
-  return response.json();
+  const parsed = { ...fallbackData(), ...raw, bills, history };
+
+  // Archive previous day's bills on first load of a new day
+  if (parsed.date && parsed.date !== todayKey()) {
+    if (parsed.bills.length) history[parsed.date] = parsed.bills;
+    parsed.bills = [];
+    parsed.nextToken = 1;
+    parsed.date = todayKey();
+  }
+
+  return parsed;
 }
 
 async function loadData() {
   try {
-    if (location.protocol !== "file:") return await apiRequest("/api/data");
-    const fallback = fallbackData();
-    const saved = JSON.parse(localStorage.getItem("aaradhnaBilling"));
-    if (!saved) return fallback;
-    saved.history = saved.history || {};
-    if (saved.date !== todayKey()) {
-      const history = { ...saved.history };
-      if (saved.bills?.length) history[saved.date] = saved.bills;
-      return { ...fallback, nextBill: saved.nextBill || 1, history };
-    }
-    return { ...fallback, ...saved };
+    const snap = await db.ref("aaradhana").get();
+    const raw = snap.val();
+    return raw ? parseFirebaseData(raw) : fallbackData();
   } catch {
     return fallbackData();
   }
@@ -148,10 +149,15 @@ async function loadData() {
 
 async function loadMenu() {
   try {
-    if (location.protocol !== "file:") {
-      menu = await apiRequest("/api/menu");
+    const snap = await db.ref("aaradhana/menu").get();
+    const raw = snap.val();
+    if (raw) {
+      menu = Object.values(raw);
     } else {
       menu = [...defaultMenu];
+      const menuObj = {};
+      defaultMenu.forEach((item) => { menuObj[item.id] = item; });
+      await db.ref("aaradhana/menu").set(menuObj);
     }
   } catch {
     menu = [...defaultMenu];
@@ -160,39 +166,36 @@ async function loadMenu() {
 
 async function loadFlavours() {
   try {
-    if (location.protocol !== "file:") {
-      flavours = await apiRequest("/api/flavours");
+    const snap = await db.ref("aaradhana/flavours").get();
+    const raw = snap.val();
+    if (raw) {
+      flavours = raw;
+    } else {
+      await db.ref("aaradhana/flavours").set(flavours);
     }
   } catch {
-    // Keep default flavours if the server is unavailable.
-  }
-}
-
-async function refreshData() {
-  state.data = await loadData();
-  renderAll();
-}
-
-async function syncSharedData() {
-  if (location.protocol === "file:") return;
-  try {
-    state.data = await loadData();
-    renderTokens();
-    renderReport();
-    if (!cartItems().length && !state.editingBillId) renderCart();
-  } catch (error) {
-    console.warn(error);
+    // Keep defaults
   }
 }
 
 async function saveData() {
-  if (location.protocol === "file:") {
-    localStorage.setItem("aaradhnaBilling", JSON.stringify(state.data));
-    return state.data;
-  }
-  state.data = await apiRequest("/api/data", {
-    method: "PUT",
-    body: JSON.stringify(state.data)
+  const billsObj = {};
+  (state.data.bills || []).forEach((b) => { billsObj[b.id] = b; });
+
+  const historyObj = {};
+  Object.entries(state.data.history || {}).forEach(([date, bills]) => {
+    historyObj[date] = {};
+    (Array.isArray(bills) ? bills : Object.values(bills || {})).forEach((b) => {
+      historyObj[date][b.id] = b;
+    });
+  });
+
+  await db.ref("aaradhana").set({
+    date: state.data.date,
+    nextToken: state.data.nextToken,
+    nextBill: state.data.nextBill,
+    bills: billsObj,
+    history: historyObj
   });
   return state.data;
 }
@@ -471,45 +474,42 @@ function addFlavourToLatest(flavour) {
 }
 
 async function completeBill() {
-  try {
-    const items = cartItems().map((item) => ({ ...item }));
-    if (!items.length) {
-      alert("Please add items to the cart first");
-      return;
-    }
-    const customer = customerDetails();
-    const draft = {
-      customerName: customer.name,
-      customerPhone: customer.phone,
-      items,
-      subtotal: subtotal(),
-      discount: discount(),
-      total: total(),
-      paymentMode: state.paymentMode
-    };
+  const items = cartItems().map((item) => ({ ...item }));
+  if (!items.length) return;
+  const customer = customerDetails();
+  const draft = {
+    customerName: customer.name,
+    customerPhone: customer.phone,
+    items,
+    subtotal: subtotal(),
+    discount: discount(),
+    total: total(),
+    paymentMode: state.paymentMode
+  };
 
-    let bill;
-    if (location.protocol === "file:") {
-      bill = {
-        id: crypto.randomUUID(),
-        billNo: formatBill(state.data.nextBill),
-        token: formatToken(state.data.nextToken),
-        createdAt: new Date().toISOString(),
-        ...draft,
-        status: "Pending"
-      };
-      state.data.bills.push(bill);
-      state.data.nextBill += 1;
-      state.data.nextToken += 1;
-      await saveData();
-    } else {
-      const result = await apiRequest("/api/bills", {
-        method: "POST",
-        body: JSON.stringify(draft)
-      });
-      bill = result.bill;
-      state.data = result.data;
-    }
+  try {
+  let bill;
+  if (location.protocol === "file:") {
+    bill = {
+      id: crypto.randomUUID(),
+      billNo: formatBill(state.data.nextBill),
+      token: formatToken(state.data.nextToken),
+      createdAt: new Date().toISOString(),
+      ...draft,
+      status: "Pending"
+    };
+    state.data.bills.push(bill);
+    state.data.nextBill += 1;
+    state.data.nextToken += 1;
+    await saveData();
+  } else {
+    const result = await apiRequest("/api/bills", {
+      method: "POST",
+      body: JSON.stringify(draft)
+    });
+    bill = result.bill;
+    state.data = result.data;
+  }
 
     state.cart = {};
     els.discountInput.value = 0;
@@ -518,6 +518,7 @@ async function completeBill() {
     state.lastBill = bill;
     renderAll();
     console.log("Bill created successfully:", bill);
+  }
   } catch (error) {
     console.error("Error creating bill:", error);
     alert("Error: " + error.message);
@@ -560,15 +561,7 @@ async function saveEditedBill() {
     editedAt: new Date().toISOString()
   };
   Object.assign(bill, patch);
-  if (location.protocol === "file:") {
-    await saveData();
-  } else {
-    const result = await apiRequest(`/api/bills/${bill.id}`, {
-      method: "PATCH",
-      body: JSON.stringify(patch)
-    });
-    state.data = result.data;
-  }
+  await saveData();
   state.cart = {};
   state.editingBillId = null;
   els.discountInput.value = 0;
@@ -596,15 +589,7 @@ async function cancelBill(id) {
     els.customerNameInput.value = "";
     els.customerPhoneInput.value = "";
   }
-  if (location.protocol === "file:") {
-    await saveData();
-  } else {
-    const result = await apiRequest(`/api/bills/${id}`, {
-      method: "PATCH",
-      body: JSON.stringify(patch)
-    });
-    state.data = result.data;
-  }
+  await saveData();
   renderAll();
 }
 
@@ -664,17 +649,8 @@ async function sendWhatsAppBill(bill) {
     phone = normalizePhone(prompt("Enter customer WhatsApp number:") || "");
     if (!phone) return;
     bill.customerPhone = phone;
-    if (location.protocol === "file:") {
-      await saveData();
-    } else {
-      const result = await apiRequest(`/api/bills/${bill.id}`, {
-        method: "PATCH",
-        body: JSON.stringify({ customerPhone: phone })
-      });
-      state.data = result.data;
-      bill = result.bill;
-      renderAll();
-    }
+    await saveData();
+    renderAll();
   }
   const url = `https://wa.me/${phone}?text=${encodeURIComponent(billMessage(bill))}`;
   window.open(url, "_blank", "noopener");
@@ -684,15 +660,8 @@ async function updateStatus(id, status) {
   const bill = state.data.bills.find((entry) => entry.id === id);
   if (!bill) return;
   bill.status = status;
-  if (location.protocol === "file:") {
-    await saveData();
-  } else {
-    const result = await apiRequest(`/api/bills/${id}`, {
-      method: "PATCH",
-      body: JSON.stringify({ status })
-    });
-    state.data = result.data;
-  }
+  // Only update the status field in Firebase for efficiency
+  await db.ref(`aaradhana/bills/${id}/status`).set(status);
   renderAll();
 }
 
@@ -729,21 +698,17 @@ function exportCsv() {
 async function closeDay() {
   const ok = confirm("Close today's billing and start a fresh token sequence?");
   if (!ok) return;
-  if (location.protocol === "file:") {
-    if (state.data.bills.length) {
-      state.data.history[state.data.date] = state.data.bills;
-    }
-    state.data = {
-      date: todayKey(),
-      nextToken: 1,
-      nextBill: state.data.nextBill,
-      bills: [],
-      history: state.data.history
-    };
-    await saveData();
-  } else {
-    state.data = await apiRequest("/api/close-day", { method: "POST" });
+  if (state.data.bills.length) {
+    state.data.history[state.data.date] = state.data.bills;
   }
+  state.data = {
+    date: todayKey(),
+    nextToken: 1,
+    nextBill: state.data.nextBill,
+    bills: [],
+    history: state.data.history
+  };
+  await saveData();
   state.cart = {};
   state.lastBill = null;
   renderAll();
@@ -841,15 +806,23 @@ els.viewTabs.addEventListener("click", (event) => {
 });
 
 async function init() {
-  if (location.protocol === "file:" && els.serverWarning) {
-    els.serverWarning.hidden = false;
-  }
-  await loadMenu();
-  await loadFlavours();
-  await refreshData();
+  await Promise.all([loadMenu(), loadFlavours()]);
+  renderCategories();
+  renderFlavours();
+  renderItems();
+  renderCart();
+
+  // Real-time listener: keeps billing screen in sync with any changes from prep/kitchen screens
+  db.ref("aaradhana").on("value", (snap) => {
+    const raw = snap.val();
+    state.data = raw ? parseFirebaseData(raw) : fallbackData();
+    renderTokens();
+    renderReport();
+    if (!cartItems().length && !state.editingBillId) renderCart();
+  });
+
   renderClock();
   setInterval(renderClock, 1000);
-  setInterval(syncSharedData, 2000);
 }
 
 init();

@@ -14,15 +14,20 @@ let menu = [];
 let flavours = { sweet: [], khataMitha: [] };
 
 async function loadMenu() {
-  const response = await fetch("/api/menu", { cache: "no-store" });
-  if (!response.ok) throw new Error("Could not load menu");
-  menu = await response.json();
+  const snap = await db.ref("aaradhana/menu").get();
+  const raw = snap.val();
+  menu = raw ? Object.values(raw) : [];
 }
 
 async function loadFlavours() {
-  const response = await fetch("/api/flavours", { cache: "no-store" });
-  if (!response.ok) throw new Error("Could not load flavours");
-  flavours = await response.json();
+  const snap = await db.ref("aaradhana/flavours").get();
+  const raw = snap.val();
+  if (raw) {
+    flavours = {
+      sweet: Array.isArray(raw.sweet) ? raw.sweet : Object.values(raw.sweet || {}),
+      khataMitha: Array.isArray(raw.khataMitha) ? raw.khataMitha : Object.values(raw.khataMitha || {})
+    };
+  }
 }
 
 function slug(value) {
@@ -72,13 +77,10 @@ async function saveMenu() {
     category: item.category.trim() || "Menu",
     price: Number(item.price || 0)
   })).filter((item) => item.name);
-  const response = await fetch("/api/menu", {
-    method: "PUT",
-    headers: { "Content-Type": "application/json" },
-    body: JSON.stringify(clean)
-  });
-  if (!response.ok) throw new Error("Could not save menu");
-  menu = await response.json();
+  const menuObj = {};
+  clean.forEach((item) => { menuObj[item.id] = item; });
+  await db.ref("aaradhana/menu").set(menuObj);
+  menu = clean;
   saveStatus.textContent = "Saved";
   render();
   setTimeout(() => (saveStatus.textContent = ""), 1800);
@@ -89,13 +91,7 @@ async function saveFlavours() {
     sweet: cleanFlavourList(flavours.sweet),
     khataMitha: cleanFlavourList(flavours.khataMitha)
   };
-  const response = await fetch("/api/flavours", {
-    method: "PUT",
-    headers: { "Content-Type": "application/json" },
-    body: JSON.stringify(flavours)
-  });
-  if (!response.ok) throw new Error("Could not save flavours");
-  flavours = await response.json();
+  await db.ref("aaradhana/flavours").set(flavours);
   flavourSaveStatus.textContent = "Saved";
   renderFlavours();
   setTimeout(() => (flavourSaveStatus.textContent = ""), 1800);

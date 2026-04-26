@@ -5,12 +5,6 @@ const customerList = document.getElementById("customerList");
 const cancelledList = document.getElementById("cancelledList");
 const money = new Intl.NumberFormat("en-IN", { style: "currency", currency: "INR", maximumFractionDigits: 0 });
 
-async function loadData() {
-  const response = await fetch("/api/data", { cache: "no-store" });
-  if (!response.ok) throw new Error("Could not load report data");
-  return response.json();
-}
-
 function table(headers, rows) {
   if (!rows.length) return `<p class="empty">No data yet</p>`;
   return `
@@ -69,9 +63,9 @@ function render(data) {
   );
 }
 
-async function init() {
-  render(await loadData());
-  setInterval(async () => render(await loadData()), 3000);
-}
-
-init();
+// Real-time listener so report updates live as orders come in
+db.ref("aaradhana").on("value", (snap) => {
+  const raw = snap.val();
+  if (!raw) { render({ bills: [] }); return; }
+  render({ ...raw, bills: Object.values(raw.bills || {}) });
+});

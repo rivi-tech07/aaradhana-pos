@@ -1,16 +1,19 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Aaradhna Kitchen Display</title>
-    <link rel="stylesheet" href="kitchen.css">
+    <link rel="stylesheet" href="kitchen.css" />
   </head>
   <body>
     <main class="kitchen">
       <header class="kitchen-header">
         <div class="kitchen-brand">
-          <img src="assets/aaradhna-logo.png" alt="Aaradhna Ice Dish & Gola logo">
+          <img
+            src="assets/aaradhna-logo.png"
+            alt="Aaradhna Ice Dish & Gola logo"
+          />
           <div>
             <p>Aaradhna Ice Dish & Gola</p>
             <h1>Kitchen Display</h1>
@@ -20,7 +23,8 @@
       </header>
 
       <div class="server-warning" id="serverWarning" hidden>
-        You opened the old file version. Use http://192.168.1.5:3000/kitchen.html on TV/phone/tablet.
+        You opened the old file version. Use
+        http://192.168.1.5:3000/kitchen.html on TV/phone/tablet.
       </div>
 
       <section class="queue">
@@ -35,6 +39,9 @@
       </section>
     </main>
 
+    <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-database-compat.js"></script>
+    <script src="firebase-config.js"></script>
     <script src="kitchen.js"></script>
   </body>
 </html>

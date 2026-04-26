@@ -1,16 +1,19 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Aaradhna Menu Edit</title>
-    <link rel="stylesheet" href="owner.css">
+    <link rel="stylesheet" href="owner.css" />
   </head>
   <body>
     <main class="owner">
       <header class="owner-header">
         <div class="brand">
-          <img src="assets/aaradhna-logo.png" alt="Aaradhna Ice Dish & Gola logo">
+          <img
+            src="assets/aaradhna-logo.png"
+            alt="Aaradhna Ice Dish & Gola logo"
+          />
           <div>
             <p>Aaradhna Ice Dish & Gola</p>
             <h1>Menu & Price Edit</h1>
@@ -43,7 +46,11 @@
           <article>
             <h3>Sweet Flavor</h3>
             <div class="add-flavour-row">
-              <input id="sweetInput" type="text" placeholder="New sweet flavour">
+              <input
+                id="sweetInput"
+                type="text"
+                placeholder="New sweet flavour"
+              />
               <button id="addSweetBtn" type="button">Add</button>
             </div>
             <div id="sweetList" class="flavour-list"></div>
@@ -51,7 +58,11 @@
           <article>
             <h3>Khata Mitha</h3>
             <div class="add-flavour-row">
-              <input id="khataMithaInput" type="text" placeholder="New khata mitha flavour">
+              <input
+                id="khataMithaInput"
+                type="text"
+                placeholder="New khata mitha flavour"
+              />
               <button id="addKhataMithaBtn" type="button">Add</button>
             </div>
             <div id="khataMithaList" class="flavour-list"></div>
@@ -59,6 +70,9 @@
         </div>
       </section>
     </main>
+    <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-database-compat.js"></script>
+    <script src="firebase-config.js"></script>
     <script src="menu.js"></script>
   </body>
 </html>

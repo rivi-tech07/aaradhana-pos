@@ -1,37 +1,6 @@
 const prepGrid = document.getElementById("prepGrid");
 const clock = document.getElementById("clock");
-const serverWarning = document.getElementById("serverWarning");
 const statusOrder = ["Pending", "Preparing", "Ready"];
-
-async function loadData() {
-  try {
-    if (location.protocol !== "file:") {
-      const response = await fetch("/api/data", { cache: "no-store" });
-      if (!response.ok) throw new Error(`Server error ${response.status}`);
-      return await response.json();
-    }
-    return JSON.parse(localStorage.getItem("aaradhnaBilling")) || { bills: [] };
-  } catch {
-    return { bills: [] };
-  }
-}
-
-async function patchBill(id, patch) {
-  if (location.protocol === "file:") {
-    const data = await loadData();
-    const bill = (data.bills || []).find((entry) => entry.id === id);
-    if (bill) Object.assign(bill, patch);
-    localStorage.setItem("aaradhnaBilling", JSON.stringify(data));
-    return data;
-  }
-  const response = await fetch(`/api/bills/${id}`, {
-    method: "PATCH",
-    headers: { "Content-Type": "application/json" },
-    body: JSON.stringify(patch)
-  });
-  if (!response.ok) throw new Error(`Server error ${response.status}`);
-  return response.json();
-}
 
 function escapeHtml(value) {
   return String(value)
@@ -74,9 +43,8 @@ function orderCard(bill) {
   `;
 }
 
-async function render() {
-  const data = await loadData();
-  const orders = (data.bills || [])
+function render(bills) {
+  const orders = bills
     .filter((bill) => statusOrder.includes(bill.status))
     .sort((a, b) => new Date(b.createdAt) - new Date(a.createdAt));
   prepGrid.innerHTML = orders.length
@@ -91,19 +59,18 @@ function renderClock() {
   });
 }
 
+// Real-time listener: screen updates instantly when new orders arrive or statuses change
+db.ref("aaradhana/bills").on("value", (snap) => {
+  render(Object.values(snap.val() || {}));
+});
+
+// Tapping a card advances its status; only the status field is updated in Firebase
 prepGrid.addEventListener("click", async (event) => {
   const card = event.target.closest("[data-id]");
   if (!card) return;
   const status = nextStatus(card.dataset.status);
-  await patchBill(card.dataset.id, { status });
-  await render();
+  await db.ref(`aaradhana/bills/${card.dataset.id}/status`).set(status);
 });
 
-if (location.protocol === "file:" && serverWarning) {
-  serverWarning.hidden = false;
-}
-
-render();
 renderClock();
-setInterval(render, 2000);
 setInterval(renderClock, 1000);
