@@ -511,14 +511,13 @@ async function completeBill() {
     state.data = result.data;
   }
 
-    state.cart = {};
-    els.discountInput.value = 0;
-    els.customerNameInput.value = "";
-    els.customerPhoneInput.value = "";
-    state.lastBill = bill;
-    renderAll();
-    console.log("Bill created successfully:", bill);
-  }
+  state.cart = {};
+  els.discountInput.value = 0;
+  els.customerNameInput.value = "";
+  els.customerPhoneInput.value = "";
+  state.lastBill = bill;
+  renderAll();
+  console.log("Bill created successfully:", bill);
   } catch (error) {
     console.error("Error creating bill:", error);
     alert("Error: " + error.message);
