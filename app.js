@@ -21,7 +21,30 @@ const defaultMenu = [
   { id: "lemon-sharbat", name: "Lemon Sharbat", category: "Extras", price: 30 },
   { id: "masala-chaas", name: "Masala Chaas", category: "Extras", price: 20 },
   { id: "extra-colour", name: "Extra Colour", category: "Extras", price: 10 },
-  { id: "parcel-charge", name: "Parcel Charge", category: "Extras", price: 10 }
+  { id: "parcel-charge", name: "Parcel Charge", category: "Extras", price: 10 },
+  { id: "aaradhna-family-dish", name: "Aaradhna Family Dish", category: "Aaradhna Special", price: 499 },
+  { id: "watermelon-family-blast", name: "Watermelon Family Blast", category: "Aaradhna Special", price: 299 },
+  { id: "mango-special-dish", name: "Mango Special Dish", category: "Fruit Special Dish", price: 130 },
+  { id: "pineapple-special-dish", name: "Pineapple Special Dish", category: "Fruit Special Dish", price: 130 },
+  { id: "guava-special-dish", name: "Guava Special Dish", category: "Fruit Special Dish", price: 130 },
+  { id: "strawberry-special-dish", name: "Strawberry Special Dish", category: "Fruit Special Dish", price: 130 },
+  { id: "litchi-special-dish", name: "Litchi Special Dish", category: "Fruit Special Dish", price: 130 },
+  { id: "chikoo-special-dish", name: "Chikoo Special Dish", category: "Fruit Special Dish", price: 130 },
+  { id: "orange-creamsicle-dish", name: "Orange Creamsicle Dish", category: "Fruit Special Dish", price: 130 },
+  { id: "choco-heaven-dish", name: "Choco Heaven Dish", category: "Chocolate & Fun", price: 130 },
+  { id: "kitkat-special-dish", name: "KitKat Special Dish", category: "Chocolate & Fun", price: 130 },
+  { id: "paan-special-dish", name: "Paan Special Dish", category: "Unique Special", price: 130 },
+  { id: "rose-malai-special-dish", name: "Rose Malai Special Dish", category: "Unique Special", price: 130 },
+  { id: "coconut-cooler-dish", name: "Coconut Cooler Dish", category: "Unique Special", price: 130 },
+  { id: "rajwadi-matka-dish", name: "Rajwadi Matka Dish", category: "Premium Royal Dishes", price: 190 },
+  { id: "kaju-special-dish", name: "Kaju Special Dish", category: "Premium Royal Dishes", price: 150 },
+  { id: "rajbhog-dish", name: "Rajbhog Dish", category: "Premium Royal Dishes", price: 160 },
+  { id: "rasgulla-dish", name: "Rasgulla Dish", category: "Premium Royal Dishes", price: 170 },
+  { id: "saffron-special-dish", name: "Saffron Special Dish", category: "Premium Royal Dishes", price: 130 },
+  { id: "rabdi-extra", name: "Rabdi", category: "Extras", price: 30 },
+  { id: "dry-fruits-extra", name: "Dry Fruits", category: "Extras", price: 30 },
+  { id: "ice-cream-extra", name: "Ice Cream", category: "Extras", price: 30 },
+  { id: "cream-extra", name: "Cream", category: "Extras", price: 10 }
 ];
 
 let menu = [...defaultMenu];
@@ -448,48 +471,57 @@ function addFlavourToLatest(flavour) {
 }
 
 async function completeBill() {
-  const items = cartItems().map((item) => ({ ...item }));
-  if (!items.length) return;
-  const customer = customerDetails();
-  const draft = {
-    customerName: customer.name,
-    customerPhone: customer.phone,
-    items,
-    subtotal: subtotal(),
-    discount: discount(),
-    total: total(),
-    paymentMode: state.paymentMode
-  };
-
-  let bill;
-  if (location.protocol === "file:") {
-    bill = {
-      id: crypto.randomUUID(),
-      billNo: formatBill(state.data.nextBill),
-      token: formatToken(state.data.nextToken),
-      createdAt: new Date().toISOString(),
-      ...draft,
-      status: "Pending"
+  try {
+    const items = cartItems().map((item) => ({ ...item }));
+    if (!items.length) {
+      alert("Please add items to the cart first");
+      return;
+    }
+    const customer = customerDetails();
+    const draft = {
+      customerName: customer.name,
+      customerPhone: customer.phone,
+      items,
+      subtotal: subtotal(),
+      discount: discount(),
+      total: total(),
+      paymentMode: state.paymentMode
     };
-    state.data.bills.push(bill);
-    state.data.nextBill += 1;
-    state.data.nextToken += 1;
-    await saveData();
-  } else {
-    const result = await apiRequest("/api/bills", {
-      method: "POST",
-      body: JSON.stringify(draft)
-    });
-    bill = result.bill;
-    state.data = result.data;
-  }
 
-  state.cart = {};
-  els.discountInput.value = 0;
-  els.customerNameInput.value = "";
-  els.customerPhoneInput.value = "";
-  state.lastBill = bill;
-  renderAll();
+    let bill;
+    if (location.protocol === "file:") {
+      bill = {
+        id: crypto.randomUUID(),
+        billNo: formatBill(state.data.nextBill),
+        token: formatToken(state.data.nextToken),
+        createdAt: new Date().toISOString(),
+        ...draft,
+        status: "Pending"
+      };
+      state.data.bills.push(bill);
+      state.data.nextBill += 1;
+      state.data.nextToken += 1;
+      await saveData();
+    } else {
+      const result = await apiRequest("/api/bills", {
+        method: "POST",
+        body: JSON.stringify(draft)
+      });
+      bill = result.bill;
+      state.data = result.data;
+    }
+
+    state.cart = {};
+    els.discountInput.value = 0;
+    els.customerNameInput.value = "";
+    els.customerPhoneInput.value = "";
+    state.lastBill = bill;
+    renderAll();
+    console.log("Bill created successfully:", bill);
+  } catch (error) {
+    console.error("Error creating bill:", error);
+    alert("Error: " + error.message);
+  }
 }
 
 function editBill(id) {
