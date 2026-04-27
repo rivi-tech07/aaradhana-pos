@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Aaradhna Ready for Pickup</title>
+    <link rel="stylesheet" href="ready.css" />
+  </head>
+  <body>
+    <main class="ready-screen">
+      <header class="ready-header">
+        <div class="ready-brand">
+          <img
+            src="assets/aaradhna-logo.png"
+            alt="Aaradhna Ice Dish & Gola logo"
+          />
+          <div>
+            <p>Aaradhna Ice Dish & Gola</p>
+            <h1>Ready for Pickup</h1>
+          </div>
+        </div>
+        <div class="clock" id="clock">--:--</div>
+      </header>
+
+      <div class="server-warning" id="serverWarning" hidden>
+        You opened the old file version. Use
+        http://192.168.1.5:3000/ready.html on TV/phone/tablet.
+      </div>
+
+      <div id="readyList" class="ready-grid"></div>
+    </main>
+
+    <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-database-compat.js"></script>
+    <script src="firebase-config.js"></script>
+    <script src="ready.js"></script>
+  </body>
+</html>
