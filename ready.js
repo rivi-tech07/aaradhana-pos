@@ -11,7 +11,7 @@ function escapeHtml(value) {
 function orderCard(bill) {
   const time = new Date(bill.createdAt).toLocaleTimeString("en-IN", {
     hour: "2-digit",
-    minute: "2-digit"
+    minute: "2-digit",
   });
   return `
     <article class="order-card">
@@ -23,7 +23,10 @@ function orderCard(bill) {
       <ul>
         ${bill.items
           .map((item) => {
-            const notes = [item.flavours, item.instructions].filter(Boolean).map(escapeHtml).join(" | ");
+            const notes = [item.flavours, item.instructions]
+              .filter(Boolean)
+              .map(escapeHtml)
+              .join(" | ");
             return `<li>${item.qty} x ${escapeHtml(item.name)}${notes ? `<small>${notes}</small>` : ""}</li>`;
           })
           .join("")}
@@ -35,7 +38,7 @@ function orderCard(bill) {
 function renderClock() {
   clock.textContent = new Date().toLocaleTimeString("en-IN", {
     hour: "2-digit",
-    minute: "2-digit"
+    minute: "2-digit",
   });
 }
 
@@ -43,7 +46,7 @@ db.ref("aaradhana/bills").on("value", (snap) => {
   const bills = Object.values(snap.val() || {});
   const ready = bills
     .filter((b) => b.status === "Ready")
-    .sort((a, b) => new Date(a.createdAt) - new Date(b.createdAt));
+    .sort((a, b) => new Date(b.createdAt) - new Date(a.createdAt));
   readyList.innerHTML = ready.length
     ? ready.map(orderCard).join("")
     : `<div class="empty">No orders ready yet</div>`;
