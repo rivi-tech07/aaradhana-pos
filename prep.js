@@ -17,24 +17,27 @@ function nextStatus(status) {
 
 function orderCard(bill) {
   const statusClass = String(bill.status || "Pending").toLowerCase();
-  const time = new Date(bill.createdAt).toLocaleTimeString("en-IN", {
-    hour: "2-digit",
-    minute: "2-digit"
-  });
+  const createdAt = bill.createdAt ? new Date(bill.createdAt) : null;
+  const time = createdAt && !isNaN(createdAt)
+    ? createdAt.toLocaleTimeString("en-IN", { hour: "2-digit", minute: "2-digit" })
+    : "--:--";
   return `
     <button class="prep-card ${statusClass}" type="button" data-id="${escapeHtml(bill.id)}" data-status="${escapeHtml(bill.status || "Pending")}">
       <header>
-        <div class="token">${escapeHtml(bill.token)}</div>
+        <div class="token">${escapeHtml(bill.token || "—")}</div>
         <div>
           <div class="status">${escapeHtml(bill.status || "Pending")}</div>
-          <div class="time">${time}</div>
+          <div class="time">${escapeHtml(time)}</div>
         </div>
       </header>
       ${bill.customerName ? `<div class="customer">${escapeHtml(bill.customerName)}</div>` : ""}
       <ul>
-        ${bill.items
+        ${(bill.items || [])
           .map((item) => {
-            const notes = [item.flavours, item.instructions].filter(Boolean).map(escapeHtml).join(" | ");
+            const notes = [item.flavours, item.instructions]
+              .filter(Boolean)
+              .map(escapeHtml)
+              .join(" | ");
             return `<li>${item.qty} x ${escapeHtml(item.name)}${notes ? `<small>${notes}</small>` : ""}</li>`;
           })
           .join("")}
@@ -55,7 +58,7 @@ function render(bills) {
 function renderClock() {
   clock.textContent = new Date().toLocaleTimeString("en-IN", {
     hour: "2-digit",
-    minute: "2-digit"
+    minute: "2-digit",
   });
 }
 
