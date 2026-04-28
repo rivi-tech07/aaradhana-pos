@@ -12,7 +12,7 @@ function escapeHtml(value) {
 function orderCard(bill) {
   const time = new Date(bill.createdAt).toLocaleTimeString("en-IN", {
     hour: "2-digit",
-    minute: "2-digit"
+    minute: "2-digit",
   });
   return `
     <article class="order-card">
@@ -22,9 +22,12 @@ function orderCard(bill) {
       </header>
       ${bill.customerName ? `<div class="customer">${escapeHtml(bill.customerName)}</div>` : ""}
       <ul>
-        ${bill.items
+        ${(bill.items || [])
           .map((item) => {
-            const notes = [item.flavours, item.instructions].filter(Boolean).map(escapeHtml).join(" | ");
+            const notes = [item.flavours, item.instructions]
+              .filter(Boolean)
+              .map(escapeHtml)
+              .join(" | ");
             return `<li>${item.qty} x ${escapeHtml(item.name)}${notes ? `<small>${notes}</small>` : ""}</li>`;
           })
           .join("")}
@@ -40,24 +43,26 @@ function renderList(element, bills, text) {
 }
 
 function render(bills) {
-  const openBills = bills.filter((bill) => bill.status !== "Delivered" && bill.status !== "Cancelled");
+  const openBills = bills.filter(
+    (bill) => bill.status !== "Delivered" && bill.status !== "Cancelled",
+  );
   const newestFirst = (a, b) => new Date(b.createdAt) - new Date(a.createdAt);
   renderList(
     preparingList,
     openBills.filter((bill) => bill.status === "Preparing").sort(newestFirst),
-    "No preparing orders"
+    "No preparing orders",
   );
   renderList(
     readyList,
     openBills.filter((bill) => bill.status === "Ready").sort(newestFirst),
-    "No ready orders"
+    "No ready orders",
   );
 }
 
 function renderClock() {
   clock.textContent = new Date().toLocaleTimeString("en-IN", {
     hour: "2-digit",
-    minute: "2-digit"
+    minute: "2-digit",
   });
 }
 

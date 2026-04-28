@@ -63,8 +63,8 @@ select {
 }
 
 .brand img {
-  width: 72px;
-  height: 72px;
+  width: 82px;
+  height: 82px;
   border: 1px solid var(--line);
   border-radius: 8px;
   object-fit: cover;
@@ -74,7 +74,7 @@ select {
 .brand p {
   margin: 0;
   color: var(--muted);
-  font-size: 13px;
+  font-size: 14px;
 }
 
 h1,
@@ -84,7 +84,7 @@ h2 {
 }
 
 h1 {
-  font-size: clamp(26px, 4vw, 44px);
+  font-size: clamp(28px, 4vw, 48px);
 }
 
 h2 {

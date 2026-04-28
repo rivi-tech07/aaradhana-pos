@@ -570,7 +570,7 @@ function tokenCards(bills, nextStatus) {
             <strong>${bill.token}</strong>
             <span class="ready-badge">${bill.status}</span>
           </header>
-          <ul>${bill.items
+          <ul>${(bill.items || [])
             .map((item) => {
               const notes = [item.flavours, item.instructions]
                 .filter(Boolean)
@@ -596,7 +596,7 @@ function renderReport() {
   const paidBills = state.data.bills.filter(
     (bill) => bill.status !== "Cancelled",
   );
-  const sales = paidBills.reduce((sum, bill) => sum + bill.total, 0);
+  const sales = paidBills.reduce((sum, bill) => sum + (bill.total || 0), 0);
   const paymentTotals = paidBills.reduce(
     (acc, bill) => {
       acc[bill.paymentMode] += bill.total;
@@ -606,7 +606,7 @@ function renderReport() {
   );
   const itemCounts = {};
   paidBills.forEach((bill) => {
-    bill.items.forEach((item) => {
+    (bill.items || []).forEach((item) => {
       itemCounts[item.name] = (itemCounts[item.name] || 0) + item.qty;
     });
   });

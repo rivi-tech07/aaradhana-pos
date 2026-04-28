@@ -21,7 +21,7 @@ function orderCard(bill) {
       </header>
       ${bill.customerName ? `<div class="customer">${escapeHtml(bill.customerName)}</div>` : ""}
       <ul>
-        ${bill.items
+        ${(bill.items || [])
           .map((item) => {
             const notes = [item.flavours, item.instructions]
               .filter(Boolean)
