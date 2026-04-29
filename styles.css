@@ -739,6 +739,11 @@ h3 {
 }
 
 @media print {
+  @page {
+    size: 58mm auto;
+    margin: 0;
+  }
+
   body * {
     visibility: hidden;
   }
@@ -752,34 +757,41 @@ h3 {
     display: block;
     position: fixed;
     inset: 0;
-    width: 72mm;
-    padding: 6mm;
+    width: 54mm;
+    padding: 2mm;
     color: #000;
     background: #fff;
     font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
   }
 
   .receipt h1 {
-    font-size: 15px;
+    font-size: 13px;
     text-align: center;
   }
 
   .receipt h2 {
-    font-size: 28px;
+    font-size: 32px;
     text-align: center;
-    margin: 8px 0;
+    margin: 6px 0;
+    font-weight: bold;
   }
 
   .receipt p,
   .receipt div {
-    font-size: 12px;
+    font-size: 11px;
   }
 
   .receipt strong {
     display: block;
     border-top: 1px dashed #000;
-    margin-top: 8px;
-    padding-top: 8px;
-    font-size: 15px;
+    margin-top: 6px;
+    padding-top: 6px;
+    font-size: 13px;
+  }
+
+  .receipt-logo {
+    display: block;
+    width: 30mm;
+    margin: 0 auto 2mm;
   }
 }

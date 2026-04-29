@@ -859,35 +859,43 @@ async function cancelBill(id) {
 
 function printBill(bill) {
   if (!bill) return;
-  const existing = document.querySelector(".receipt");
-  if (existing) existing.remove();
-  const receipt = document
-    .getElementById("printTemplate")
-    .content.cloneNode(true);
-  receipt.getElementById("printToken").textContent = `Token ${bill.token}`;
-  receipt.getElementById("printBill").textContent = `Bill: ${bill.billNo}`;
-  receipt.getElementById("printDate").textContent = [
+  const date = [
     new Date(bill.createdAt).toLocaleString("en-IN"),
-    bill.customerName ? `Customer: ${bill.customerName}` : "",
-    bill.customerPhone ? `Contact: ${bill.customerPhone}` : "",
-  ]
-    .filter(Boolean)
-    .join(" | ");
-  receipt.getElementById("printItems").innerHTML = bill.items
-    .map((item) => {
-      const notes = [item.flavours, item.instructions]
-        .filter(Boolean)
-        .map(escapeHtml)
-        .join(" | ");
-      return `<p>${item.qty} x ${item.name} - ${money.format(item.price * item.qty)}${notes ? `<br>${notes}` : ""}</p>`;
-    })
-    .join("");
-  receipt.getElementById("printTotal").textContent =
-    `Total: ${money.format(bill.total)}`;
-  receipt.getElementById("printPayment").textContent =
-    `Payment: ${bill.paymentMode} | Paid`;
-  document.body.appendChild(receipt);
-  window.print();
+    bill.customerName ? `Customer: ${escapeHtml(bill.customerName)}` : "",
+    bill.customerPhone ? `Contact: ${escapeHtml(bill.customerPhone)}` : "",
+  ].filter(Boolean).join(" | ");
+  const items = bill.items.map((item) => {
+    const notes = [item.flavours, item.instructions]
+      .filter(Boolean)
+      .map(escapeHtml)
+      .join(" | ");
+    return `<p>${item.qty} x ${escapeHtml(item.name)} - ${money.format(item.price * item.qty)}${notes ? `<br>${notes}` : ""}</p>`;
+  }).join("");
+  const html = `<!DOCTYPE html><html><head><meta charset="utf-8">
+<style>
+@page { size: 58mm auto; margin: 0; }
+body { width: 54mm; padding: 2mm; font-family: ui-monospace, monospace; color: #000; margin: 0; }
+h1 { font-size: 13px; text-align: center; margin: 2px 0; }
+h2 { font-size: 32px; text-align: center; margin: 6px 0; font-weight: bold; }
+p, div { font-size: 11px; margin: 2px 0; }
+.total { border-top: 1px dashed #000; margin-top: 6px; padding-top: 6px; font-size: 13px; font-weight: bold; }
+</style>
+</head><body>
+<h1>Aaradhna Ice Dish &amp; Gola</h1>
+<h2>Token ${escapeHtml(bill.token)}</h2>
+<p>${escapeHtml(bill.billNo)}</p>
+<p>${date}</p>
+<div>${items}</div>
+<div class="total">Total: ${money.format(bill.total)}</div>
+<p>Payment: ${escapeHtml(bill.paymentMode)} | Paid</p>
+<p>Please collect your order when token is called. Thank you!</p>
+</body></html>`;
+  const win = window.open("", "_blank", "width=300,height=600");
+  win.document.write(html);
+  win.document.close();
+  win.focus();
+  win.onafterprint = () => win.close();
+  win.print();
 }
 
 function billMessage(bill) {
