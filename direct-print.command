@@ -1,6 +1,6 @@
 #!/bin/zsh
 
-APP_URL="http://localhost:3000"
+APP_URL="https://aaradhana-pos.vercel.app"
 
 if [[ -d "/Applications/Google Chrome.app" ]]; then
   open -na "Google Chrome" --args --kiosk-printing "${APP_URL}"
