@@ -171,7 +171,7 @@ const defaultMenu = [
     id: "kitkat-special-dish",
     name: "KitKat Special Dish",
     category: "Chocolate & Fun",
-    price: 130,
+    price: 160,
   },
   {
     id: "paan-special-dish",
@@ -240,6 +240,7 @@ let flavours = {
     "Shahi Gulab",
     "Coconut",
     "Chikoo",
+    "paan",
   ],
   khataMitha: [
     "Orange",
@@ -252,6 +253,8 @@ let flavours = {
     "Mazza Mango",
     "Kacchi Keri",
     "Falsa",
+    "strawberry",
+    "litchi",
   ],
 };
 
