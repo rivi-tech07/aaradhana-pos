@@ -11,6 +11,12 @@ const defaultMenu = [
     category: "Ice Gola",
     price: 70,
   },
+   {
+    id: "rainbow-Rabdi-stick-gola",
+    name: "Rainbow Rabdi Stick Gola",
+    category: "Ice Gola",
+    price: 80,
+  },
   {
     id: "rainbow-stick-gola",
     name: "Rainbow Stick Gola",
@@ -55,8 +61,8 @@ const defaultMenu = [
     price: 60,
   },
   {
-    id: "dry-fruit-flavor-cream-lassi",
-    name: "Dry Fruit Flavor Cream Lassi",
+    id: "ice-cream-flavor-cream-lassi",
+    name: "ice-cream Flavor Cream Lassi",
     category: "Lassi",
     price: 80,
   },
@@ -79,8 +85,8 @@ const defaultMenu = [
     price: 70,
   },
   {
-    id: "dry-fruit-rabdi-sharbat",
-    name: "Dry Fruit Rabdi Sharbat",
+    id: "ice-cream-sharbat",
+    name: "ice-cream Rabdi Sharbat",
     category: "Sharbat",
     price: 80,
   },
@@ -221,10 +227,14 @@ const defaultMenu = [
     category: "Premium Royal Dishes",
     price: 130,
   },
-  { id: "rabdi-extra", name: "Rabdi", category: "Extras", price: 30 },
-  { id: "dry-fruits-extra", name: "Dry Fruits", category: "Extras", price: 30 },
-  { id: "ice-cream-extra", name: "Ice Cream", category: "Extras", price: 30 },
+  { id: "rabdi-extra", name: "Rabdi", category: "Extras", price: 40 },
+  { id: "dry-fruits-extra", name: "Dry Fruits", category: "Extras", price: 40 },
+  { id: "ice-cream-extra", name: "Ice Cream", category: "Extras", price: 40 },
   { id: "cream-extra", name: "Cream", category: "Extras", price: 10 },
+  { id: "water-bottle", name: "bottle", category: "Extras", price: 10 },
+  { id: "choco-chips", name: "choco chips", category: "Extras", price: 10 },
+  { id: "tutti-frutti", name: "tutti frutti", category: "Extras", price: 10 },
+  { id: "jelly", name: "jelly", category: "Extras", price: 10 },
 ];
 
 let menu = [...defaultMenu];
@@ -241,6 +251,7 @@ let flavours = {
     "Coconut",
     "Chikoo",
     "paan",
+    "sweet mix",
   ],
   khataMitha: [
     "Orange",
@@ -255,6 +266,7 @@ let flavours = {
     "Falsa",
     "strawberry",
     "litchi",
+    "khata mitha mix",
   ],
 };
 
